@@ -57,7 +57,7 @@ The core of this repository's utility lies in the **[`docker-tools/`](./docker-t
 *   **Trueseeing**: Static analysis for vulnerabilities.
 *   **APKHunt**: SAST for Android APKs.
 *   **SEBASTiAn**: Advanced resource deobfuscation.
-*   **MobSF**: Comprehensive mobile security framework.
+
 
 > [!TIP]
 > For detailed usage instructions and a full list of integrated tools, please refer to the [Docker Tools Documentation](./docker-tools/README.md).

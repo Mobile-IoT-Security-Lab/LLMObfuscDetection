@@ -67,7 +67,6 @@ The core of this repository's utility lies in the **[`docker-tools/`](./docker-t
 ## 📊 Dataset Details
 
 The dataset currently focuses on:
-*   De-obfuscating resources and code blocks.
 *   Identifying patterns indicative of automated refactoring or obfuscation.
 *   Providing a baseline for "Clean" vs. "Obfuscated" code comparisons.
 

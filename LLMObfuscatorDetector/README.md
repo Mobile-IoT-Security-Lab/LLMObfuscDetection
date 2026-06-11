@@ -17,7 +17,7 @@ The project is logically divided into two main folders:
   - **`AppUtils.py`**: Utilities for handling APK decompilation, Manifest parsing, and Smali class extraction/filtering.
   - **`AnalysisUtils.py`**: Core utilities for managing prompts, sampling, LLM interactions, majority voting, and results tracking.
   - **`LLMUtils.py`**: Interfaces to communicate with various LLM backends (OpenAI, Gemini, Ollama) supporting both unstructured and structured schemas.
-  - **`prompt.yaml`**: Configuration file containing the different prompt templates (e.g., `ObfuscationDetectionV1`, `ObfuscationDetectionV2`, `ObfuscationClassificationV1`) used to query the LLMs.
+  - **`prompt.yaml`**: Configuration file containing the different prompt templates (e.g., `ObfuscationDetectionV1`, `ObfuscationDetectionV2`, `ObfuscationDetectionV3`, `ObfuscationClassificationV1`) used to query the LLMs.
 
 ## How It Works
 

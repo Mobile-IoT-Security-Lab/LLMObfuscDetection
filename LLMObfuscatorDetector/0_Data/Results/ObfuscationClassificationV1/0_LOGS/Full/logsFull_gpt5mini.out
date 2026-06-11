@@ -1,0 +1,2997 @@
+⚡ START OPENAI SHARED BATCH: 2026-05-29 13:48:29 ⚡
+
+--- ⭕ OpenAI Batch Init ...
+--- 🔸 Client ready. Requests will be submitted through the Batch API.
+
+--- ⭕ Loading Prompts...
+--- 📝 ObfuscationClassificationV1: Single-label obfuscation classification with enforced exclusivity.
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ArithmeticBranch
+--- 🔹 Obfuscation Technique  : ArithmeticBranch
+--- #️⃣  Number of Apps        : 11
+
+--- ▶️ Run 1/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : ArithmeticBranch
+--- 🔄 Existing Results: 0/11
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/CallIndirection
+--- 🔹 Obfuscation Technique  : CallIndirection
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 2/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : CallIndirection
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ClassRename
+--- 🔹 Obfuscation Technique  : ClassRename
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 3/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : ClassRename
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/Clean
+--- 🔹 Obfuscation Technique  : Clean
+--- #️⃣  Number of Apps        : 9
+
+--- ▶️ Run 4/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : Clean
+--- 🔄 Existing Results: 0/9
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ConstStringEncryption
+--- 🔹 Obfuscation Technique  : ConstStringEncryption
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 5/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : ConstStringEncryption
+--- 🔄 Existing Results: 10/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/FieldRename
+--- 🔹 Obfuscation Technique  : FieldRename
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 6/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : FieldRename
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/Goto
+--- 🔹 Obfuscation Technique  : Goto
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 7/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : Goto
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/MethodOverload
+--- 🔹 Obfuscation Technique  : MethodOverload
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 8/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : MethodOverload
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/MethodRename
+--- 🔹 Obfuscation Technique  : MethodRename
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 9/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : MethodRename
+--- 🔄 Existing Results: 0/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/R8
+--- 🔹 Obfuscation Technique  : R8
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 10/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 1/10
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/Reflection
+--- 🔹 Obfuscation Technique  : Reflection
+--- #️⃣  Number of Apps        : 9
+
+--- ▶️ Run 11/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : Reflection
+--- 🔄 Existing Results: 9/9
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ResStringEncryption
+--- 🔹 Obfuscation Technique  : ResStringEncryption
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 12/12
+--- 📝 Prompt    : ObfuscationClassificationV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : ResStringEncryption
+--- 🔄 Existing Results: 0/10
+
+
+==================== ⭐ PREPARE SHARED BATCH REQUESTS ⭐ ====================
+
+
+--- 🔑 Preparing App SHA256  : D467C8A03C5DF969CD4FC0C997659E4C7571F661552A0DFC9400D510FD227676
+--- 📦 App pkgName           : A1
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A1 -> app.simple.peri
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (105991 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 935A0C3729A7B3D75C5BCE480A743027F024A889DA86341B7C4FD4FD91776EA4
+--- 📦 App pkgName           : A10
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A10 -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 089B9F4DDDACA7CC50D340167B53A06EA1FCC4F1C904472F5EC5BA25CE296549
+--- 📦 App pkgName           : A11
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A11 -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 1486ED27E34B0AE7B763E9291290DF07FCD24777715B28B4E9E4E7848CBCA46A
+--- 📦 App pkgName           : A2
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A2 -> com.bitmavrick.lumolight
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 286C5CA99986F9CAC3216770FBD69DA0E297D5B23C6F9AC00C6AE53367EA536D
+--- 📦 App pkgName           : A3
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A3 -> com.jarsilio.android.scrambledeggsif
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 6ED24A1A09D0EE0CDB2C9917438C122F55F310C15FE018595D0F69F2CFC75523
+--- 📦 App pkgName           : A4
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A4 -> com.serwylo.lexica
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6064
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 352 | Removed: 5712
+--- 🧹 Filter [tp          ] -> Remaining: 307 | Removed: 45
+--- 🧹 Filter [noDollarSign] -> Remaining: 131 | Removed: 176
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 98
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 7B5CD294F17F3D214B5E87AB4A5F7C07373E681D9B1F82F0CBF7E938253ADD69
+--- 📦 App pkgName           : A5
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A5 -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : F7B19453F1E6A04D5E49E551686BED4BF82DE0AEC382771225D1B1C6144419D0
+--- 📦 App pkgName           : A6
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A6 -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 83C3838EE8B7589AB56AEF545648DE7E6CCE130805FC61290CFF7C107686D653
+--- 📦 App pkgName           : A7
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A7 -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 026EDCBF2D623840FBEAACF325BF93B994541D851F0B7C4320CADEE5F6B8F4A1
+--- 📦 App pkgName           : A8
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A8 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (185596 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 4940931CE891338DF37FF3C11CDC5828756607DA0155C3563E87CBA9DE301244
+--- 📦 App pkgName           : A9.
+--- 🧪 obfuscationTechnique  : ArithmeticBranch
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: A9. -> de.marmaro.krt.ffupdater
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : A420BB7E8108DDADC6EBBD3A6F421D0C14C24B69B92DA61AB1238222E6837E7C
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (132472 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 1D45A60D485DF59406A74053A909694E4E2E93812943C5BAF10E13A61F2BE183
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 4D960D452F27EEA4D151088E246180B3131AC1E579464A6B9101A9F2C221D252
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 1D898BD63C1679CC6C74D5CFA9EB4B659F6EEA0ECB8773E21D8CD5AB340CCF69
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserFragment | Prompt too large (112004 tokens > 102400.0).
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (200399 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 7323E367E428B97C67621A69F244551ADCC5A1853C9764AB2C5BA260366DA542
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : FC96F35AA1B83B6AFABA9AAB56A6EA26A35354F1DFD675B434896EEF9DDFECDE
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : A1B74D5156781BE23DA5D7F45EE570282E36C4F7FA1EC4AC33265B8D800E445D
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 8167DF3AF7E74F79AE149E965F9334307214E8169D05D354CA07618852604F3A
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : D0452F48D9774B3F0098E4E8CE67B7EA8B9F8BD966FE633E6F9A07BC2B6E816E
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 44736A054FB1E8FA35CD43988EDB121992EDFE34FEB7854F3FF6389D5AAA333A
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : CallIndirection
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : F278E1216EB18E8016727645537B3FF3B85065BB5191822246BE200B3D8F60EF
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: app.simple.peri -> pd2.p8dbdd.p101
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1790 | Removed: 3830
+--- 🧹 Filter [tp          ] -> Remaining: 1224 | Removed: 566
+--- 🧹 Filter [noDollarSign] -> Remaining: 583 | Removed: 641
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 232
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping pd2.p8dbdd.p101.p7.pbf1bac.p05cbd | Prompt too large (115826 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : F0D8EA319F65DBB449B80BDD5CE3B36618DCD8E8B3E2C66283583FD1A6BDDCE5
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.bitmavrick.lumolight -> p4d.pb916badf2.pb403bad3
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3274 | Removed: 25711
+--- 🧹 Filter [tp          ] -> Remaining: 3167 | Removed: 107
+--- 🧹 Filter [noDollarSign] -> Remaining: 1635 | Removed: 1532
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 312
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping pef4256.pee0f48399.pb582cbb.p2e14cd7bcca45659f7e67a7 | Prompt too large (138224 tokens > 102400.0).
+--- ⏭️ Skipping p4fba3.p0b9abfe67c.pfdfec3d99e68af883b469 | Prompt too large (121339 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : AC60202CED6CCB62C2267A21F9FD5DCC049E44E39D5E32A84CDC96FF0208AE09
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> O66.cYU7jq.YixYZYIwEIMMW.jJSl1
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5698 | Removed: 14533
+--- 🧹 Filter [tp          ] -> Remaining: 4799 | Removed: 899
+--- 🧹 Filter [noDollarSign] -> Remaining: 1233 | Removed: 3566
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 294
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping y48.cuIrhq.p9oOE.Z1.VE0qHnwbcCEtZeLW.tgM.UbB7zjPWAUs | Prompt too large (157650 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : C421B6C0CAB7679C999A2D3E357BEF5F56A4320BF1CC923AEAAABC907030A4BF
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> O66.nUXCa.ZKgF.XFg8s
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23524 | Removed: 17527
+--- 🧹 Filter [tp          ] -> Remaining: 18162 | Removed: 5362
+--- 🧹 Filter [noDollarSign] -> Remaining: 3362 | Removed: 14800
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 345
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping O66.nUXCa.ZKgF.C6QzNU48xI | Prompt too large (245202 tokens > 102400.0).
+--- ⏭️ Skipping O66.Y3F37M.XASmutl.rj0PhR4TnsrHtMUZ | Prompt too large (252695 tokens > 102400.0).
+--- ⏭️ Skipping y48.cuIrhq.p9oOE.Z1.pmfUJ23iITvjAZJr.tgM.AaP7CsYP2oMn | Prompt too large (129341 tokens > 102400.0).
+--- ⏭️ Skipping O66.nUXCa.ZKgF.hLKKPpx7LywLmcD4Xh | Prompt too large (297203 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 62556A175630DC1421FA76090928E2B596040270E280E72767919F2AF1B86F53
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.jarsilio.android.scrambledeggsif -> p4d.p129cde3.pc31b32.pd8216149c08c77
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 626 | Removed: 2426
+--- 🧹 Filter [tp          ] -> Remaining: 599 | Removed: 27
+--- 🧹 Filter [noDollarSign] -> Remaining: 340 | Removed: 259
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 181
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping pc31b32.pa5d80d3a.p7880.pab4.pf0823c | Prompt too large (121880 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 5362B3F084EA07C045049103B0391B3022DA9A4D3665A27F763702BBDAD4B4F2
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> p5.p6dde2aae09.pc31b32.p1676b610.pad42
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2372 | Removed: 2262
+--- 🧹 Filter [tp          ] -> Remaining: 2372 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 1213 | Removed: 1159
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 292
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping pef4256.pee0f48399.pb582cbb.pe4a98f0be05688 | Prompt too large (228089 tokens > 102400.0).
+--- ⏭️ Skipping p4fba3.p0b9abfe67c.pfdfec3d99e68af883b469 | Prompt too large (121483 tokens > 102400.0).
+--- ⏭️ Skipping p4fba3.p0b9abfe67c.p99e853e41d491eeee0 | Prompt too large (1298071 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 37FD52EC147E639D93DC29C7D9F78D289903899DA3B32AFAC0EF2710D4CAD614
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.marmaro.krt.ffupdater -> b5.xLmFchA.Au0.QzFZdd2Up
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2747 | Removed: 16454
+--- 🧹 Filter [tp          ] -> Remaining: 2284 | Removed: 463
+--- 🧹 Filter [noDollarSign] -> Remaining: 268 | Removed: 2016
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 159
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : F3BD938C8B00AE6D256FB3CA2DC7C9F827970D730EAD0ED6CB900812341C3C5F
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> b5.jDfbArhMCN0.UDnVoJLrhkajAk.XFg8s
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15117 | Removed: 18964
+--- 🧹 Filter [tp          ] -> Remaining: 14266 | Removed: 851
+--- 🧹 Filter [noDollarSign] -> Remaining: 3902 | Removed: 10364
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 350
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping b5.jDfbArhMCN0.UDnVoJLrhkajAk.tko1waXUW.SUF9t48wUk18765ZFXmq | Prompt too large (1306927 tokens > 102400.0).
+--- ⏭️ Skipping y48.fUYX.zPtX.n2Sb07.gF4.LRPOdTiXIKBsZXV5QK | Prompt too large (139828 tokens > 102400.0).
+--- ⏭️ Skipping O66.kWMuABJ.MMdAy0.lc8DwE.q05PRoZ.NJkYhl.jSOW4y5mvWCT8iIFShd16i | Prompt too large (165698 tokens > 102400.0).
+--- ⏭️ Skipping y48.fUYX.S9FOp6iY.vhqR0pEZE66.gF4.PrxH5ZkBIB | Prompt too large (178068 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 7637984D07D443F9801B02EA5339CB963940A6E19DA7C68BD801077CF01FC028
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> p8.pbf9ed.p418.pad42
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1387 | Removed: 75
+--- 🧹 Filter [tp          ] -> Remaining: 1387 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 808 | Removed: 579
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 261
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping p4fba3.p0b9abfe67c.pfdfec3d99e68af883b469 | Prompt too large (129977 tokens > 102400.0).
+--- ⏭️ Skipping p4fba3.p1cb.p6a6e2b73ca319f7770f0 | Prompt too large (155782 tokens > 102400.0).
+--- ⏭️ Skipping p4fba3.p0b9abfe67c.p99e853e41d491eeee0 | Prompt too large (1332085 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : CD90F96835D9C34988EEDDEE8DBCA097C28D5538283F16E9F6294E4B8D8B703A
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : ClassRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> SI.y53GQpXE5pE.UbnJjk.XFg8s
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3009 | Removed: 32266
+--- 🧹 Filter [tp          ] -> Remaining: 2477 | Removed: 532
+--- 🧹 Filter [noDollarSign] -> Remaining: 418 | Removed: 2059
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 201
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 1A98E6E35FD8EBB84685C0A7051B74AA617D7309E01E4D7F3F717AA4D824C6EC
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34817
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3970 | Removed: 30847
+--- 🧹 Filter [tp          ] -> Remaining: 1719 | Removed: 2251
+--- 🧹 Filter [noDollarSign] -> Remaining: 258 | Removed: 1461
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 155
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.WallhavenKt | Prompt too large (142085 tokens > 102400.0).
+--- ⏭️ Skipping app.simple.peri.ui.dialogs.wallhaven.SearchKt | Prompt too large (126358 tokens > 102400.0).
+--- ⏭️ Skipping app.simple.peri.ui.screens.SetupKt | Prompt too large (113724 tokens > 102400.0).
+--- ⏭️ Skipping app.simple.peri.ui.commons.WallpaperListCommonsKt | Prompt too large (136728 tokens > 102400.0).
+--- ⏭️ Skipping app.simple.peri.ui.screens.WallpaperKt | Prompt too large (234894 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 95E3D736E91CC5BB9EB8752C1C02B76AA68EAB96657481DC361B16DBC23305E8
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : F7867F8D33EA981C801BD1AD1389FA2109C924C28233B1AD77D1FF999AC6B138
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (170237 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 5FEB5AE01F743F4D2B49834DD5652766E348FF55A68189F469C2650E972099F4
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.jarsilio.android.scrambledeggsif -> com.jarsilio.android.scrambledeggsif.fortunecookies.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 8936
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1053 | Removed: 7883
+--- 🧹 Filter [tp          ] -> Remaining: 199 | Removed: 854
+--- 🧹 Filter [noDollarSign] -> Remaining: 79 | Removed: 120
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 66
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 255D26352AB1247C42736402AF15E3AD4EC33951AC385817666A67DCC5C0F858
+--- 📦 App pkgName           : com.serwylo.lexica
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6064
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 352 | Removed: 5712
+--- 🧹 Filter [tp          ] -> Remaining: 307 | Removed: 45
+--- 🧹 Filter [noDollarSign] -> Remaining: 131 | Removed: 176
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 98
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 6CB476895AF2A95265D8482D0956226F88A16B50F55EC62AC718E9C1CBB07B07
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : C491640877CBD5530F684A63786EFBF6940C66712992A1052EC68B5B3F8D2181
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 350E2AA8F08BE4057254182CC24BDF7B4C68BC4B743A95D61CE1D5A98A0C1A1A
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 180AD0EDAB06AE39288DD0F3B24EAE6497AA67293ED8AF8C266B3CCF9508EFF1
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : Clean
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : EA788F3B3504CF98AF90335B8166F76D29D2034D41E6D137BFF8A3A3616BBFF8
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (104632 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : C7B8AC8FA8EEA996EFB474DBCBBC40A8AD3C4B611CD101F06E56AE295B160E9D
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 9D451A24BA913ED0470BBD5D2A9F6A27FE1B9EA2B4D3183AF86973858AA04E1B
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 4189557F74151E8C49C941A4B32CB20B61662308B02A9B4A0475A7FED3B44FF1
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (171502 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 908A99A67EF935666E4EA88E11E8061E9DC7D20332FCE41259B6AA093CD13B05
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : F3749D42131D9F74205B2A86DC957E0588B14175948B89493708CBE40D1D6E4F
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 01C989C11F8426519E0CF12F53C93DC6320A7062163CA99E70802057766DB2DF
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 0C472E35BBF21223452BB1276A2C271DEECA0EB8C2D2BD654ED2CBC19A8F77A6
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : EFC1928E5F03DE071AE38F44D431DF6026D7FB8A1B671189E1A1211793FC3AD5
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 363531E56F7AFF42F457ECB7C83F2381901BD36E9B221D544B282560A2F4EEC3
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : FieldRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 3B1ADEA31D3E5C2EAAE93C654DC07E63260BD63F32DA35EF091F6397895F1A1A
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (105028 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 909FBE46605F94CE499B9B9329DBDA9E8A4C9EB38DBFE72E220FA71604A399DF
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 70F1289610CE46199612D6846B5F248100C464178181141D9F6BDC7433328604
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : E9CC33630DF1C4B45F278061FBA5F2872C5DDBBEBAEFAEF7F110953FC1298627
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (175884 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 8ED232F0C4016B6DA30883C6678F69CD03B0A296E9D091E9C29594E8FAE2ACDB
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : C64A0EDC49DC23DE1AF09C64A58AA9A82DD59262A4AE0DB61432FF08D9CD7EDD
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : ABFED4087C3CECB322DA07F0ACDD709277680A6A29827F7A8EDD6ECBA2D630D9
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 3C9266D3FA90C1DBF195013064849A199032896BFCD5F7F07C9261F4DABF7404
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 77AE21FB9FCA6BF21D66295762C4EB85E265AD3E10F8E7BC60F9D53929D4C9A1
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 51A902B3B4BAC1F65FF736F2E5107C122D8A3C469519BFA18427F95DD15DEA48
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : Goto
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 3AFC1293765E9F10CCD9B8F4C42F2D697F68CC080F29FBA707C5B79757C40004
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (110530 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : D099CE27B6E4659BD5359A81D9122DF5773D1CC2571061956E27A3C4DAD4EE0F
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.bitmavrick.lumolight.ui.theme.ColorKt | Prompt too large (108449 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : D6AD81A54AE4BD8C6B355411848E71D7CA769B13FDADC3E82BE364D37D733253
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 5F5E4C287D800E68D3693EFD88B5F1F2C4767FCC9A67EB11C45740C2BF6C90D5
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserFragment | Prompt too large (114815 tokens > 102400.0).
+--- ⏭️ Skipping com.ichi2.anki.browser.CardBrowserViewModel | Prompt too large (194686 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : C0EA7590E0F2EC1660F85BB496EEC7DC1AE1C6E3F503B8351A966F9E074160DD
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 7C85694649B7839DC7877AE56CEDC363D6075A27B6DDBC6D44B5DB42405ADD17
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 060A0A36C13088846AD6ED42450945BF843C43E6B9DF7177C6D1B61F160C6765
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 2E60D5C328A36085405AF3BD859FEA03E6ABCF8CBCE3BFBBFF58CBD48DF5541E
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 55136190771A6A909DC4442E4F25955002B523ADAE3E8759E9E93512DF2BD146
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : EA45C2176782A6F4F669C35C1CA23849BAAA3FE47C86BB881559E1CB001F8533
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : MethodOverload
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 20ECCABC2BE2656BDDB2AE2D20EE8A8152A4DF0A998CFC5D6561C939B47AB98E
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (104880 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : EE05277742E90BC74559A15E53BD64DD7381988A172E27002A367B504BAC5269
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : CCD7894269E6BDBBF55ED24EEC551FC1C8125D2319B4BB04CEB4350D1054D5F8
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20231
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5636 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 365 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 172 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 8C3FBAD07E2FCF579AE8D4022FD2149612732EF347DD78414CC48C457FD215B7
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping net.ankiweb.rsdroid.Translations | Prompt too large (260788 tokens > 102400.0).
+--- ⏭️ Skipping com.ichi2.anki.ui.windows.reviewer.ReviewerViewModel | Prompt too large (136068 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 453158FA3C309548417EC66368FFB279DC3158BBD70EA475DDDF3CF192293805
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3052
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 361 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 149 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 49 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 44
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 9E880D869CDE9250BA3B1F2AB72706E45850EA397C946EF75057077AF9A4C74F
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : B645FF04686A8D138F380928EC1034D7115FD2BE8D83C8975607D56B35E5D87F
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : D29115F72B8E3B8D407603FD8EBC489731D5B2FF9B8B252F438A66D1C6F26DE2
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : DDA4F1B2D0FBA5C9027E78FC1A67ECF20E58B61613685F915A87624F358B5F9C
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1462
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 386 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 379 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 162 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 1412DC27EEF05F6A13448202EBD1FFC9F029B415E4DB5007704CAC250F8901A3
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : MethodRename
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : E9511E72FCF4BEB788A3D409B317A424447F292CCDD18A3985B4777F87021291
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3050
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2828 | Removed: 222
+--- 🧹 Filter [tp          ] -> Remaining: 2828 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 2828 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 339
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 483BFCD18C3C49F14468228CBBB0CD79A255DB99FAD4DB980BE35B04C2B6BBE3
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 7393
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5724 | Removed: 1669
+--- 🧹 Filter [tp          ] -> Remaining: 5443 | Removed: 281
+--- 🧹 Filter [noDollarSign] -> Remaining: 5442 | Removed: 1
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 359
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 2223AEEC43D8246128589C9B138CE522E9A3DE39B462032D3CE4EC45C724510A
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9044
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8192 | Removed: 852
+--- 🧹 Filter [tp          ] -> Remaining: 7678 | Removed: 514
+--- 🧹 Filter [noDollarSign] -> Remaining: 7434 | Removed: 244
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 366
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 9E33620E0ED88F82D680D8F1047FB0B9932F7905E3E3136808B6686B3C67ECEE
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1758
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1324 | Removed: 434
+--- 🧹 Filter [tp          ] -> Remaining: 1247 | Removed: 77
+--- 🧹 Filter [noDollarSign] -> Remaining: 1210 | Removed: 37
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 292
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 5B5E3EECB8E77A59B2D548A5B0D3BDCC16A0B0BFFE35C43AB695D0E04DC8CDEA
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 980
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 761 | Removed: 219
+--- 🧹 Filter [tp          ] -> Remaining: 761 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 749 | Removed: 12
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 255
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 5DCA5D1F2E07BA3FFAC65E1C70A3B144099AA20A2648DE6DBA3700250A47E029
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3097
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2727 | Removed: 370
+--- 🧹 Filter [tp          ] -> Remaining: 2717 | Removed: 10
+--- 🧹 Filter [noDollarSign] -> Remaining: 2148 | Removed: 569
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 327
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 7D80D32794245A417C92AC1B28DD6B11516DAE722B2D42A7034A5C2B566B79DB
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9234
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9008 | Removed: 226
+--- 🧹 Filter [tp          ] -> Remaining: 8922 | Removed: 86
+--- 🧹 Filter [noDollarSign] -> Remaining: 8748 | Removed: 174
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 369
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping A8.Y | Prompt too large (253714 tokens > 102400.0).
+--- ⏭️ Skipping A8.D0 | Prompt too large (238098 tokens > 102400.0).
+--- ⏭️ Skipping A8.i1 | Prompt too large (244744 tokens > 102400.0).
+--- ⏭️ Skipping A8.m0 | Prompt too large (262107 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : E990DA6083B522A0D2B8E354BE91CF1533A52F2FAFC0CE976C32B1B7BC4FFFF0
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 244
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 243 | Removed: 1
+--- 🧹 Filter [tp          ] -> Remaining: 243 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 243 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 150
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 4E4A70B4A761852D4BA8D66C6AC13795BDF80A5883C3F30541256A00B06EEC92
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 8269
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6616 | Removed: 1653
+--- 🧹 Filter [tp          ] -> Remaining: 6471 | Removed: 145
+--- 🧹 Filter [noDollarSign] -> Remaining: 4190 | Removed: 2281
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 352
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 0676B60C3C8B611D2894217B6CBDB0C461333149D8BFE64DECE5CCC0F41CB613
+--- 📦 App pkgName           : app.simple.peri
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1280 | Removed: 4340
+--- 🧹 Filter [tp          ] -> Remaining: 447 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 105 | Removed: 342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 83
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping app.simple.peri.ui.screens.TagsKt | Prompt too large (105082 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : E292042DA6CC7A9CF310E8230D177F65798884D2C24B951529DFEED6D73C7DBC
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28985
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1080 | Removed: 27905
+--- 🧹 Filter [tp          ] -> Remaining: 696 | Removed: 384
+--- 🧹 Filter [noDollarSign] -> Remaining: 165 | Removed: 531
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 116
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 0E14B79C35E4757CC5220D7363E52C80651380AEB1DCCD1A4A9D3FF67FC4E29F
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice.activity
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.github.ashutoshgngwr.noice.activity -> com.github.ashutoshgngwr.noice
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20232
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5637 | Removed: 14595
+--- 🧹 Filter [tp          ] -> Remaining: 366 | Removed: 5271
+--- 🧹 Filter [noDollarSign] -> Remaining: 173 | Removed: 193
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 120
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 7FEAF8EB4B5F6EABF1785637D39D2266EBF5464AD9D94C2F6EA6C1111D02534F
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 41051
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23333 | Removed: 17718
+--- 🧹 Filter [tp          ] -> Remaining: 10094 | Removed: 13239
+--- 🧹 Filter [noDollarSign] -> Remaining: 1390 | Removed: 8704
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 302
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping net.ankiweb.rsdroid.Translations | Prompt too large (263572 tokens > 102400.0).
+--- ⏭️ Skipping com.ichi2.anki.ui.windows.reviewer.ReviewerViewModel | Prompt too large (135866 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 93505BC0CA2C4540520D626A622D285EC2E9F2BB8E642568A520F3E2B65F1C11
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3053
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 362 | Removed: 2691
+--- 🧹 Filter [tp          ] -> Remaining: 150 | Removed: 212
+--- 🧹 Filter [noDollarSign] -> Remaining: 50 | Removed: 100
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 45
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : BB727ADE58C54127D5E6515406F727A06DB00B95240BA0BA798E2CDB18C801E4
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.markusfisch.android.binaryeye -> de.markusfisch.android.binaryeye.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4634
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 424 | Removed: 4210
+--- 🧹 Filter [tp          ] -> Remaining: 394 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 133 | Removed: 261
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 99
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 36A8197707D494CD43B75DBC094905BFA835CD5C86555C009F77A6EA8DF01B92
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19201
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2678 | Removed: 16523
+--- 🧹 Filter [tp          ] -> Remaining: 2198 | Removed: 480
+--- 🧹 Filter [noDollarSign] -> Remaining: 193 | Removed: 2005
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 129
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 33D8D10CC605C2F57F02975AAEB723DDE8BA25887921C5B21C05E0CF3EA2D225
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: de.westnordost.streetcomplete -> de.westnordost.streetcomplete.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34081
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15055 | Removed: 19026
+--- 🧹 Filter [tp          ] -> Remaining: 2047 | Removed: 13008
+--- 🧹 Filter [noDollarSign] -> Remaining: 706 | Removed: 1341
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 250
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 4ACF4E8AFF952225F6A44EF0227F9F35B73812EE89639315EF12C14DB0BBBF54
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: fr.neamar.kiss -> fr.neamar.kiss.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1463
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 387 | Removed: 1076
+--- 🧹 Filter [tp          ] -> Remaining: 380 | Removed: 7
+--- 🧹 Filter [noDollarSign] -> Remaining: 163 | Removed: 217
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 115
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 1A50BE462D89092C0A4352D2ACDFE3F901E1118D71B78E53F32AD7B4E77BD8BF
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : ResStringEncryption
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: me.hackerchick.catima -> me.hackerchick.catima.debug
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35275
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2802 | Removed: 32473
+--- 🧹 Filter [tp          ] -> Remaining: 1822 | Removed: 980
+--- 🧹 Filter [noDollarSign] -> Remaining: 113 | Removed: 1709
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 88
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🧾 Total Shared Batch Requests: 48684
+
+
+==================== ⭐ START OPENAI SHARED BATCH ⭐ ====================
+
+
+--- 🔁 Shared Batch Attempt 1/3 | Requests: 48684
+--- 📦 Attempt 1 Chunk 1 | Requests: 11554 | Size: 190.0 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part1_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a198a411d1c81908d84ae8c6244fb44
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part1_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 2 | Requests: 11926 | Size: 189.9 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part2_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a199363bb408190b2cb8730501f1f09
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part2_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 3 | Requests: 11236 | Size: 190.0 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part3_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a19a69d9a1481908a685e4e12497891
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part3_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 4 | Requests: 13968 | Size: 137.7 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part4_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a19ae0f4f2c8190a52c8260e4a9f15a
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationClassificationBatch_20260529_144401_part4_attempt1_output.jsonl
+--- ✅ Valid Replies: 48684 / 48684
+--- 🔁 Pending Retries: 0
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=ArithmeticBranch
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ArithmeticBranch/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ArithmeticBranch/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 11
+--- 🔹 Success                 : 11 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'ArithmeticBranch': 10, 'ClassRename': 1}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=CallIndirection
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/CallIndirection/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/CallIndirection/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'CallIndirection': 8, 'ClassRename': 1, 'MethodRename': 1}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=ClassRename
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ClassRename/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ClassRename/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'ClassRename': 10}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=Clean
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Clean/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Clean/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 9
+--- 🔹 Success                 : 9 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'CallIndirection': 4, 'ClassRename': 3, 'Goto': 2}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=ConstStringEncryption
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ConstStringEncryption/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ConstStringEncryption/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'ConstStringEncryption': 10}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=FieldRename
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/FieldRename/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/FieldRename/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'FieldRename': 9, 'CallIndirection': 1}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=Goto
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Goto/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Goto/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'Goto': 10}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=MethodOverload
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/MethodOverload/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/MethodOverload/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'MethodOverload': 8, 'ClassRename': 2}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=MethodRename
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/MethodRename/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/MethodRename/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'MethodRename': 9, 'CallIndirection': 1}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=R8
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/R8/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/R8/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'ClassRename': 10}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=Reflection
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Reflection/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/Reflection/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 9
+--- 🔹 Success                 : 9 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'CallIndirection': 5, 'Reflection': 3, 'Goto': 1}
+
+--- 💾 Reports saved: prompt=ObfuscationClassificationV1 | model=gpt-5-mini | technique=ResStringEncryption
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ResStringEncryption/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationClassificationV1/ResStringEncryption/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Predicted Labels        : {'CallIndirection': 7, 'ClassRename': 1, 'Goto': 2}
+
+--- 🔚 END: 2026-05-29 18:02:53 🔚
+--- ⏱️  Time: 04 hours and 14 minutes [15264 seconds] ⏱️

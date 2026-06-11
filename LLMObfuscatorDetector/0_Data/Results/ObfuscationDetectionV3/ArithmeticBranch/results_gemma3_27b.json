@@ -1,0 +1,112 @@
+[
+    {
+        "sha256": "D467C8A03C5DF969CD4FC0C997659E4C7571F661552A0DFC9400D510FD227676",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 105,
+        "numSmaliClassesAnalyzed": 81,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.46
+    },
+    {
+        "sha256": "935A0C3729A7B3D75C5BCE480A743027F024A889DA86341B7C4FD4FD91776EA4",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.47
+    },
+    {
+        "sha256": "089B9F4DDDACA7CC50D340167B53A06EA1FCC4F1C904472F5EC5BA25CE296549",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 88,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.6
+    },
+    {
+        "sha256": "1486ED27E34B0AE7B763E9291290DF07FCD24777715B28B4E9E4E7848CBCA46A",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 116,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.3
+    },
+    {
+        "sha256": "286C5CA99986F9CAC3216770FBD69DA0E297D5B23C6F9AC00C6AE53367EA536D",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 49,
+        "numSmaliClassesAnalyzed": 44,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.8
+    },
+    {
+        "sha256": "6ED24A1A09D0EE0CDB2C9917438C122F55F310C15FE018595D0F69F2CFC75523",
+        "pkgName": "com.serwylo.lexica",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 131,
+        "numSmaliClassesAnalyzed": 98,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.68
+    },
+    {
+        "sha256": "7B5CD294F17F3D214B5E87AB4A5F7C07373E681D9B1F82F0CBF7E938253ADD69",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 133,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.57
+    },
+    {
+        "sha256": "F7B19453F1E6A04D5E49E551686BED4BF82DE0AEC382771225D1B1C6144419D0",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 162,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.68
+    },
+    {
+        "sha256": "83C3838EE8B7589AB56AEF545648DE7E6CCE130805FC61290CFF7C107686D653",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 172,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.84
+    },
+    {
+        "sha256": "026EDCBF2D623840FBEAACF325BF93B994541D851F0B7C4320CADEE5F6B8F4A1",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 299,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.53
+    },
+    {
+        "sha256": "4940931CE891338DF37FF3C11CDC5828756607DA0155C3563E87CBA9DE301244",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "ArithmeticBranch",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.6
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "sha256": "3B1ADEA31D3E5C2EAAE93C654DC07E63260BD63F32DA35EF091F6397895F1A1A",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 105,
+        "numSmaliClassesAnalyzed": 82,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "909FBE46605F94CE499B9B9329DBDA9E8A4C9EB38DBFE72E220FA71604A399DF",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 116,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "70F1289610CE46199612D6846B5F248100C464178181141D9F6BDC7433328604",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 172,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "E9CC33630DF1C4B45F278061FBA5F2872C5DDBBEBAEFAEF7F110953FC1298627",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "Goto",
+        "status": "ERROR - Traceback (most recent call last): |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/experiments.py\", line 297, in analyzeApkRecord |     classAnalysis = ObfuscationDetectionAnalysisUtils.analyzeSmaliClassWithMajorityVote( |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 241, in analyzeSmaliClassWithMajorityVote |     iterationResult = ObfuscationDetectionAnalysisUtils.askForBooleanLabel(llmInterface, prompt, maxRetries = maxRetries) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 227, in askForBooleanLabel |     raise LlmRetryLimitExceededError(\"Invalid LLM output after {} attempts: {}\".format(maxRetries, lastRawReply)) | AnalysisUtils.LlmRetryLimitExceededError: Invalid LLM output after 3 attempts: None | ",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 0,
+        "llmFinalLabel": null,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "8ED232F0C4016B6DA30883C6678F69CD03B0A296E9D091E9C29594E8FAE2ACDB",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 49,
+        "numSmaliClassesAnalyzed": 44,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.05
+    },
+    {
+        "sha256": "C64A0EDC49DC23DE1AF09C64A58AA9A82DD59262A4AE0DB61432FF08D9CD7EDD",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 133,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "ABFED4087C3CECB322DA07F0ACDD709277680A6A29827F7A8EDD6ECBA2D630D9",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "3C9266D3FA90C1DBF195013064849A199032896BFCD5F7F07C9261F4DABF7404",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "77AE21FB9FCA6BF21D66295762C4EB85E265AD3E10F8E7BC60F9D53929D4C9A1",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "Goto",
+        "status": "SUCCESS",
+        "numSmaliClasses": 162,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "51A902B3B4BAC1F65FF736F2E5107C122D8A3C469519BFA18427F95DD15DEA48",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "Goto",
+        "status": "ERROR - Traceback (most recent call last): |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/experiments.py\", line 297, in analyzeApkRecord |     classAnalysis = ObfuscationDetectionAnalysisUtils.analyzeSmaliClassWithMajorityVote( |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 241, in analyzeSmaliClassWithMajorityVote |     iterationResult = ObfuscationDetectionAnalysisUtils.askForBooleanLabel(llmInterface, prompt, maxRetries = maxRetries) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/20_AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 227, in askForBooleanLabel |     raise LlmRetryLimitExceededError(\"Invalid LLM output after {} attempts: {}\".format(maxRetries, lastRawReply)) | AnalysisUtils.LlmRetryLimitExceededError: Invalid LLM output after 3 attempts: None | ",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 0,
+        "llmFinalLabel": null,
+        "pctSmaliClassesObfuscated": 0.0
+    }
+]

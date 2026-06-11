@@ -1,0 +1,196 @@
+[
+    {
+        "sha256": "7CF3B68A72DB3871CE481454123949F7E2123844D79839437C9B810DDCAD3030",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 5394,
+        "numSmaliClassesAnalyzed": 359,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 246,
+            "FieldRename": 63,
+            "MethodRename": 34,
+            "ArithmeticBranch": 6,
+            "Reflection": 4,
+            "Goto": 4,
+            "ConstStringEncryption": 2
+        }
+    },
+    {
+        "sha256": "E9511E72FCF4BEB788A3D409B317A424447F292CCDD18A3985B4777F87021291",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 2828,
+        "numSmaliClassesAnalyzed": 339,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 236,
+            "FieldRename": 63,
+            "ArithmeticBranch": 4,
+            "MethodRename": 25,
+            "Reflection": 2,
+            "CallIndirection": 2,
+            "Goto": 2,
+            "ConstStringEncryption": 5
+        }
+    },
+    {
+        "sha256": "483BFCD18C3C49F14468228CBBB0CD79A255DB99FAD4DB980BE35B04C2B6BBE3",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 5442,
+        "numSmaliClassesAnalyzed": 359,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "FieldRename": 69,
+            "ClassRename": 234,
+            "MethodRename": 36,
+            "ConstStringEncryption": 9,
+            "Goto": 1,
+            "ArithmeticBranch": 2,
+            "MethodOverload": 1,
+            "Reflection": 6,
+            "CallIndirection": 1
+        }
+    },
+    {
+        "sha256": "2223AEEC43D8246128589C9B138CE522E9A3DE39B462032D3CE4EC45C724510A",
+        "pkgName": "com.ichi2.anki",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 7434,
+        "numSmaliClassesAnalyzed": 366,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 229,
+            "ArithmeticBranch": 8,
+            "MethodRename": 34,
+            "FieldRename": 76,
+            "CallIndirection": 3,
+            "Reflection": 6,
+            "ConstStringEncryption": 8,
+            "Goto": 2
+        }
+    },
+    {
+        "sha256": "9E33620E0ED88F82D680D8F1047FB0B9932F7905E3E3136808B6686B3C67ECEE",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1210,
+        "numSmaliClassesAnalyzed": 292,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 203,
+            "FieldRename": 44,
+            "MethodRename": 26,
+            "ConstStringEncryption": 3,
+            "Reflection": 9,
+            "CallIndirection": 2,
+            "Goto": 2,
+            "ArithmeticBranch": 1,
+            "MethodOverload": 2
+        }
+    },
+    {
+        "sha256": "5B5E3EECB8E77A59B2D548A5B0D3BDCC16A0B0BFFE35C43AB695D0E04DC8CDEA",
+        "pkgName": "de.markusfisch.android.binaryeye",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 749,
+        "numSmaliClassesAnalyzed": 255,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 189,
+            "MethodRename": 25,
+            "FieldRename": 24,
+            "Reflection": 6,
+            "ConstStringEncryption": 2,
+            "Goto": 3,
+            "CallIndirection": 3,
+            "ArithmeticBranch": 2,
+            "ResStringEncryption": 1
+        }
+    },
+    {
+        "sha256": "5DCA5D1F2E07BA3FFAC65E1C70A3B144099AA20A2648DE6DBA3700250A47E029",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 2148,
+        "numSmaliClassesAnalyzed": 327,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "MethodRename": 28,
+            "ConstStringEncryption": 6,
+            "ClassRename": 234,
+            "FieldRename": 45,
+            "CallIndirection": 1,
+            "Goto": 1,
+            "MethodOverload": 2,
+            "ArithmeticBranch": 2,
+            "Reflection": 7,
+            "ResStringEncryption": 1
+        }
+    },
+    {
+        "sha256": "7D80D32794245A417C92AC1B28DD6B11516DAE722B2D42A7034A5C2B566B79DB",
+        "pkgName": "de.westnordost.streetcomplete",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 8748,
+        "numSmaliClassesAnalyzed": 368,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 246,
+            "MethodRename": 29,
+            "ConstStringEncryption": 10,
+            "FieldRename": 67,
+            "CallIndirection": 2,
+            "Reflection": 3,
+            "Goto": 5,
+            "ArithmeticBranch": 5,
+            "MethodOverload": 1
+        }
+    },
+    {
+        "sha256": "E990DA6083B522A0D2B8E354BE91CF1533A52F2FAFC0CE976C32B1B7BC4FFFF0",
+        "pkgName": "fr.neamar.kiss",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 243,
+        "numSmaliClassesAnalyzed": 150,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "FieldRename": 27,
+            "ClassRename": 102,
+            "CallIndirection": 2,
+            "ArithmeticBranch": 4,
+            "MethodRename": 11,
+            "ResStringEncryption": 3,
+            "MethodOverload": 1
+        }
+    },
+    {
+        "sha256": "4E4A70B4A761852D4BA8D66C6AC13795BDF80A5883C3F30541256A00B06EEC92",
+        "pkgName": "me.hackerchick.catima",
+        "obfuscationTechnique": "R8",
+        "status": "SUCCESS",
+        "numSmaliClasses": 4190,
+        "numSmaliClassesAnalyzed": 352,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ClassRename": 238,
+            "FieldRename": 31,
+            "MethodRename": 54,
+            "ConstStringEncryption": 8,
+            "MethodOverload": 4,
+            "ArithmeticBranch": 1,
+            "CallIndirection": 10,
+            "Reflection": 6
+        }
+    }
+]

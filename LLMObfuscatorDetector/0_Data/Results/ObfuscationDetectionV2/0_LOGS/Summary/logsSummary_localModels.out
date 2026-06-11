@@ -1,0 +1,265 @@
+============================================================
+--- 🚀 ENV CONFIGURATION
+--- 📂 Input Root  : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/
+--- 💾 Output Root : /home/marco/Projects/AndroidObfuscationLLM/0_Data/Results/
+--- 🐍 Python Bin  : python3
+--- 📝 logsBatch   : /home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/logsSummary.out
+--- 📝 logsFull    : /home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/logsFull.out
+============================================================
+
+============================================================
+--- 🚀 EXPERIMENTS CONFIGURATION
+--- 🧪 Techniques Found : 11
+--- 🤖 Models Selected  : 3
+--- 🔢 Total Runs       : 33
+============================================================
+
++++ ⭐STARTING BATCH EXECUTION ⭐ +++
+--> 🕒 START TIME: 2026-04-20 23:51:30
+
+****************************************************************
+--- 📁 Technique : ArithmeticBranch
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ArithmeticBranch
+
+--- ▶️ Run 1/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ArithmeticBranch
+
+--- ▶️ Run 2/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ArithmeticBranch
+
+--- ▶️ Run 3/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ArithmeticBranch
+
+****************************************************************
+--- 📁 Technique : CallIndirection
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/CallIndirection
+
+--- ▶️ Run 4/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=CallIndirection
+
+--- ▶️ Run 5/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=CallIndirection
+
+--- ▶️ Run 6/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=CallIndirection
+
+****************************************************************
+--- 📁 Technique : ClassRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ClassRename
+
+--- ▶️ Run 7/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ClassRename
+
+--- ▶️ Run 8/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ClassRename
+
+--- ▶️ Run 9/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ClassRename
+
+****************************************************************
+--- 📁 Technique : Clean
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Clean
+
+--- ▶️ Run 10/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=Clean
+
+--- ▶️ Run 11/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=Clean
+
+--- ▶️ Run 12/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=Clean
+
+****************************************************************
+--- 📁 Technique : ConstStringEncryption
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ConstStringEncryption
+
+--- ▶️ Run 13/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ConstStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ConstStringEncryption
+
+--- ▶️ Run 14/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ConstStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ConstStringEncryption
+
+--- ▶️ Run 15/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ConstStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ConstStringEncryption
+
+****************************************************************
+--- 📁 Technique : FieldRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/FieldRename
+
+--- ▶️ Run 16/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : FieldRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=FieldRename
+
+--- ▶️ Run 17/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : FieldRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=FieldRename
+
+--- ▶️ Run 18/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : FieldRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=FieldRename
+
+****************************************************************
+--- 📁 Technique : Goto
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Goto
+
+--- ▶️ Run 19/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : Goto
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=Goto
+
+--- ▶️ Run 20/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : Goto
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=Goto
+
+--- ▶️ Run 21/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : Goto
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=Goto
+
+****************************************************************
+--- 📁 Technique : MethodOverload
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/MethodOverload
+
+--- ▶️ Run 22/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : MethodOverload
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=MethodOverload
+
+--- ▶️ Run 23/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : MethodOverload
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=MethodOverload
+
+--- ▶️ Run 24/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : MethodOverload
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=MethodOverload
+
+****************************************************************
+--- 📁 Technique : MethodRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/MethodRename
+
+--- ▶️ Run 25/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : MethodRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=MethodRename
+
+--- ▶️ Run 26/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : MethodRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=MethodRename
+
+--- ▶️ Run 27/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : MethodRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=MethodRename
+
+****************************************************************
+--- 📁 Technique : Reflection
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Reflection
+
+--- ▶️ Run 28/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : Reflection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=Reflection
+
+--- ▶️ Run 29/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : Reflection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=Reflection
+
+--- ▶️ Run 30/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : Reflection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=Reflection
+
+****************************************************************
+--- 📁 Technique : ResStringEncryption
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ResStringEncryption
+
+--- ▶️ Run 31/33
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ResStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ResStringEncryption
+
+--- ▶️ Run 32/33
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ResStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ResStringEncryption
+
+--- ▶️ Run 33/33
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ResStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ResStringEncryption
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ ⭐ FINISHED BATCH EXECUTION ⭐ +++
+--> 🕒 Batch End Time   : 2026-04-24 02:26:40 
+--> ⏱️ Elapsed Time     : 74h 35m 10s (268510s)

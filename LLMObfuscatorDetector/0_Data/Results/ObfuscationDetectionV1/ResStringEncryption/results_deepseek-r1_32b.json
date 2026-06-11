@@ -1,0 +1,102 @@
+[
+    {
+        "sha256": "0676B60C3C8B611D2894217B6CBDB0C461333149D8BFE64DECE5CCC0F41CB613",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 105,
+        "numSmaliClassesAnalyzed": 82,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.67
+    },
+    {
+        "sha256": "E292042DA6CC7A9CF310E8230D177F65798884D2C24B951529DFEED6D73C7DBC",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 116,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.71
+    },
+    {
+        "sha256": "0E14B79C35E4757CC5220D7363E52C80651380AEB1DCCD1A4A9D3FF67FC4E29F",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 173,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.73
+    },
+    {
+        "sha256": "7FEAF8EB4B5F6EABF1785637D39D2266EBF5464AD9D94C2F6EA6C1111D02534F",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 300,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.64
+    },
+    {
+        "sha256": "93505BC0CA2C4540520D626A622D285EC2E9F2BB8E642568A520F3E2B65F1C11",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 50,
+        "numSmaliClassesAnalyzed": 45,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.73
+    },
+    {
+        "sha256": "BB727ADE58C54127D5E6515406F727A06DB00B95240BA0BA798E2CDB18C801E4",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 133,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.68
+    },
+    {
+        "sha256": "36A8197707D494CD43B75DBC094905BFA835CD5C86555C009F77A6EA8DF01B92",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.66
+    },
+    {
+        "sha256": "33D8D10CC605C2F57F02975AAEB723DDE8BA25887921C5B21C05E0CF3EA2D225",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.68
+    },
+    {
+        "sha256": "4ACF4E8AFF952225F6A44EF0227F9F35B73812EE89639315EF12C14DB0BBBF54",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 163,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.65
+    },
+    {
+        "sha256": "1A50BE462D89092C0A4352D2ACDFE3F901E1118D71B78E53F32AD7B4E77BD8BF",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "ResStringEncryption",
+        "status": "ERROR - Traceback (most recent call last): |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions |     yield |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_transports/default.py\", line 250, in handle_request |     resp = self._pool.handle_request(req) |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request |     raise exc from None |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request |     response = connection.handle_request( |                ^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/connection.py\", line 103, in handle_request |     return self._connection.handle_request(request) |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/http11.py\", line 136, in handle_request |     raise exc |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/http11.py\", line 106, in handle_request |     ) = self._receive_response_headers(**kwargs) |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers |     event = self._receive_event(timeout=timeout) |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpcore/_sync/http11.py\", line 231, in _receive_event |     raise RemoteProtocolError(msg) | httpcore.RemoteProtocolError: Server disconnected without sending a response. |  | The above exception was the direct cause of the following exception: |  | Traceback (most recent call last): |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/experiments.py\", line 297, in analyzeApkRecord |     classAnalysis = ObfuscationDetectionAnalysisUtils.analyzeSmaliClassWithMajorityVote( |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 240, in analyzeSmaliClassWithMajorityVote |     iterationResult = ObfuscationDetectionAnalysisUtils.askForBooleanLabel(llmInterface, prompt, maxRetries = maxRetries) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 207, in askForBooleanLabel |     structuredReply = llmInterface.sendRequestWithSchema(prompt, BooleanLabelSchema) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/LLMUtils.py\", line 58, in sendRequestWithSchema |     response = self.client.chat( |                ^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/ollama/_client.py\", line 342, in chat |     return self._request( |            ^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/ollama/_client.py\", line 180, in _request |     return cls(**self._request_raw(*args, **kwargs).json()) |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/ollama/_client.py\", line 120, in _request_raw |     r = self._client.request(*args, **kwargs) |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_client.py\", line 825, in request |     return self.send(request, auth=auth, follow_redirects=follow_redirects) |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_client.py\", line 914, in send |     response = self._send_handling_auth( |                ^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_client.py\", line 942, in _send_handling_auth |     response = self._send_handling_redirects( |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_client.py\", line 979, in _send_handling_redirects |     response = self._send_single_request(request) |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_client.py\", line 1014, in _send_single_request |     response = transport.handle_request(request) |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_transports/default.py\", line 249, in handle_request |     with map_httpcore_exceptions(): |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/contextlib.py\", line 158, in __exit__ |     self.gen.throw(typ, value, traceback) |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions |     raise mapped_exc(message) from exc | httpx.RemoteProtocolError: Server disconnected without sending a response. | ",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 0,
+        "llmFinalLabel": null,
+        "pctSmaliClassesObfuscated": 0.0
+    }
+]

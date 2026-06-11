@@ -1,0 +1,268 @@
+============================================================
+--- 🚀 OPENAI SHARED BATCH CONFIGURATION
+--- 📂 Input CSV         : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Data/sampledApps.csv
+--- 💾 Output Root       : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/
+--- 🐍 Python Bin        : python3
+--- ⏱️ Poll Every        : 60s
+--- 📝 Prompts Selected  : 1
+--- 🤖 Models Selected   : 1
+--- 🔢 Logical Runs      : 1
+--- 📝 logsBatch         : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/logsBatchSummary.out
+--- 📝 logsFull          : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/logsBatchFull.out
+============================================================
+
++++ ⭐ STARTING OPENAI SHARED BATCH EXECUTION ⭐ +++
+--> 🕒 START TIME: 2026-05-31 18:11:02
+--- 📦 All logical runs will be queued into shared OpenAI Batch submission(s).
+--- ▶️ Run 1/1
+--- 📝 Prompt    : ObfuscationDetectionV3
+--- 🤖 Model     : gpt-4o-mini
+--- 🔄 Existing Results: 9/100
+--- 🧾 Total Shared Batch Requests: 79503
+--- 🔁 Shared Batch Attempt 1/3 | Requests: 79503
+--- 📦 Attempt 1 Chunk 1 | Requests: 14953 | Size: 190.0 MiB
+--- 🆔 Batch ID: batch_6a1c77b489888190ac4fed409a76bfa7
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 📦 Attempt 1 Chunk 2 | Requests: 17262 | Size: 190.0 MiB
+--- 🆔 Batch ID: batch_6a1c82025ad0819095cc8a76e9a50c97
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 📦 Attempt 1 Chunk 3 | Requests: 18232 | Size: 189.9 MiB
+--- 🆔 Batch ID: batch_6a1c8c5b2eb48190ad4d5518ca9e01ee
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 📦 Attempt 1 Chunk 4 | Requests: 19405 | Size: 190.0 MiB
+--- 🆔 Batch ID: batch_6a1c96e5bdb881908d5f64197d925aa6
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 📦 Attempt 1 Chunk 5 | Requests: 9651 | Size: 105.6 MiB
+--- 🆔 Batch ID: batch_6a1ca55b5e48819090df46e7fd2a6eb4
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- ✅ Valid Replies: 79503 / 79503
+--- 🔁 Pending Retries: 0
+--- 💾 Reports saved: prompt=ObfuscationDetectionV3 | model=gpt-4o-mini
+--- 🔚 END: 2026-05-31 23:47:25 🔚
+--- ✅ Completed shared Batch campaign | elapsed=5h 36m 24s (20184s)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ ⭐ FINISHED OPENAI SHARED BATCH EXECUTION ⭐ +++
+--> 🕒 Batch End Time   : 2026-05-31 23:47:26 
+--> ⏱️ Elapsed Time     : 5h 36m 24s (20184s)

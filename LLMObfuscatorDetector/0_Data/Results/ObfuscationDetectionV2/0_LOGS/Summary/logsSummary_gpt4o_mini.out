@@ -1,0 +1,133 @@
+============================================================
+--- 🚀 ENV CONFIGURATION
+--- 📂 Input Root  : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/
+--- 💾 Output Root : /home/marco/Projects/AndroidObfuscationLLM/0_Data/Results/
+--- 🐍 Python Bin  : python3
+--- 📝 logsBatch   : /home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/logsSummary.out
+--- 📝 logsFull    : /home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/logsFull.out
+============================================================
+
+============================================================
+--- 🚀 EXPERIMENTS CONFIGURATION
+--- 🧪 Techniques Found : 11
+--- 🤖 Models Selected  : 1
+--- 🔢 Total Runs       : 11
+============================================================
+
++++ ⭐STARTING BATCH EXECUTION ⭐ +++
+--> 🕒 START TIME: 2026-04-16 14:10:28
+
+****************************************************************
+--- 📁 Technique : ArithmeticBranch
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ArithmeticBranch
+
+--- ▶️ Run 1/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=ArithmeticBranch
+
+****************************************************************
+--- 📁 Technique : CallIndirection
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/CallIndirection
+
+--- ▶️ Run 2/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=CallIndirection
+
+****************************************************************
+--- 📁 Technique : ClassRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ClassRename
+
+--- ▶️ Run 3/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=ClassRename
+
+****************************************************************
+--- 📁 Technique : Clean
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Clean
+
+--- ▶️ Run 4/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=Clean
+
+****************************************************************
+--- 📁 Technique : ConstStringEncryption
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ConstStringEncryption
+
+--- ▶️ Run 5/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : ConstStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=ConstStringEncryption
+
+****************************************************************
+--- 📁 Technique : FieldRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/FieldRename
+
+--- ▶️ Run 6/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : FieldRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=FieldRename
+
+****************************************************************
+--- 📁 Technique : Goto
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Goto
+
+--- ▶️ Run 7/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : Goto
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=Goto
+
+****************************************************************
+--- 📁 Technique : MethodOverload
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/MethodOverload
+
+--- ▶️ Run 8/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : MethodOverload
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=MethodOverload
+
+****************************************************************
+--- 📁 Technique : MethodRename
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/MethodRename
+
+--- ▶️ Run 9/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : MethodRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=MethodRename
+
+****************************************************************
+--- 📁 Technique : Reflection
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/Reflection
+
+--- ▶️ Run 10/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : Reflection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=Reflection
+
+****************************************************************
+--- 📁 Technique : ResStringEncryption
+--- 📦 Input Dir : /home/marco/Projects/AndroidObfuscationLLM/0_Data/InputApks/ResStringEncryption
+
+--- ▶️ Run 11/11
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : ResStringEncryption
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-4o-mini | technique=ResStringEncryption
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ ⭐ FINISHED BATCH EXECUTION ⭐ +++
+--> 🕒 Batch End Time   : 2026-04-17 00:50:19 
+--> ⏱️ Elapsed Time     : 10h 39m 51s (38391s)

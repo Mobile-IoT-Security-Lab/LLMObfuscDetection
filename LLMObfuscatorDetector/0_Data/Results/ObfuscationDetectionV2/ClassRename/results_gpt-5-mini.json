@@ -1,0 +1,102 @@
+[
+    {
+        "sha256": "F278E1216EB18E8016727645537B3FF3B85065BB5191822246BE200B3D8F60EF",
+        "pkgName": "pd2.p8dbdd.p101",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 583,
+        "numSmaliClassesAnalyzed": 231,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 1.0
+    },
+    {
+        "sha256": "F0D8EA319F65DBB449B80BDD5CE3B36618DCD8E8B3E2C66283583FD1A6BDDCE5",
+        "pkgName": "p4d.pb916badf2.pb403bad3",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1635,
+        "numSmaliClassesAnalyzed": 311,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 1.0
+    },
+    {
+        "sha256": "AC60202CED6CCB62C2267A21F9FD5DCC049E44E39D5E32A84CDC96FF0208AE09",
+        "pkgName": "O66.cYU7jq.YixYZYIwEIMMW.jJSl1",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1233,
+        "numSmaliClassesAnalyzed": 292,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 1.0
+    },
+    {
+        "sha256": "C421B6C0CAB7679C999A2D3E357BEF5F56A4320BF1CC923AEAAABC907030A4BF",
+        "pkgName": "O66.nUXCa.ZKgF.XFg8s",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 3362,
+        "numSmaliClassesAnalyzed": 340,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.99
+    },
+    {
+        "sha256": "62556A175630DC1421FA76090928E2B596040270E280E72767919F2AF1B86F53",
+        "pkgName": "p4d.p129cde3.pc31b32.pd8216149c08c77",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 340,
+        "numSmaliClassesAnalyzed": 180,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.99
+    },
+    {
+        "sha256": "5362B3F084EA07C045049103B0391B3022DA9A4D3665A27F763702BBDAD4B4F2",
+        "pkgName": "p5.p6dde2aae09.pc31b32.p1676b610.pad42",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1213,
+        "numSmaliClassesAnalyzed": 291,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 1.0
+    },
+    {
+        "sha256": "37FD52EC147E639D93DC29C7D9F78D289903899DA3B32AFAC0EF2710D4CAD614",
+        "pkgName": "b5.xLmFchA.Au0.QzFZdd2Up",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 268,
+        "numSmaliClassesAnalyzed": 159,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.99
+    },
+    {
+        "sha256": "F3BD938C8B00AE6D256FB3CA2DC7C9F827970D730EAD0ED6CB900812341C3C5F",
+        "pkgName": "b5.jDfbArhMCN0.UDnVoJLrhkajAk.XFg8s",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 3902,
+        "numSmaliClassesAnalyzed": 345,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.99
+    },
+    {
+        "sha256": "7637984D07D443F9801B02EA5339CB963940A6E19DA7C68BD801077CF01FC028",
+        "pkgName": "p8.pbf9ed.p418.pad42",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 808,
+        "numSmaliClassesAnalyzed": 258,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 1.0
+    },
+    {
+        "sha256": "CD90F96835D9C34988EEDDEE8DBCA097C28D5538283F16E9F6294E4B8D8B703A",
+        "pkgName": "SI.y53GQpXE5pE.UbnJjk.XFg8s",
+        "obfuscationTechnique": "ClassRename",
+        "status": "SUCCESS",
+        "numSmaliClasses": 418,
+        "numSmaliClassesAnalyzed": 201,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.99
+    }
+]

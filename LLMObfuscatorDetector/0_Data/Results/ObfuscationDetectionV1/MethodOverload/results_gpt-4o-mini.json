@@ -1,0 +1,102 @@
+[
+    {
+        "sha256": "3AFC1293765E9F10CCD9B8F4C42F2D697F68CC080F29FBA707C5B79757C40004",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 105,
+        "numSmaliClassesAnalyzed": 82,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.04
+    },
+    {
+        "sha256": "D099CE27B6E4659BD5359A81D9122DF5773D1CC2571061956E27A3C4DAD4EE0F",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 116,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.01
+    },
+    {
+        "sha256": "D6AD81A54AE4BD8C6B355411848E71D7CA769B13FDADC3E82BE364D37D733253",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 172,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.06
+    },
+    {
+        "sha256": "5F5E4C287D800E68D3693EFD88B5F1F2C4767FCC9A67EB11C45740C2BF6C90D5",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 299,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "C0EA7590E0F2EC1660F85BB496EEC7DC1AE1C6E3F503B8351A966F9E074160DD",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 49,
+        "numSmaliClassesAnalyzed": 44,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.05
+    },
+    {
+        "sha256": "7C85694649B7839DC7877AE56CEDC363D6075A27B6DDBC6D44B5DB42405ADD17",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 133,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "060A0A36C13088846AD6ED42450945BF843C43E6B9DF7177C6D1B61F160C6765",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "2E60D5C328A36085405AF3BD859FEA03E6ABCF8CBCE3BFBBFF58CBD48DF5541E",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "55136190771A6A909DC4442E4F25955002B523ADAE3E8759E9E93512DF2BD146",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 162,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "EA45C2176782A6F4F669C35C1CA23849BAAA3FE47C86BB881559E1CB001F8533",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 88,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.01
+    }
+]

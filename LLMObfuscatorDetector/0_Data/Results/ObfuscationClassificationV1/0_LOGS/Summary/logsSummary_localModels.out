@@ -1,0 +1,129 @@
+============================================================
+--- 🚀 ENV CONFIGURATION
+--- 📂 Input Root  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/
+--- 💾 Output Root : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/
+--- 🐍 Python Bin  : python3
+--- 📝 logsBatch   : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/3_ObfuscationClassification/logsSummary.out
+--- 📝 logsFull    : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/3_ObfuscationClassification/logsFull.out
+============================================================
+
+============================================================
+--- 🚀 EXPERIMENTS CONFIGURATION
+--- 🧪 Techniques Found : 12
+--- 🤖 Models Selected  : 4
+--- 🔢 Total Runs       : 48
+============================================================
+
++++ ⭐STARTING BATCH EXECUTION ⭐ +++
+--> 🕒 START TIME: 2026-05-12 15:34:37
+
+****************************************************************
+--- 📁 Technique : ArithmeticBranch
+--- 📦 Input Dir : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ArithmeticBranch
+
+--- ▶️ Run 1/48
+--- 🤖 Model     : gpt-oss:20b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-oss:20b | technique=ArithmeticBranch
+
+--- ▶️ Run 2/48
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ArithmeticBranch
+
+--- ▶️ Run 3/48
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ArithmeticBranch
+
+--- ▶️ Run 4/48
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ArithmeticBranch
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ArithmeticBranch
+
+****************************************************************
+--- 📁 Technique : CallIndirection
+--- 📦 Input Dir : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/CallIndirection
+
+--- ▶️ Run 5/48
+--- 🤖 Model     : gpt-oss:20b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-oss:20b | technique=CallIndirection
+
+--- ▶️ Run 6/48
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=CallIndirection
+
+--- ▶️ Run 7/48
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=CallIndirection
+
+--- ▶️ Run 8/48
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : CallIndirection
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=CallIndirection
+
+****************************************************************
+--- 📁 Technique : ClassRename
+--- 📦 Input Dir : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/ClassRename
+
+--- ▶️ Run 9/48
+--- 🤖 Model     : gpt-oss:20b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-oss:20b | technique=ClassRename
+
+--- ▶️ Run 10/48
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=ClassRename
+
+--- ▶️ Run 11/48
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=ClassRename
+
+--- ▶️ Run 12/48
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : ClassRename
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=qwen3:30b | technique=ClassRename
+
+****************************************************************
+--- 📁 Technique : Clean
+--- 📦 Input Dir : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApks/Clean
+
+--- ▶️ Run 13/48
+--- 🤖 Model     : gpt-oss:20b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gpt-oss:20b | technique=Clean
+
+--- ▶️ Run 14/48
+--- 🤖 Model     : deepseek-r1:32b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=deepseek-r1:32b | technique=Clean
+
+--- ▶️ Run 15/48
+--- 🤖 Model     : gemma3:27b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...
+--- ✅ Completed: model=gemma3:27b | technique=Clean
+
+--- ▶️ Run 16/48
+--- 🤖 Model     : qwen3:30b
+--- 📁 Technique : Clean
+--- ⏳ Launching experiments.py ...

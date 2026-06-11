@@ -1,0 +1,92 @@
+[
+    {
+        "sha256": "1A98E6E35FD8EBB84685C0A7051B74AA617D7309E01E4D7F3F717AA4D824C6EC",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 258,
+        "numSmaliClassesAnalyzed": 152,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.01
+    },
+    {
+        "sha256": "95E3D736E91CC5BB9EB8752C1C02B76AA68EAB96657481DC361B16DBC23305E8",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 116,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.03
+    },
+    {
+        "sha256": "F7867F8D33EA981C801BD1AD1389FA2109C924C28233B1AD77D1FF999AC6B138",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 299,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "5FEB5AE01F743F4D2B49834DD5652766E348FF55A68189F469C2650E972099F4",
+        "pkgName": "com.jarsilio.android.scrambledeggsif.fortunecookies.debug",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 79,
+        "numSmaliClassesAnalyzed": 66,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "255D26352AB1247C42736402AF15E3AD4EC33951AC385817666A67DCC5C0F858",
+        "pkgName": "com.serwylo.lexica",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 131,
+        "numSmaliClassesAnalyzed": 98,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "6CB476895AF2A95265D8482D0956226F88A16B50F55EC62AC718E9C1CBB07B07",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "C491640877CBD5530F684A63786EFBF6940C66712992A1052EC68B5B3F8D2181",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "350E2AA8F08BE4057254182CC24BDF7B4C68BC4B743A95D61CE1D5A98A0C1A1A",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 162,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "180AD0EDAB06AE39288DD0F3B24EAE6497AA67293ED8AF8C266B3CCF9508EFF1",
+        "pkgName": "me.hackerchick.catima",
+        "obfuscationTechnique": "Clean",
+        "status": "SUCCESS",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 88,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.01
+    }
+]

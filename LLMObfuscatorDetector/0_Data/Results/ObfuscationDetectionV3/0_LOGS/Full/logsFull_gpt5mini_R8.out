@@ -1,0 +1,456 @@
+⚡ START OPENAI SHARED BATCH: 2026-05-27 21:19:38 ⚡
+
+--- ⭕ OpenAI Batch Init ...
+--- 🔸 Client ready. Requests will be submitted through the Batch API.
+
+--- ⭕ Loading Prompts...
+--- 📝 ObfuscationDetectionV1: Zero-shot binary obfuscation detection with stricter decision rules.
+--- 📝 ObfuscationDetectionV2: Binary obfuscation detection using a general definition.
+--- 📝 ObfuscationDetectionV3: Binary obfuscation detection using explicit techniques and representative examples.
+
+--- ⭕ Loading APKs...
+--- 🔹 Input APKs Path        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApksTest/R8
+--- 🔹 Obfuscation Technique  : R8
+--- #️⃣  Number of Apps        : 10
+
+--- ▶️ Run 1/3
+--- 📝 Prompt    : ObfuscationDetectionV1
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 1/10
+
+--- ▶️ Run 2/3
+--- 📝 Prompt    : ObfuscationDetectionV2
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 1/10
+
+--- ▶️ Run 3/3
+--- 📝 Prompt    : ObfuscationDetectionV3
+--- 🤖 Model     : gpt-5-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 1/10
+
+
+==================== ⭐ PREPARE SHARED BATCH REQUESTS ⭐ ====================
+
+
+--- 🔑 Preparing App SHA256  : E9511E72FCF4BEB788A3D409B317A424447F292CCDD18A3985B4777F87021291
+--- 📦 App pkgName           : com.bitmavrick.lumolight
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3050
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2828 | Removed: 222
+--- 🧹 Filter [tp          ] -> Remaining: 2828 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 2828 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 339
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 483BFCD18C3C49F14468228CBBB0CD79A255DB99FAD4DB980BE35B04C2B6BBE3
+--- 📦 App pkgName           : com.github.ashutoshgngwr.noice
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 7393
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5724 | Removed: 1669
+--- 🧹 Filter [tp          ] -> Remaining: 5443 | Removed: 281
+--- 🧹 Filter [noDollarSign] -> Remaining: 5442 | Removed: 1
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 359
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 2223AEEC43D8246128589C9B138CE522E9A3DE39B462032D3CE4EC45C724510A
+--- 📦 App pkgName           : com.ichi2
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+--- 🔄 pkgName refreshed from manifest: com.ichi2 -> com.ichi2.anki
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9044
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8192 | Removed: 852
+--- 🧹 Filter [tp          ] -> Remaining: 7678 | Removed: 514
+--- 🧹 Filter [noDollarSign] -> Remaining: 7434 | Removed: 244
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 366
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 9E33620E0ED88F82D680D8F1047FB0B9932F7905E3E3136808B6686B3C67ECEE
+--- 📦 App pkgName           : com.jarsilio.android.scrambledeggsif
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 1758
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1324 | Removed: 434
+--- 🧹 Filter [tp          ] -> Remaining: 1247 | Removed: 77
+--- 🧹 Filter [noDollarSign] -> Remaining: 1210 | Removed: 37
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 292
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 5B5E3EECB8E77A59B2D548A5B0D3BDCC16A0B0BFFE35C43AB695D0E04DC8CDEA
+--- 📦 App pkgName           : de.markusfisch.android.binaryeye
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 980
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 761 | Removed: 219
+--- 🧹 Filter [tp          ] -> Remaining: 761 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 749 | Removed: 12
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 255
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 5DCA5D1F2E07BA3FFAC65E1C70A3B144099AA20A2648DE6DBA3700250A47E029
+--- 📦 App pkgName           : de.marmaro.krt.ffupdater
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3097
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2727 | Removed: 370
+--- 🧹 Filter [tp          ] -> Remaining: 2717 | Removed: 10
+--- 🧹 Filter [noDollarSign] -> Remaining: 2148 | Removed: 569
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 327
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 7D80D32794245A417C92AC1B28DD6B11516DAE722B2D42A7034A5C2B566B79DB
+--- 📦 App pkgName           : de.westnordost.streetcomplete
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9234
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9008 | Removed: 226
+--- 🧹 Filter [tp          ] -> Remaining: 8922 | Removed: 86
+--- 🧹 Filter [noDollarSign] -> Remaining: 8748 | Removed: 174
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 369
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping A8.Y | Prompt too large (253534 tokens > 102400.0).
+--- ⏭️ Skipping A8.D0 | Prompt too large (237918 tokens > 102400.0).
+--- ⏭️ Skipping A8.i1 | Prompt too large (244564 tokens > 102400.0).
+--- ⏭️ Skipping A8.m0 | Prompt too large (261927 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : E990DA6083B522A0D2B8E354BE91CF1533A52F2FAFC0CE976C32B1B7BC4FFFF0
+--- 📦 App pkgName           : fr.neamar.kiss
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 244
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 243 | Removed: 1
+--- 🧹 Filter [tp          ] -> Remaining: 243 | Removed: 0
+--- 🧹 Filter [noDollarSign] -> Remaining: 243 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 150
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+
+--- 🔑 Preparing App SHA256  : 4E4A70B4A761852D4BA8D66C6AC13795BDF80A5883C3F30541256A00B06EEC92
+--- 📦 App pkgName           : me.hackerchick.catima
+--- 🧪 obfuscationTechnique  : R8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 8269
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6616 | Removed: 1653
+--- 🧹 Filter [tp          ] -> Remaining: 6471 | Removed: 145
+--- 🧹 Filter [noDollarSign] -> Remaining: 4190 | Removed: 2281
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 352
+
+--- 🗑️ Deleting APK File.
+--- ✅ Success.
+--- 🗑️ Deleting all app-related files
+--- ✅ Success.
+--- ⏭️ Skipping A8.Y | Prompt too large (253647 tokens > 102400.0).
+--- ⏭️ Skipping A8.D0 | Prompt too large (238031 tokens > 102400.0).
+--- ⏭️ Skipping A8.i1 | Prompt too large (244677 tokens > 102400.0).
+--- ⏭️ Skipping A8.m0 | Prompt too large (262040 tokens > 102400.0).
+--- ⏭️ Skipping A8.Y | Prompt too large (253928 tokens > 102400.0).
+--- ⏭️ Skipping A8.D0 | Prompt too large (238312 tokens > 102400.0).
+--- ⏭️ Skipping A8.i1 | Prompt too large (244958 tokens > 102400.0).
+--- ⏭️ Skipping A8.m0 | Prompt too large (262321 tokens > 102400.0).
+
+--- 🧾 Total Shared Batch Requests: 25245
+
+
+==================== ⭐ START OPENAI SHARED BATCH ⭐ ====================
+
+
+--- 🔁 Shared Batch Attempt 1/3 | Requests: 25245
+--- 📦 Attempt 1 Chunk 1 | Requests: 25245
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260527_212325_part1_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1744d0d6648190b2c2bb10bd73a66e
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260527_212325_part1_attempt1_output.jsonl
+--- ✅ Valid Replies: 25245 / 25245
+--- 🔁 Pending Retries: 0
+
+--- 💾 Reports saved: prompt=ObfuscationDetectionV1 | model=gpt-5-mini | technique=R8
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV1/R8/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV1/R8/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Obfuscated Apps [True]  : 10 [100.00%] (out of SUCCESS)
+--- 🔹 Obfuscated Apps [False] : 0 [0.00%] (out of SUCCESS)
+
+--- 💾 Reports saved: prompt=ObfuscationDetectionV2 | model=gpt-5-mini | technique=R8
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV2/R8/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV2/R8/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Obfuscated Apps [True]  : 10 [100.00%] (out of SUCCESS)
+--- 🔹 Obfuscated Apps [False] : 0 [0.00%] (out of SUCCESS)
+
+--- 💾 Reports saved: prompt=ObfuscationDetectionV3 | model=gpt-5-mini | technique=R8
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV3/R8/results_gpt-5-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/ObfuscationDetectionV3/R8/results_gpt-5-mini.csv
+
+--- 📊 Dataset Statistics
+--- 🔹 Total Apps              : 10
+--- 🔹 Success                 : 10 [100.00%]
+--- 🔹 Error                   : 0 [0.00%]
+--- 🔹 Zero Smali Classes      : 0 [0.00%]
+--- 🔹 Obfuscated Apps [True]  : 10 [100.00%] (out of SUCCESS)
+--- 🔹 Obfuscated Apps [False] : 0 [0.00%] (out of SUCCESS)
+
+--- 🔚 END: 2026-05-27 23:39:40 🔚
+--- ⏱️  Time: 02 hours and 20 minutes [8401 seconds] ⏱️

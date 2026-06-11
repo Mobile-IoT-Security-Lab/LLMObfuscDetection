@@ -1,0 +1,130 @@
+============================================================
+--- 🚀 OPENAI SHARED BATCH CONFIGURATION
+--- 📂 Input Root        : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/InputApksTest/
+--- 💾 Output Root       : /home/marco/Projects/20_AndroidObfuscationLLM/0_Data/Results/
+--- 🐍 Python Bin        : python3
+--- ⏱️ Poll Every        : 60s
+--- 🧪 Techniques Found  : 1
+--- 📝 Prompts Selected  : 3
+--- 🤖 Models Selected   : 1
+--- 🔢 Logical Runs      : 3
+--- 📝 logsBatch         : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/2b_ObfuscationDetectionBatch/logsSummary.out
+--- 📝 logsFull          : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/2b_ObfuscationDetectionBatch/logsFull.out
+============================================================
+
++++ ⭐ STARTING OPENAI SHARED BATCH EXECUTION ⭐ +++
+--> 🕒 START TIME: 2026-05-28 10:48:04
+--- 📦 All logical runs will be queued into shared OpenAI Batch submission(s).
+--- ▶️ Run 1/3
+--- 📝 Prompt    : ObfuscationDetectionV1
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 0/10
+--- ▶️ Run 2/3
+--- 📝 Prompt    : ObfuscationDetectionV2
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 0/10
+--- ▶️ Run 3/3
+--- 📝 Prompt    : ObfuscationDetectionV3
+--- 🤖 Model     : gpt-4o-mini
+--- 📁 Technique : R8
+--- 🔄 Existing Results: 0/10
+--- 🧾 Total Shared Batch Requests: 28476
+--- 🔁 Shared Batch Attempt 1/3 | Requests: 28476
+--- 📦 Attempt 1 Chunk 1 | Requests: 28476
+--- 🆔 Batch ID: batch_6a18027cef748190bb0b7e72358daa84
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- ✅ Valid Replies: 28476 / 28476
+--- 🔁 Pending Retries: 0
+--- 💾 Reports saved: prompt=ObfuscationDetectionV1 | model=gpt-4o-mini | technique=R8
+--- 💾 Reports saved: prompt=ObfuscationDetectionV2 | model=gpt-4o-mini | technique=R8
+--- 💾 Reports saved: prompt=ObfuscationDetectionV3 | model=gpt-4o-mini | technique=R8
+--- 🔚 END: 2026-05-28 12:14:41 🔚
+--- ✅ Completed shared Batch campaign | elapsed=1h 26m 38s (5198s)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ ⭐ FINISHED OPENAI SHARED BATCH EXECUTION ⭐ +++
+--> 🕒 Batch End Time   : 2026-05-28 12:14:42 
+--> ⏱️ Elapsed Time     : 1h 26m 38s (5198s)

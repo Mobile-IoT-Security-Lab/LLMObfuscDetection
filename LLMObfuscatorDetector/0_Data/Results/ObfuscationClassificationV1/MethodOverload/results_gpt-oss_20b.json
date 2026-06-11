@@ -1,0 +1,181 @@
+[
+    {
+        "sha256": "3AFC1293765E9F10CCD9B8F4C42F2D697F68CC080F29FBA707C5B79757C40004",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 105,
+        "numSmaliClassesAnalyzed": 82,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodRename": 21,
+            "FieldRename": 4,
+            "ClassRename": 22,
+            "Reflection": 1,
+            "CallIndirection": 6,
+            "MethodOverload": 27,
+            "ConstStringEncryption": 1
+        }
+    },
+    {
+        "sha256": "D099CE27B6E4659BD5359A81D9122DF5773D1CC2571061956E27A3C4DAD4EE0F",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 165,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "MethodOverload": 47,
+            "ClassRename": 59,
+            "FieldRename": 1,
+            "MethodRename": 6,
+            "CallIndirection": 2
+        }
+    },
+    {
+        "sha256": "D6AD81A54AE4BD8C6B355411848E71D7CA769B13FDADC3E82BE364D37D733253",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 172,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "FieldRename": 3,
+            "ClassRename": 79,
+            "CallIndirection": 5,
+            "MethodOverload": 13,
+            "ArithmeticBranch": 4,
+            "MethodRename": 15,
+            "Reflection": 1
+        }
+    },
+    {
+        "sha256": "5F5E4C287D800E68D3693EFD88B5F1F2C4767FCC9A67EB11C45740C2BF6C90D5",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1390,
+        "numSmaliClassesAnalyzed": 294,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodOverload": 138,
+            "ClassRename": 25,
+            "MethodRename": 69,
+            "CallIndirection": 43,
+            "ConstStringEncryption": 3,
+            "ArithmeticBranch": 11,
+            "Goto": 1,
+            "Reflection": 3,
+            "FieldRename": 1
+        }
+    },
+    {
+        "sha256": "C0EA7590E0F2EC1660F85BB496EEC7DC1AE1C6E3F503B8351A966F9E074160DD",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 49,
+        "numSmaliClassesAnalyzed": 44,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodRename": 6,
+            "MethodOverload": 21,
+            "ConstStringEncryption": 1,
+            "ClassRename": 14,
+            "ArithmeticBranch": 1,
+            "FieldRename": 1
+        }
+    },
+    {
+        "sha256": "7C85694649B7839DC7877AE56CEDC363D6075A27B6DDBC6D44B5DB42405ADD17",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 133,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodOverload": 63,
+            "CallIndirection": 2,
+            "ClassRename": 12,
+            "MethodRename": 16,
+            "ConstStringEncryption": 3,
+            "ArithmeticBranch": 2,
+            "FieldRename": 1
+        }
+    },
+    {
+        "sha256": "060A0A36C13088846AD6ED42450945BF843C43E6B9DF7177C6D1B61F160C6765",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 193,
+        "numSmaliClassesAnalyzed": 129,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodOverload": 61,
+            "ClassRename": 30,
+            "MethodRename": 23,
+            "CallIndirection": 3,
+            "ArithmeticBranch": 4,
+            "Goto": 4,
+            "ConstStringEncryption": 2,
+            "Reflection": 1,
+            "FieldRename": 1
+        }
+    },
+    {
+        "sha256": "2E60D5C328A36085405AF3BD859FEA03E6ABCF8CBCE3BFBBFF58CBD48DF5541E",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 706,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": "MethodRename",
+        "labelFrequency": {
+            "MethodRename": 131,
+            "MethodOverload": 19,
+            "ClassRename": 64,
+            "Reflection": 7,
+            "ConstStringEncryption": 4,
+            "CallIndirection": 13,
+            "Goto": 9,
+            "FieldRename": 3
+        }
+    },
+    {
+        "sha256": "55136190771A6A909DC4442E4F25955002B523ADAE3E8759E9E93512DF2BD146",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 162,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "MethodRename": 38,
+            "MethodOverload": 56,
+            "ClassRename": 18,
+            "ConstStringEncryption": 2,
+            "Goto": 1
+        }
+    },
+    {
+        "sha256": "EA45C2176782A6F4F669C35C1CA23849BAAA3FE47C86BB881559E1CB001F8533",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "MethodOverload",
+        "status": "SUCCESS",
+        "numSmaliClasses": 113,
+        "numSmaliClassesAnalyzed": 86,
+        "llmFinalLabel": "MethodOverload",
+        "labelFrequency": {
+            "ClassRename": 27,
+            "MethodOverload": 48,
+            "MethodRename": 6,
+            "CallIndirection": 2,
+            "ArithmeticBranch": 2,
+            "ConstStringEncryption": 1
+        }
+    }
+]

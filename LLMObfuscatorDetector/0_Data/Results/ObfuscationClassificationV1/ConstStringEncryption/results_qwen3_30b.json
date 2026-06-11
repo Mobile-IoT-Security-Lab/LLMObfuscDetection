@@ -1,0 +1,173 @@
+[
+    {
+        "sha256": "5AD5F716BF474A78D79DD0E7B7160BCDAA1E1A1F8456263E9BF26486A4DC3384",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 106,
+        "numSmaliClassesAnalyzed": 83,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 67,
+            "ResStringEncryption": 1,
+            "ClassRename": 12,
+            "Goto": 1,
+            "FieldRename": 1,
+            "MethodRename": 1
+        }
+    },
+    {
+        "sha256": "013CE588D61272AB65E4B2F39E7B00597351A0E9D9958506B6232082A4B0F600",
+        "pkgName": "com.bitmavrick.lumolight",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 166,
+        "numSmaliClassesAnalyzed": 117,
+        "llmFinalLabel": "ClassRename",
+        "labelFrequency": {
+            "ConstStringEncryption": 57,
+            "ClassRename": 57,
+            "MethodRename": 1,
+            "FieldRename": 1,
+            "ResStringEncryption": 1
+        }
+    },
+    {
+        "sha256": "E00C4C83219EFA0ABBB6F81D773DE175FD7650E3606CD726A77C66410385D0AF",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 173,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 116,
+            "ClassRename": 4
+        }
+    },
+    {
+        "sha256": "65D8332FFF3D34322E5C619365FF83B9CA78D0854E6297620A5D364DB8FDFF77",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 1391,
+        "numSmaliClassesAnalyzed": 299,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 266,
+            "ClassRename": 21,
+            "MethodRename": 5,
+            "ResStringEncryption": 2,
+            "MethodOverload": 2,
+            "Reflection": 3
+        }
+    },
+    {
+        "sha256": "98C6B9682E87C2C5806D3CD2CF70EDCB616197A8B8CE10D3D54C0EEA6DD113B2",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 50,
+        "numSmaliClassesAnalyzed": 45,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 38,
+            "ResStringEncryption": 2,
+            "FieldRename": 1,
+            "Goto": 1,
+            "ClassRename": 2,
+            "MethodRename": 1
+        }
+    },
+    {
+        "sha256": "5C6E1A96CD6D4017DACE11C1D1F40F2635B8C4E7108934BF56188CBEFC0F010D",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 134,
+        "numSmaliClassesAnalyzed": 100,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ClassRename": 11,
+            "ConstStringEncryption": 84,
+            "CallIndirection": 2,
+            "ResStringEncryption": 1,
+            "FieldRename": 1,
+            "MethodRename": 1
+        }
+    },
+    {
+        "sha256": "314882944FDC553BA7CF09CE5F77C1C0D33C8F619D09B532902ED286B88629AF",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 194,
+        "numSmaliClassesAnalyzed": 130,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 106,
+            "ClassRename": 12,
+            "MethodRename": 4,
+            "CallIndirection": 2,
+            "ResStringEncryption": 4,
+            "MethodOverload": 1,
+            "FieldRename": 1
+        }
+    },
+    {
+        "sha256": "4EC4155B8117A949DFF6CC3392DF3BEF241E8D33A2FA9F23A0B41938298B90FC",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 707,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 161,
+            "ClassRename": 55,
+            "MethodOverload": 8,
+            "Reflection": 7,
+            "FieldRename": 8,
+            "ResStringEncryption": 3,
+            "CallIndirection": 2,
+            "MethodRename": 3,
+            "Goto": 2,
+            "ArithmeticBranch": 1
+        }
+    },
+    {
+        "sha256": "052931A563335C0CBDFAD4A8E786D45C1FC4366369DC38EC46676132BC815BD5",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 163,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 79,
+            "ArithmeticBranch": 2,
+            "ClassRename": 10,
+            "Goto": 3,
+            "MethodRename": 5,
+            "FieldRename": 2,
+            "ResStringEncryption": 7,
+            "MethodOverload": 4,
+            "CallIndirection": 3
+        }
+    },
+    {
+        "sha256": "8151EE42731D5F8BB18E3E6B0B04F24AC487561B44D1C4D85820BEBEC70423E2",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "ConstStringEncryption",
+        "status": "SUCCESS",
+        "numSmaliClasses": 114,
+        "numSmaliClassesAnalyzed": 89,
+        "llmFinalLabel": "ConstStringEncryption",
+        "labelFrequency": {
+            "ConstStringEncryption": 69,
+            "Goto": 1,
+            "ClassRename": 17,
+            "MethodRename": 2
+        }
+    }
+]

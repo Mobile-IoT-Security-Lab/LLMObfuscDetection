@@ -1,0 +1,2549 @@
+⚡ START OPENAI SHARED BATCH: 2026-05-31 18:11:05 ⚡
+
+--- ⭕ OpenAI Batch Init ...
+--- 🔸 Client ready. Requests will be submitted through the Batch API.
+
+--- ⭕ Loading Prompts...
+--- 📝 ObfuscationDetectionV3: Binary obfuscation detection using explicit techniques and representative examples.
+
+--- ▶️ Run 1/1
+--- 📝 Prompt    : ObfuscationDetectionV3
+--- 🤖 Model     : gpt-4o-mini
+--- 🔄 Existing Results: 9/100
+
+
+==================== ⭐ PREPARE SHARED BATCH REQUESTS ⭐ ====================
+
+
+--- 🔑 Preparing App SHA256  : 5B69CAA16C42F3CF1606F62BC4E138B3498B81A927656CAEDCB04EABED14F8FA
+--- 📦 App pkgName           : uk.co.solus.TowerHamletsLibraries
+--- 📅 addedDate             : 2026-03-25 23:57:13.935398
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 5B69CAA16C42F3CF1606F62BC4E138B3498B81A927656CAEDCB04EABED14F8FA
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9355
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 718 | Removed: 8637
+--- 🧹 Filter [tp          ] -> Remaining: 290 | Removed: 428
+--- 🧹 Filter [noDollarSign] -> Remaining: 116 | Removed: 174
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 90
+
+--- 🔑 Preparing App SHA256  : 6FAF187C09738260B40B4354277AA271EFC234DC37E530716D36ED0F4233A2FB
+--- 📦 App pkgName           : com.simyasolutions.ling.da
+--- 📅 addedDate             : 2026-03-27 04:32:48.229306
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 6FAF187C09738260B40B4354277AA271EFC234DC37E530716D36ED0F4233A2FB
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 44721
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 14307 | Removed: 30414
+--- 🧹 Filter [tp          ] -> Remaining: 2415 | Removed: 11892
+--- 🧹 Filter [noDollarSign] -> Remaining: 1105 | Removed: 1310
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 286
+
+--- 🔑 Preparing App SHA256  : FA502F8D3E55776449E7B65069F962E5B6E463F1EDDF31496E32112090124F52
+--- 📦 App pkgName           : com.siine.app
+--- 📅 addedDate             : 2026-05-11 17:49:33.66164
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: FA502F8D3E55776449E7B65069F962E5B6E463F1EDDF31496E32112090124F52
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 2636
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 192 | Removed: 2444
+--- 🧹 Filter [tp          ] -> Remaining: 71 | Removed: 121
+--- 🧹 Filter [noDollarSign] -> Remaining: 33 | Removed: 38
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 31
+
+--- 🔑 Preparing App SHA256  : BCF0DD318391E4AAC0D257096339132F297A8F6BAC345672CC54F566A5173196
+--- 📦 App pkgName           : com.golden.sweetmemories.songsmp3
+--- 📅 addedDate             : 2026-04-01 01:40:59.597832
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: BCF0DD318391E4AAC0D257096339132F297A8F6BAC345672CC54F566A5173196
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35120
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15548 | Removed: 19572
+--- 🧹 Filter [tp          ] -> Remaining: 9332 | Removed: 6216
+--- 🧹 Filter [noDollarSign] -> Remaining: 4495 | Removed: 4837
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 354
+
+--- 🔑 Preparing App SHA256  : 61F74D94FBA01848C2F3AB8E67ACDC1D6A667263867D637C72F45305752B9BE4
+--- 📦 App pkgName           : com.nomba.business
+--- 📅 addedDate             : 2026-05-17 08:42:43.482267
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 61F74D94FBA01848C2F3AB8E67ACDC1D6A667263867D637C72F45305752B9BE4
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 55119
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15274 | Removed: 39845
+--- 🧹 Filter [tp          ] -> Remaining: 2984 | Removed: 12290
+--- 🧹 Filter [noDollarSign] -> Remaining: 1384 | Removed: 1600
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 301
+--- ⏭️ Skipping com.sp.shuftipro_sdk.utilities.SPUtils | Prompt too large (141842 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 62CAB83D28E4A4B50BDE9758A097443A809DCED8DB6644E036E9CAF0F396BBC0
+--- 📦 App pkgName           : com.telecomsoftware.mobileagent
+--- 📅 addedDate             : 2026-02-20 13:28:06.072999
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 62CAB83D28E4A4B50BDE9758A097443A809DCED8DB6644E036E9CAF0F396BBC0
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 34104
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 11103 | Removed: 23001
+--- 🧹 Filter [tp          ] -> Remaining: 3822 | Removed: 7281
+--- 🧹 Filter [noDollarSign] -> Remaining: 1515 | Removed: 2307
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 307
+
+--- 🔑 Preparing App SHA256  : C5E9835C1D5A6DF478F94F9647870BC95BEC2DFFEC6462F1F900C57482E5CFA6
+--- 📦 App pkgName           : com.radiopetti.sktelevision
+--- 📅 addedDate             : 2026-05-08 03:58:16.089708
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: C5E9835C1D5A6DF478F94F9647870BC95BEC2DFFEC6462F1F900C57482E5CFA6
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 15036
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3076 | Removed: 11960
+--- 🧹 Filter [tp          ] -> Remaining: 2055 | Removed: 1021
+--- 🧹 Filter [noDollarSign] -> Remaining: 1473 | Removed: 582
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 305
+--- ⏭️ Skipping gnu.kawa.slib.pregexp | Prompt too large (116239 tokens > 102400.0).
+--- ⏭️ Skipping gnu.xquery.lang.XQParser | Prompt too large (122621 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 9D84E26FD9E59F2543741F885C126F5E004DA7C5EC7DFB4095B79FB519A2C945
+--- 📦 App pkgName           : at.mmmsoftware.FSNowApp
+--- 📅 addedDate             : 2026-02-20 21:33:20.821054
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 9D84E26FD9E59F2543741F885C126F5E004DA7C5EC7DFB4095B79FB519A2C945
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5841
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 260 | Removed: 5581
+--- 🧹 Filter [tp          ] -> Remaining: 175 | Removed: 85
+--- 🧹 Filter [noDollarSign] -> Remaining: 63 | Removed: 112
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 55
+
+--- 🔑 Preparing App SHA256  : 30DE4D40C772B1729F79650F487B955A748FE0D6BEAF6C45382D31146AB96975
+--- 📦 App pkgName           : com.pp.qa
+--- 📅 addedDate             : 2026-02-17 11:23:00.758973
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 30DE4D40C772B1729F79650F487B955A748FE0D6BEAF6C45382D31146AB96975
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 28724
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7386 | Removed: 21338
+--- 🧹 Filter [tp          ] -> Remaining: 3012 | Removed: 4374
+--- 🧹 Filter [noDollarSign] -> Remaining: 1162 | Removed: 1850
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 289
+--- ⏭️ Skipping expo.modules.kotlin.functions.AsyncFunctionBuilder | Prompt too large (125574 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : F97A21EBEA5A6D8A65BCB8A974EF02662302A884684A54B751F2A168A18B04DA
+--- 📦 App pkgName           : com.wildtribescreenprints
+--- 📅 addedDate             : 2026-02-18 14:21:19.415366
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: F97A21EBEA5A6D8A65BCB8A974EF02662302A884684A54B751F2A168A18B04DA
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 61315
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27296 | Removed: 34019
+--- 🧹 Filter [tp          ] -> Remaining: 17063 | Removed: 10233
+--- 🧹 Filter [noDollarSign] -> Remaining: 7505 | Removed: 9558
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 366
+--- ⏭️ Skipping com.vajro.robin.kotlin.ui.login.fragment.LoginFragmentKt | Prompt too large (105841 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : B114CE6C1DDE3415A698B1BB14548320902EF755DD9B7D136F1EE2299F612A83
+--- 📦 App pkgName           : com.lemonsystems.foodbrother
+--- 📅 addedDate             : 2026-02-10 02:06:31.0107
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: B114CE6C1DDE3415A698B1BB14548320902EF755DD9B7D136F1EE2299F612A83
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 36164
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 10056 | Removed: 26108
+--- 🧹 Filter [tp          ] -> Remaining: 5435 | Removed: 4621
+--- 🧹 Filter [noDollarSign] -> Remaining: 1709 | Removed: 3726
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 314
+--- ⏭️ Skipping com.sendbird.android.channel.GroupChannel | Prompt too large (130133 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : F8F84F113B468FEC11D417DC4138F2C9E24C1A609BE773836EEA354D83407E3F
+--- 📦 App pkgName           : com.etai.thalamus
+--- 📅 addedDate             : 2026-04-10 06:08:32.308289
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: F8F84F113B468FEC11D417DC4138F2C9E24C1A609BE773836EEA354D83407E3F
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 63416
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27213 | Removed: 36203
+--- 🧹 Filter [tp          ] -> Remaining: 8992 | Removed: 18221
+--- 🧹 Filter [noDollarSign] -> Remaining: 3511 | Removed: 5481
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 347
+
+--- 🔑 Preparing App SHA256  : D8E2656FC2B8FCCE6C384CAAAEE8C2BFD9580F0D0B8BE9D61BD9FF89A54C66AB
+--- 📦 App pkgName           : com.ups.mobile.android
+--- 📅 addedDate             : 2026-05-11 11:09:02.566121
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D8E2656FC2B8FCCE6C384CAAAEE8C2BFD9580F0D0B8BE9D61BD9FF89A54C66AB
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 44745
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 33794 | Removed: 10951
+--- 🧹 Filter [tp          ] -> Remaining: 31210 | Removed: 2584
+--- 🧹 Filter [noDollarSign] -> Remaining: 24072 | Removed: 7138
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 379
+
+--- 🔑 Preparing App SHA256  : D7EB5178864EDBB0BFC2B989CF13DB591449D56BC0142CCC7D970F7603A6310A
+--- 📦 App pkgName           : ua.com.presentsimple.viewer
+--- 📅 addedDate             : 2026-04-13 17:31:56.012277
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D7EB5178864EDBB0BFC2B989CF13DB591449D56BC0142CCC7D970F7603A6310A
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 8426
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3681 | Removed: 4745
+--- 🧹 Filter [tp          ] -> Remaining: 3268 | Removed: 413
+--- 🧹 Filter [noDollarSign] -> Remaining: 2190 | Removed: 1078
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 327
+
+--- 🔑 Preparing App SHA256  : 5E444CE5F855FC90190ADFF738D90D0E4A4D5562A5D846ADEBB82D2ABB3AF122
+--- 📦 App pkgName           : wsj.reader_sp
+--- 📅 addedDate             : 2026-03-28 01:12:09.181618
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 5E444CE5F855FC90190ADFF738D90D0E4A4D5562A5D846ADEBB82D2ABB3AF122
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 70084
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 36763 | Removed: 33321
+--- 🧹 Filter [tp          ] -> Remaining: 24286 | Removed: 12477
+--- 🧹 Filter [noDollarSign] -> Remaining: 17910 | Removed: 6376
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 377
+--- ⏭️ Skipping com.braze.Braze | Prompt too large (132328 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 2E666C996D6C1224759DBA1AA0426F7B12A0CE5738450619EC5BA8A5817F6185
+--- 📦 App pkgName           : kr.co.mountainbook.android.alpineclub
+--- 📅 addedDate             : 2026-05-13 02:38:26.193762
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 2E666C996D6C1224759DBA1AA0426F7B12A0CE5738450619EC5BA8A5817F6185
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 23451
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 13145 | Removed: 10306
+--- 🧹 Filter [tp          ] -> Remaining: 8882 | Removed: 4263
+--- 🧹 Filter [noDollarSign] -> Remaining: 3794 | Removed: 5088
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 349
+
+--- 🔑 Preparing App SHA256  : 0204BEC0A5777AF1D448A09872348DA019DDD49F776E2CFBF8C03C38E27508B7
+--- 📦 App pkgName           : com.time2staff
+--- 📅 addedDate             : 2026-01-11 09:08:13.321925
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 0204BEC0A5777AF1D448A09872348DA019DDD49F776E2CFBF8C03C38E27508B7
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 52665
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 19261 | Removed: 33404
+--- 🧹 Filter [tp          ] -> Remaining: 6317 | Removed: 12944
+--- 🧹 Filter [noDollarSign] -> Remaining: 2330 | Removed: 3987
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 330
+
+--- 🔑 Preparing App SHA256  : 641509CE3F219573BB8D84864EE04F0704FFFCDA253D58088776A631A75EFE87
+--- 📦 App pkgName           : com.im30.ROE.gp
+--- 📅 addedDate             : 2026-04-12 16:23:43.707373
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 641509CE3F219573BB8D84864EE04F0704FFFCDA253D58088776A631A75EFE87
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 26671
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 11462 | Removed: 15209
+--- 🧹 Filter [tp          ] -> Remaining: 2733 | Removed: 8729
+--- 🧹 Filter [noDollarSign] -> Remaining: 1179 | Removed: 1554
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 290
+
+--- 🔑 Preparing App SHA256  : C376D62007F03D7289D222C79B716576ED9372AC8505CADF7E3B09A0CE7E6EC3
+--- 📦 App pkgName           : state.countryballs.dictators.io
+--- 📅 addedDate             : 2026-04-08 06:28:12.371577
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: C376D62007F03D7289D222C79B716576ED9372AC8505CADF7E3B09A0CE7E6EC3
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 76169
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 43836 | Removed: 32333
+--- 🧹 Filter [tp          ] -> Remaining: 19182 | Removed: 24654
+--- 🧹 Filter [noDollarSign] -> Remaining: 9625 | Removed: 9557
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 370
+
+--- 🔑 Preparing App SHA256  : 7A6BC18DB954611F82D5511230131F66A1AC0D9B1FBAF9935EAC92C84B76DB98
+--- 📦 App pkgName           : net.e_motto.yAVzPjDu
+--- 📅 addedDate             : 2026-05-11 02:56:09.175634
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 7A6BC18DB954611F82D5511230131F66A1AC0D9B1FBAF9935EAC92C84B76DB98
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3854
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 789 | Removed: 3065
+--- 🧹 Filter [tp          ] -> Remaining: 157 | Removed: 632
+--- 🧹 Filter [noDollarSign] -> Remaining: 59 | Removed: 98
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 52
+
+--- 🔑 Preparing App SHA256  : 4A0BB0AD657EA9226E2E7631362D2B6435DA4236FFF26EDC34054CE55FA17BE1
+--- 📦 App pkgName           : com.showtimezone.lcf
+--- 📅 addedDate             : 2026-04-23 04:42:03.420493
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 4A0BB0AD657EA9226E2E7631362D2B6435DA4236FFF26EDC34054CE55FA17BE1
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 16254
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6806 | Removed: 9448
+--- 🧹 Filter [tp          ] -> Remaining: 3150 | Removed: 3656
+--- 🧹 Filter [noDollarSign] -> Remaining: 1560 | Removed: 1590
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 309
+
+--- 🔑 Preparing App SHA256  : 9A4BF60F89EAE202E8F24E6E304C6BAF5D7D3E7B07FBED313E718D3FB69577A6
+--- 📦 App pkgName           : com.isaakhanimann.journal
+--- 📅 addedDate             : 2026-01-31 12:57:50.738719
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 9A4BF60F89EAE202E8F24E6E304C6BAF5D7D3E7B07FBED313E718D3FB69577A6
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 9958
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9597 | Removed: 361
+--- 🧹 Filter [tp          ] -> Remaining: 5720 | Removed: 3877
+--- 🧹 Filter [noDollarSign] -> Remaining: 5720 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 361
+
+--- 🔑 Preparing App SHA256  : 129283D3A6FD375A6E6B779AC218DF4A88B310D19B867243D846B1F1523E726A
+--- 📦 App pkgName           : com.devup.qcm.maker
+--- 📅 addedDate             : 2026-04-28 14:11:57.976604
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 129283D3A6FD375A6E6B779AC218DF4A88B310D19B867243D846B1F1523E726A
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 48733
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 30191 | Removed: 18542
+--- 🧹 Filter [tp          ] -> Remaining: 28821 | Removed: 1370
+--- 🧹 Filter [noDollarSign] -> Remaining: 22622 | Removed: 6199
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 378
+
+--- 🔑 Preparing App SHA256  : D3D27AC6FF2C3A83FF38BB11ED6CABEB41567E2F0B9FABE0268B7DCB539E0F87
+--- 📦 App pkgName           : com.outerminds.tubular
+--- 📅 addedDate             : 2026-01-12 20:44:26.275464
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D3D27AC6FF2C3A83FF38BB11ED6CABEB41567E2F0B9FABE0268B7DCB539E0F87
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 38012
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15048 | Removed: 22964
+--- 🧹 Filter [tp          ] -> Remaining: 6763 | Removed: 8285
+--- 🧹 Filter [noDollarSign] -> Remaining: 3434 | Removed: 3329
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 346
+
+--- 🔑 Preparing App SHA256  : 9BF584E34F56ABFD68E4D56553AB2EDA6E49D104605BD95B1EE24AE024DA6A8B
+--- 📦 App pkgName           : com.com2us.smon.normal.freefull.google.kr.android.common
+--- 📅 addedDate             : 2026-01-01 04:31:17.937602
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 9BF584E34F56ABFD68E4D56553AB2EDA6E49D104605BD95B1EE24AE024DA6A8B
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 22320
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8506 | Removed: 13814
+--- 🧹 Filter [tp          ] -> Remaining: 4855 | Removed: 3651
+--- 🧹 Filter [noDollarSign] -> Remaining: 1127 | Removed: 3728
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 287
+--- ⏭️ Skipping com.hive.authv4.AuthV4Impl | Prompt too large (148412 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : FE575AE254D6F6245B76954D707B4E0F94D6320F03EEAFFCAD68BF2008FC5369
+--- 📦 App pkgName           : jp.digimerce.cranejp1
+--- 📅 addedDate             : 2026-01-12 19:25:48.993822
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: FE575AE254D6F6245B76954D707B4E0F94D6320F03EEAFFCAD68BF2008FC5369
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 66484
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 32384 | Removed: 34100
+--- 🧹 Filter [tp          ] -> Remaining: 16915 | Removed: 15469
+--- 🧹 Filter [noDollarSign] -> Remaining: 8380 | Removed: 8535
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 368
+--- ⏭️ Skipping com.mbridge.msdk.video.bt.component.a | Prompt too large (105653 tokens > 102400.0).
+--- ⏭️ Skipping com.inmobi.media.Q0 | Prompt too large (173325 tokens > 102400.0).
+--- ⏭️ Skipping com.ironsource.mediationsdk.p | Prompt too large (148705 tokens > 102400.0).
+--- ⏭️ Skipping net.pubnative.lite.sdk.utils.svgparser.utils.SVGAndroidRenderer | Prompt too large (179751 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 2410AC3F0F4412DF151D7B57A7F78044BF427C5250B796A39F79462ECC5111A6
+--- 📦 App pkgName           : com.app.reckn.host
+--- 📅 addedDate             : 2026-02-27 23:37:47.723008
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 2410AC3F0F4412DF151D7B57A7F78044BF427C5250B796A39F79462ECC5111A6
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 78556
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 41362 | Removed: 37194
+--- 🧹 Filter [tp          ] -> Remaining: 7575 | Removed: 33787
+--- 🧹 Filter [noDollarSign] -> Remaining: 2998 | Removed: 4577
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 341
+--- ⏭️ Skipping com.mastercard.terminalsdk.exception.ReaderBusyException | Prompt too large (151626 tokens > 102400.0).
+--- ⏭️ Skipping com.s.d.SDKs | Prompt too large (104465 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 30DC260636CBC543A10A25A2B3B330D8B6C0F624948EE8E887CA6214A892E707
+--- 📦 App pkgName           : io.localexpress.brothersfreshmarketplace
+--- 📅 addedDate             : 2026-02-10 02:35:05.299585
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 30DC260636CBC543A10A25A2B3B330D8B6C0F624948EE8E887CA6214A892E707
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 62118
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27907 | Removed: 34211
+--- 🧹 Filter [tp          ] -> Remaining: 8700 | Removed: 19207
+--- 🧹 Filter [noDollarSign] -> Remaining: 4128 | Removed: 4572
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 352
+--- ⏭️ Skipping mf.org.apache.xerces.impl.xs.traversers.XSDHandler | Prompt too large (139595 tokens > 102400.0).
+--- ⏭️ Skipping com.idtechproducts.device.WorldPay | Prompt too large (105213 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : D4D00E9F00591DD5147D2ED368DCCD5F24C501A3B1158D4B2A13FF881EF5EAD2
+--- 📦 App pkgName           : com.prenly.byggteknik
+--- 📅 addedDate             : 2026-03-19 22:15:59.831639
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D4D00E9F00591DD5147D2ED368DCCD5F24C501A3B1158D4B2A13FF881EF5EAD2
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 15627
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15001 | Removed: 626
+--- 🧹 Filter [tp          ] -> Remaining: 12865 | Removed: 2136
+--- 🧹 Filter [noDollarSign] -> Remaining: 10229 | Removed: 2636
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 371
+
+--- 🔑 Preparing App SHA256  : C3454FC232A0D1578814713B72A0DAD693FA1E26534018DF6C413E2704DD18BA
+--- 📦 App pkgName           : com.prestomusic.app
+--- 📅 addedDate             : 2026-02-20 16:34:11.239101
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: C3454FC232A0D1578814713B72A0DAD693FA1E26534018DF6C413E2704DD18BA
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 17131
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1801 | Removed: 15330
+--- 🧹 Filter [tp          ] -> Remaining: 347 | Removed: 1454
+--- 🧹 Filter [noDollarSign] -> Remaining: 153 | Removed: 194
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 110
+
+--- 🔑 Preparing App SHA256  : F2C9AC33A85FAB8C1FA624929DEFAB54DA29E217D4E568B09F964E6F8A57103C
+--- 📦 App pkgName           : pt.albatrozdigital.jfquintadoanjo
+--- 📅 addedDate             : 2026-04-23 09:49:47.358206
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: F2C9AC33A85FAB8C1FA624929DEFAB54DA29E217D4E568B09F964E6F8A57103C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3940
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3366 | Removed: 574
+--- 🧹 Filter [tp          ] -> Remaining: 3257 | Removed: 109
+--- 🧹 Filter [noDollarSign] -> Remaining: 2963 | Removed: 294
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 341
+
+--- 🔑 Preparing App SHA256  : 65AE29F046089A0BCD347F6B3A63EDE7E11F72F983BAF801FA35C4B3B07DF401
+--- 📦 App pkgName           : com.muso.musicplayer
+--- 📅 addedDate             : 2026-04-23 23:16:37.697251
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 65AE29F046089A0BCD347F6B3A63EDE7E11F72F983BAF801FA35C4B3B07DF401
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 50486
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 35787 | Removed: 14699
+--- 🧹 Filter [tp          ] -> Remaining: 25408 | Removed: 10379
+--- 🧹 Filter [noDollarSign] -> Remaining: 14907 | Removed: 10501
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 375
+
+--- 🔑 Preparing App SHA256  : D29F856A2B32FF1590C76DD90A3C337CDA49E49F54F2BD9F92EDF1C45E39EEF8
+--- 📦 App pkgName           : com.tibetanapp
+--- 📅 addedDate             : 2026-04-04 16:24:13.647293
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D29F856A2B32FF1590C76DD90A3C337CDA49E49F54F2BD9F92EDF1C45E39EEF8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 23354
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7821 | Removed: 15533
+--- 🧹 Filter [tp          ] -> Remaining: 5059 | Removed: 2762
+--- 🧹 Filter [noDollarSign] -> Remaining: 3126 | Removed: 1933
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 343
+
+--- 🔑 Preparing App SHA256  : F5339B5F9A686AD7EBD78DA7A5AA1EE40DD2BBA30684E3FB318561DE08163617
+--- 📦 App pkgName           : com.alchemist.nightwatchman
+--- 📅 addedDate             : 2026-03-24 04:26:33.092014
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: F5339B5F9A686AD7EBD78DA7A5AA1EE40DD2BBA30684E3FB318561DE08163617
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5135
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3935 | Removed: 1200
+--- 🧹 Filter [tp          ] -> Remaining: 3904 | Removed: 31
+--- 🧹 Filter [noDollarSign] -> Remaining: 2618 | Removed: 1286
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 336
+
+--- 🔑 Preparing App SHA256  : A2629E203F6C4E4BC8D3F088B86F7E5B3526E8391CBBA5E5B35DEF447B01204C
+--- 📦 App pkgName           : com.openmygame.games.android.fillwordsoffline
+--- 📅 addedDate             : 2026-05-28 16:33:58.04568
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: A2629E203F6C4E4BC8D3F088B86F7E5B3526E8391CBBA5E5B35DEF447B01204C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 109210
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 69549 | Removed: 39661
+--- 🧹 Filter [tp          ] -> Remaining: 40590 | Removed: 28959
+--- 🧹 Filter [noDollarSign] -> Remaining: 20449 | Removed: 20141
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 378
+
+--- 🔑 Preparing App SHA256  : DCC50E433F01085B9A9456C1FAD9779C0C6F4A2C4B50F30F68B44EE5462D3B6C
+--- 📦 App pkgName           : omnys.com.cell.data
+--- 📅 addedDate             : 2026-03-31 19:13:06.178612
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: DCC50E433F01085B9A9456C1FAD9779C0C6F4A2C4B50F30F68B44EE5462D3B6C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 5131
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1029 | Removed: 4102
+--- 🧹 Filter [tp          ] -> Remaining: 321 | Removed: 708
+--- 🧹 Filter [noDollarSign] -> Remaining: 157 | Removed: 164
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 112
+
+--- 🔑 Preparing App SHA256  : 142CC3532653E55344FC79171EB2B2FE8F216ED67C8BDEE03DF35AE769279959
+--- 📦 App pkgName           : com.ktzmico.client
+--- 📅 addedDate             : 2026-03-06 08:39:11.739041
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 142CC3532653E55344FC79171EB2B2FE8F216ED67C8BDEE03DF35AE769279959
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 86486
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 37770 | Removed: 48716
+--- 🧹 Filter [tp          ] -> Remaining: 25025 | Removed: 12745
+--- 🧹 Filter [noDollarSign] -> Remaining: 12461 | Removed: 12564
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 373
+
+--- 🔑 Preparing App SHA256  : 694E6D872B00D3E0EAADB9B05F7009916A65BD46AC35146BB1648CAA841BDE0C
+--- 📦 App pkgName           : com.thank_you_so_much.mymobi_apps
+--- 📅 addedDate             : 2026-04-11 07:13:33.471653
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 694E6D872B00D3E0EAADB9B05F7009916A65BD46AC35146BB1648CAA841BDE0C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 22239
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 12073 | Removed: 10166
+--- 🧹 Filter [tp          ] -> Remaining: 7637 | Removed: 4436
+--- 🧹 Filter [noDollarSign] -> Remaining: 6509 | Removed: 1128
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 363
+
+--- 🔑 Preparing App SHA256  : AF5097B88DFC795011F629BCF091F3F6492F9CEF253DB053F86744C530F2B268
+--- 📦 App pkgName           : com.subsplashconsulting.s_PRTRBM
+--- 📅 addedDate             : 2026-03-31 22:45:55.173219
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: AF5097B88DFC795011F629BCF091F3F6492F9CEF253DB053F86744C530F2B268
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 21920
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 15238 | Removed: 6682
+--- 🧹 Filter [tp          ] -> Remaining: 11810 | Removed: 3428
+--- 🧹 Filter [noDollarSign] -> Remaining: 8232 | Removed: 3578
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 368
+
+--- 🔑 Preparing App SHA256  : 23CA0B86F08C86514838E36A54258F6F03BA7A5897DFB134FB742F388B5BF7DE
+--- 📦 App pkgName           : com.imtihanat.wattaniya
+--- 📅 addedDate             : 2026-02-01 15:59:52.991557
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 23CA0B86F08C86514838E36A54258F6F03BA7A5897DFB134FB742F388B5BF7DE
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 13260
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2587 | Removed: 10673
+--- 🧹 Filter [tp          ] -> Remaining: 1961 | Removed: 626
+--- 🧹 Filter [noDollarSign] -> Remaining: 1427 | Removed: 534
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 303
+
+--- 🔑 Preparing App SHA256  : 4FDB904796CCA254A96C951693DE90A98613CD9D5B7D1069F03D73B195A6BD69
+--- 📦 App pkgName           : com.kredily.eye
+--- 📅 addedDate             : 2026-04-16 03:09:26.391123
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 4FDB904796CCA254A96C951693DE90A98613CD9D5B7D1069F03D73B195A6BD69
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6479
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5125 | Removed: 1354
+--- 🧹 Filter [tp          ] -> Remaining: 5040 | Removed: 85
+--- 🧹 Filter [noDollarSign] -> Remaining: 5040 | Removed: 0
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 358
+
+--- 🔑 Preparing App SHA256  : 3F7B34FD5062128D3BE1DD8D56F157A77F06139B5376D37F45D4C47FABB80173
+--- 📦 App pkgName           : com.nonghyup.nhallonebank
+--- 📅 addedDate             : 2026-02-15 11:45:48.145947
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 3F7B34FD5062128D3BE1DD8D56F157A77F06139B5376D37F45D4C47FABB80173
+
+--- ⭕ Decompiling with ApkTool...
+
+
+Error occurred while disassembling class Lcom.amazonaws.metrics.b$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lcom/amazonaws/metrics/b$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lcom/amazonaws/metrics/b$$0;->_init__()V
+
+
+
+Error occurred while disassembling class Lio.lpin.lzone.sdk.b$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lio/lpin/lzone/sdk/b$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lio/lpin/lzone/sdk/b$$0;->_init__()V
+
+
+
+Error occurred while disassembling class Lcom.google.mlkit.common.a$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lcom/google/mlkit/common/a$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lcom/google/mlkit/common/a$$0;->_init__()V
+
+
+
+Error occurred while disassembling class Lcom.nonghyup.mobileid.nhca.utils.DiNeedPermission$gMacAddress$networkCallback$1$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lcom/nonghyup/mobileid/nhca/utils/DiNeedPermission$gMacAddress$networkCallback$1$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lcom/nonghyup/mobileid/nhca/utils/DiNeedPermission$gMacAddress$networkCallback$1$$0;->_init__()V
+
+
+
+Error occurred while disassembling class Lcom.skp.smarttouch.sem.tools.dao.protocol.nrms.IGetPackageAllRight$Request$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lcom/skp/smarttouch/sem/tools/dao/protocol/nrms/IGetPackageAllRight$Request$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lcom/skp/smarttouch/sem/tools/dao/protocol/nrms/IGetPackageAllRight$Request$$0;->_init__()V
+
+
+
+Error occurred while disassembling class Lorg.spongycastle.asn1.cms.Evidence$$0; - skipping class
+org.jf.util.ExceptionWithContext: The last instruction in method Lorg/spongycastle/asn1/cms/Evidence$$0;->_init__()V is truncated
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:99)
+	at org.jf.dexlib2.dexbacked.DexBackedMethodImplementation$1$1.readNextItem(DexBackedMethodImplementation.java:87)
+	at org.jf.dexlib2.dexbacked.util.VariableSizeLookaheadIterator.computeNext(VariableSizeLookaheadIterator.java:60)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:146)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:141)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:279)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:239)
+	at org.jf.baksmali.Adaptors.MethodDefinition.<init>(MethodDefinition.java:86)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:278)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Error while processing method Lorg/spongycastle/asn1/cms/Evidence$$0;->_init__()V
+
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 51119
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27589 | Removed: 23530
+--- 🧹 Filter [tp          ] -> Remaining: 17911 | Removed: 9678
+--- 🧹 Filter [noDollarSign] -> Remaining: 12965 | Removed: 4946
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 374
+
+--- 🔑 Preparing App SHA256  : 7C24FCA273FB9689E2E95CDB867DC4056DF312A72777D6B1B403E7A9F6F37F2C
+--- 📦 App pkgName           : com.tadabburplus.user.tadabburplus_user
+--- 📅 addedDate             : 2026-04-21 02:34:30.889091
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 7C24FCA273FB9689E2E95CDB867DC4056DF312A72777D6B1B403E7A9F6F37F2C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 3928
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3261 | Removed: 667
+--- 🧹 Filter [tp          ] -> Remaining: 2195 | Removed: 1066
+--- 🧹 Filter [noDollarSign] -> Remaining: 1386 | Removed: 809
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 301
+
+--- 🔑 Preparing App SHA256  : DDE83397697C5E9BF7F8282CC3E658E264B1258E7BDA3B697A8C0EBBFF46B155
+--- 📦 App pkgName           : br.mobilibus.mobcampolargo
+--- 📅 addedDate             : 2026-03-26 22:32:19.088907
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: DDE83397697C5E9BF7F8282CC3E658E264B1258E7BDA3B697A8C0EBBFF46B155
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 10966
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6173 | Removed: 4793
+--- 🧹 Filter [tp          ] -> Remaining: 4369 | Removed: 1804
+--- 🧹 Filter [noDollarSign] -> Remaining: 4195 | Removed: 174
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 353
+
+--- 🔑 Preparing App SHA256  : BECA88A06B2CC09FA25B63055675D03DF56B55EC94B76561C9FB1ECD3D5E1D58
+--- 📦 App pkgName           : com.clarkstudio.screw.an.ns
+--- 📅 addedDate             : 2026-05-12 16:25:08.992561
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: BECA88A06B2CC09FA25B63055675D03DF56B55EC94B76561C9FB1ECD3D5E1D58
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 98950
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 64320 | Removed: 34630
+--- 🧹 Filter [tp          ] -> Remaining: 32972 | Removed: 31348
+--- 🧹 Filter [noDollarSign] -> Remaining: 17148 | Removed: 15824
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 376
+
+--- 🔑 Preparing App SHA256  : 061BC1A2B74FDE6E62D29C78293668C8AEE7EEA22A96A3CAB46E0F52855A44FF
+--- 📦 App pkgName           : com.binitex.pianochords
+--- 📅 addedDate             : 2026-05-26 06:04:05.436226
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 061BC1A2B74FDE6E62D29C78293668C8AEE7EEA22A96A3CAB46E0F52855A44FF
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 14463
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5813 | Removed: 8650
+--- 🧹 Filter [tp          ] -> Remaining: 4863 | Removed: 950
+--- 🧹 Filter [noDollarSign] -> Remaining: 2872 | Removed: 1991
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 339
+
+--- 🔑 Preparing App SHA256  : 45F8A3B70F5E1D763711E888D13A76013599F143AFDF57111E76BF5BC0E6C8CF
+--- 📦 App pkgName           : com.infor.LN.QualityInspections
+--- 📅 addedDate             : 2026-01-11 02:04:05.285477
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 45F8A3B70F5E1D763711E888D13A76013599F143AFDF57111E76BF5BC0E6C8CF
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 12517
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2288 | Removed: 10229
+--- 🧹 Filter [tp          ] -> Remaining: 1191 | Removed: 1097
+--- 🧹 Filter [noDollarSign] -> Remaining: 388 | Removed: 803
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 194
+
+--- 🔑 Preparing App SHA256  : 56CAFB568670F4BE5144DEC8C3DA18F5736F49D06D3F7B971B3D953808E591E7
+--- 📦 App pkgName           : fr.neocity.guiclan
+--- 📅 addedDate             : 2026-02-10 18:56:53.547256
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 56CAFB568670F4BE5144DEC8C3DA18F5736F49D06D3F7B971B3D953808E591E7
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 15001
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1699 | Removed: 13302
+--- 🧹 Filter [tp          ] -> Remaining: 285 | Removed: 1414
+--- 🧹 Filter [noDollarSign] -> Remaining: 135 | Removed: 150
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 101
+
+--- 🔑 Preparing App SHA256  : AADC6374C7D27E4382ED24E87B7E54D528EF0C734B2A7E97D0B94F1C3DB6B11F
+--- 📦 App pkgName           : com.tablematches.tablematches
+--- 📅 addedDate             : 2026-02-19 09:20:18.042732
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: AADC6374C7D27E4382ED24E87B7E54D528EF0C734B2A7E97D0B94F1C3DB6B11F
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4552
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1829 | Removed: 2723
+--- 🧹 Filter [tp          ] -> Remaining: 1736 | Removed: 93
+--- 🧹 Filter [noDollarSign] -> Remaining: 1732 | Removed: 4
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 315
+
+--- 🔑 Preparing App SHA256  : A9D3A17718AECF1FFC73331E50490FDA833C50EA0B637B9F951039D547D249C5
+--- 📦 App pkgName           : com.lu_app.ibew1260
+--- 📅 addedDate             : 2026-04-21 14:45:45.245822
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: A9D3A17718AECF1FFC73331E50490FDA833C50EA0B637B9F951039D547D249C5
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 33062
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9276 | Removed: 23786
+--- 🧹 Filter [tp          ] -> Remaining: 2761 | Removed: 6515
+--- 🧹 Filter [noDollarSign] -> Remaining: 967 | Removed: 1794
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 276
+--- ⏭️ Skipping com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView | Prompt too large (102627 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 1C0CEC21C42AFCD56A31EFA9D13DE28546A9E42BF8880212CFDC4D9A0E730F9C
+--- 📦 App pkgName           : com.ShreeCompPIS
+--- 📅 addedDate             : 2026-01-09 04:06:48.541634
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 1C0CEC21C42AFCD56A31EFA9D13DE28546A9E42BF8880212CFDC4D9A0E730F9C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6062
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 884 | Removed: 5178
+--- 🧹 Filter [tp          ] -> Remaining: 51 | Removed: 833
+--- 🧹 Filter [noDollarSign] -> Remaining: 25 | Removed: 26
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 24
+
+--- 🔑 Preparing App SHA256  : 0C50F44EBB40019099287CAA269139189F844F877C66D101B0FE2BDEE3B9CB14
+--- 📦 App pkgName           : com.lukeng.english
+--- 📅 addedDate             : 2026-04-21 11:30:29.801392
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 0C50F44EBB40019099287CAA269139189F844F877C66D101B0FE2BDEE3B9CB14
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 13928
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 10991 | Removed: 2937
+--- 🧹 Filter [tp          ] -> Remaining: 7843 | Removed: 3148
+--- 🧹 Filter [noDollarSign] -> Remaining: 5208 | Removed: 2635
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 358
+
+--- 🔑 Preparing App SHA256  : 1B1FE51AC1EAFCE5DAA9DCCADCD3F837D6AA584826E2B168191B4EE773D3CF34
+--- 📦 App pkgName           : com.goldenvoice.phone.android.goldsecretary2
+--- 📅 addedDate             : 2026-05-15 02:56:14.205802
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 1B1FE51AC1EAFCE5DAA9DCCADCD3F837D6AA584826E2B168191B4EE773D3CF34
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 19342
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5129 | Removed: 14213
+--- 🧹 Filter [tp          ] -> Remaining: 1294 | Removed: 3835
+--- 🧹 Filter [noDollarSign] -> Remaining: 543 | Removed: 751
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 226
+
+--- 🔑 Preparing App SHA256  : 16DEAA40E328310ED53108D32AFA8E927C81D9D810262FF3ABF76CE78B42399C
+--- 📦 App pkgName           : com.guidigo
+--- 📅 addedDate             : 2026-05-07 07:01:29.363613
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 16DEAA40E328310ED53108D32AFA8E927C81D9D810262FF3ABF76CE78B42399C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 24620
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9256 | Removed: 15364
+--- 🧹 Filter [tp          ] -> Remaining: 2646 | Removed: 6610
+--- 🧹 Filter [noDollarSign] -> Remaining: 1102 | Removed: 1544
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 286
+
+--- 🔑 Preparing App SHA256  : 4774ACA4645A1637DC925542A1C98FBA1A7FC5D2CA4A7D4F2FCFF496366E2CE0
+--- 📦 App pkgName           : ru.advantshop.greenpub
+--- 📅 addedDate             : 2026-04-04 19:43:43.997039
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 4774ACA4645A1637DC925542A1C98FBA1A7FC5D2CA4A7D4F2FCFF496366E2CE0
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 7299
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6681 | Removed: 618
+--- 🧹 Filter [tp          ] -> Remaining: 3996 | Removed: 2685
+--- 🧹 Filter [noDollarSign] -> Remaining: 3820 | Removed: 176
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 350
+
+--- 🔑 Preparing App SHA256  : 5F6B2692FF9AFD38A5774F3855C0A75F1C261BF7DDBA40ED39884572CCA5986F
+--- 📦 App pkgName           : com.tmea.wit.app
+--- 📅 addedDate             : 2026-03-26 07:25:24.766848
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 5F6B2692FF9AFD38A5774F3855C0A75F1C261BF7DDBA40ED39884572CCA5986F
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 13195
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 12167 | Removed: 1028
+--- 🧹 Filter [tp          ] -> Remaining: 11120 | Removed: 1047
+--- 🧹 Filter [noDollarSign] -> Remaining: 6369 | Removed: 4751
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 363
+
+--- 🔑 Preparing App SHA256  : 64659A085E4034BF5AED5C5CE9648CA5508BFE04076E50366777361474F3F5EB
+--- 📦 App pkgName           : com.guidebook.apps.fpimpact.android
+--- 📅 addedDate             : 2026-02-05 15:28:39.74829
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 64659A085E4034BF5AED5C5CE9648CA5508BFE04076E50366777361474F3F5EB
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 44464
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 21045 | Removed: 23419
+--- 🧹 Filter [tp          ] -> Remaining: 18363 | Removed: 2682
+--- 🧹 Filter [noDollarSign] -> Remaining: 10341 | Removed: 8022
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 371
+
+--- 🔑 Preparing App SHA256  : 78F654F8E16041F20C17C0F6413AAB74C348921D0BD75839F71B8982C9201B1A
+--- 📦 App pkgName           : com.marianatek.sparboxing
+--- 📅 addedDate             : 2026-04-03 21:05:47.642818
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 78F654F8E16041F20C17C0F6413AAB74C348921D0BD75839F71B8982C9201B1A
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 32832
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27763 | Removed: 5069
+--- 🧹 Filter [tp          ] -> Remaining: 24717 | Removed: 3046
+--- 🧹 Filter [noDollarSign] -> Remaining: 11941 | Removed: 12776
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 373
+
+--- 🔑 Preparing App SHA256  : 6D07E193556760A029E23CE8A08F70AC1807127F88340CCD6510DA300855E696
+--- 📦 App pkgName           : no.nrk.tv
+--- 📅 addedDate             : 2026-05-09 06:35:54.265772
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 6D07E193556760A029E23CE8A08F70AC1807127F88340CCD6510DA300855E696
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 31863
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 28446 | Removed: 3417
+--- 🧹 Filter [tp          ] -> Remaining: 28309 | Removed: 137
+--- 🧹 Filter [noDollarSign] -> Remaining: 19841 | Removed: 8468
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 377
+
+--- 🔑 Preparing App SHA256  : 639F95BC46227ABCA6A928E5DEB9995ECAAF6C33939CFD16B3D497241F18421C
+--- 📦 App pkgName           : com.paykka.mingchang
+--- 📅 addedDate             : 2026-04-10 08:48:53.372463
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 639F95BC46227ABCA6A928E5DEB9995ECAAF6C33939CFD16B3D497241F18421C
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 14084
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7428 | Removed: 6656
+--- 🧹 Filter [tp          ] -> Remaining: 1428 | Removed: 6000
+--- 🧹 Filter [noDollarSign] -> Remaining: 823 | Removed: 605
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 263
+
+--- 🔑 Preparing App SHA256  : 603FE62C615FF321F66D6CB192887F2E84CFFB4ED741A03562DAF575AB937F4E
+--- 📦 App pkgName           : charlys.app
+--- 📅 addedDate             : 2026-03-17 17:37:17.961501
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 603FE62C615FF321F66D6CB192887F2E84CFFB4ED741A03562DAF575AB937F4E
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 29193
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27717 | Removed: 1476
+--- 🧹 Filter [tp          ] -> Remaining: 22797 | Removed: 4920
+--- 🧹 Filter [noDollarSign] -> Remaining: 18103 | Removed: 4694
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 377
+
+--- 🔑 Preparing App SHA256  : D489E1A83DDEEE36B9C7368AF0FEB44A66FAC10B499D90311E2B537D19DCDC90
+--- 📦 App pkgName           : com.intsig.camscanner
+--- 📅 addedDate             : 2026-05-20 08:37:02.311164
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D489E1A83DDEEE36B9C7368AF0FEB44A66FAC10B499D90311E2B537D19DCDC90
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 95054
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 66979 | Removed: 28075
+--- 🧹 Filter [tp          ] -> Remaining: 46757 | Removed: 20222
+--- 🧹 Filter [noDollarSign] -> Remaining: 27577 | Removed: 19180
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 379
+
+--- 🔑 Preparing App SHA256  : F8BABD67A2F604E87650A45B8D6DFE73FFC977A3C38708173078D8DE1DF809B1
+--- 📦 App pkgName           : com.viroroi.SafariHuntingPatrol3D
+--- 📅 addedDate             : 2026-01-03 01:18:24.274381
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: F8BABD67A2F604E87650A45B8D6DFE73FFC977A3C38708173078D8DE1DF809B1
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 10610
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 909 | Removed: 9701
+--- 🧹 Filter [tp          ] -> Remaining: 879 | Removed: 30
+--- 🧹 Filter [noDollarSign] -> Remaining: 499 | Removed: 380
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 218
+
+--- 🔑 Preparing App SHA256  : 94DDF9C87380F36A30DE3599E848AD66457BC326BB421E3012329C294719E844
+--- 📦 App pkgName           : com.almaged432.app670149158706.bird.wallpapers
+--- 📅 addedDate             : 2026-05-01 02:56:27.961017
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 94DDF9C87380F36A30DE3599E848AD66457BC326BB421E3012329C294719E844
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 22228
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 12065 | Removed: 10163
+--- 🧹 Filter [tp          ] -> Remaining: 7630 | Removed: 4435
+--- 🧹 Filter [noDollarSign] -> Remaining: 6502 | Removed: 1128
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 363
+--- ⏭️ Skipping com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView | Prompt too large (103010 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 34035D8E3D9ABD79CE5DF6B12E56C99828EDD6CF7F18E29E8727F330E5FCC260
+--- 📦 App pkgName           : mn.mobicom.onemediastore
+--- 📅 addedDate             : 2026-02-24 23:01:13.401919
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 34035D8E3D9ABD79CE5DF6B12E56C99828EDD6CF7F18E29E8727F330E5FCC260
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 23860
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3868 | Removed: 19992
+--- 🧹 Filter [tp          ] -> Remaining: 683 | Removed: 3185
+--- 🧹 Filter [noDollarSign] -> Remaining: 291 | Removed: 392
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 166
+
+--- 🔑 Preparing App SHA256  : 2E56C80FF58F341E77FD15CC2A26ADE0FE677D8EDCF843856E27FC6B6CD72AB3
+--- 📦 App pkgName           : de.ethon.ht.android
+--- 📅 addedDate             : 2026-04-24 16:48:40.953297
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 2E56C80FF58F341E77FD15CC2A26ADE0FE677D8EDCF843856E27FC6B6CD72AB3
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 7998
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 727 | Removed: 7271
+--- 🧹 Filter [tp          ] -> Remaining: 362 | Removed: 365
+--- 🧹 Filter [noDollarSign] -> Remaining: 150 | Removed: 212
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 109
+
+--- 🔑 Preparing App SHA256  : 5C61B4110D0BDFFD49049EA61536ECF2E6E6B352AE1276ED5DAF3C5619B3B525
+--- 📦 App pkgName           : vr.development.puppy.wallpapers.hd
+--- 📅 addedDate             : 2026-04-23 23:00:47.868129
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 5C61B4110D0BDFFD49049EA61536ECF2E6E6B352AE1276ED5DAF3C5619B3B525
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6346
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 2690 | Removed: 3656
+--- 🧹 Filter [tp          ] -> Remaining: 2582 | Removed: 108
+--- 🧹 Filter [noDollarSign] -> Remaining: 2575 | Removed: 7
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 335
+
+--- 🔑 Preparing App SHA256  : 0B6731B4D70484ACCE52052C7394133E685E8E340A5A18B4380A51AEF8048EE4
+--- 📦 App pkgName           : com.CoinGame.CoinPusher
+--- 📅 addedDate             : 2026-04-25 07:10:13.944544
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 0B6731B4D70484ACCE52052C7394133E685E8E340A5A18B4380A51AEF8048EE4
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 26812
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 10877 | Removed: 15935
+--- 🧹 Filter [tp          ] -> Remaining: 3511 | Removed: 7366
+--- 🧹 Filter [noDollarSign] -> Remaining: 1299 | Removed: 2212
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 297
+
+--- 🔑 Preparing App SHA256  : 15DBD0E2AFF2D92B4F196835B4768C5C53A937F68835959AD671A11E173AA408
+--- 📦 App pkgName           : com.romeubeato.chord_generator_for_guitar_v2
+--- 📅 addedDate             : 2026-05-11 11:11:34.524415
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 15DBD0E2AFF2D92B4F196835B4768C5C53A937F68835959AD671A11E173AA408
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 7243
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5966 | Removed: 1277
+--- 🧹 Filter [tp          ] -> Remaining: 3048 | Removed: 2918
+--- 🧹 Filter [noDollarSign] -> Remaining: 2173 | Removed: 875
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 327
+
+--- 🔑 Preparing App SHA256  : 2DD634C4416A8E18DC5E110FFCA982270D0DDD22D82BDB5622CB288B9AC0491A
+--- 📦 App pkgName           : net.daum.android.dictionary
+--- 📅 addedDate             : 2026-03-04 12:49:32.212927
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 2DD634C4416A8E18DC5E110FFCA982270D0DDD22D82BDB5622CB288B9AC0491A
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 27236
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8091 | Removed: 19145
+--- 🧹 Filter [tp          ] -> Remaining: 5489 | Removed: 2602
+--- 🧹 Filter [noDollarSign] -> Remaining: 1691 | Removed: 3798
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 314
+
+--- 🔑 Preparing App SHA256  : A87675C0914993B1A19F56DED48255D375F4FC32D487211EE811C07BD62AD1F3
+--- 📦 App pkgName           : com.iyigelir.android
+--- 📅 addedDate             : 2026-04-14 12:45:45.223778
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: A87675C0914993B1A19F56DED48255D375F4FC32D487211EE811C07BD62AD1F3
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 38218
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8805 | Removed: 29413
+--- 🧹 Filter [tp          ] -> Remaining: 6376 | Removed: 2429
+--- 🧹 Filter [noDollarSign] -> Remaining: 3171 | Removed: 3205
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 343
+
+--- 🔑 Preparing App SHA256  : 2CD3A40D1B3EFE6219EB871A86B5C88F3634ABDECE1E47810024DCA66A666CA8
+--- 📦 App pkgName           : com.MergeEDU.HoloGlobe
+--- 📅 addedDate             : 2026-02-21 19:25:05.691926
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 2CD3A40D1B3EFE6219EB871A86B5C88F3634ABDECE1E47810024DCA66A666CA8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 20066
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 1611 | Removed: 18455
+--- 🧹 Filter [tp          ] -> Remaining: 739 | Removed: 872
+--- 🧹 Filter [noDollarSign] -> Remaining: 536 | Removed: 203
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 225
+
+--- 🔑 Preparing App SHA256  : 00FC12EA09932C6171BEE2F731700288788D4741CF54A612EF491FDE6768C08E
+--- 📦 App pkgName           : com.uni.retailer
+--- 📅 addedDate             : 2026-04-10 10:35:42.896376
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 00FC12EA09932C6171BEE2F731700288788D4741CF54A612EF491FDE6768C08E
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 21738
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 3352 | Removed: 18386
+--- 🧹 Filter [tp          ] -> Remaining: 652 | Removed: 2700
+--- 🧹 Filter [noDollarSign] -> Remaining: 157 | Removed: 495
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 112
+
+--- 🔑 Preparing App SHA256  : 686D15C7EB6AD1AA83674C1E13149958AB9CFBC8CF13F739B05657DA212515FF
+--- 📦 App pkgName           : uk.co.forms2mobile
+--- 📅 addedDate             : 2026-04-19 06:11:48.390599
+--- 🛡️ VT score              : 1.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 686D15C7EB6AD1AA83674C1E13149958AB9CFBC8CF13F739B05657DA212515FF
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 11349
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 584 | Removed: 10765
+--- 🧹 Filter [tp          ] -> Remaining: 525 | Removed: 59
+--- 🧹 Filter [noDollarSign] -> Remaining: 483 | Removed: 42
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 215
+
+--- 🔑 Preparing App SHA256  : 4D4ACE6D0CA13221DC7DFCBFFBD7780640FA9F53CEFAD2EA07342D08BB0BCA9F
+--- 📦 App pkgName           : com.jhopex.wallpaper
+--- 📅 addedDate             : 2026-05-09 01:16:17.900163
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 4D4ACE6D0CA13221DC7DFCBFFBD7780640FA9F53CEFAD2EA07342D08BB0BCA9F
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 16516
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 4878 | Removed: 11638
+--- 🧹 Filter [tp          ] -> Remaining: 167 | Removed: 4711
+--- 🧹 Filter [noDollarSign] -> Remaining: 95 | Removed: 72
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 77
+
+--- 🔑 Preparing App SHA256  : D579DE536FBC4A3706B37D72108AC39B26AE108D75899DFEAA70E05008440DF1
+--- 📦 App pkgName           : com.arcade.mine
+--- 📅 addedDate             : 2026-04-15 12:53:09.750231
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D579DE536FBC4A3706B37D72108AC39B26AE108D75899DFEAA70E05008440DF1
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 88208
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 51864 | Removed: 36344
+--- 🧹 Filter [tp          ] -> Remaining: 26466 | Removed: 25398
+--- 🧹 Filter [noDollarSign] -> Remaining: 13891 | Removed: 12575
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 374
+--- ⏭️ Skipping com.mbridge.msdk.video.bt.component.a | Prompt too large (105653 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 33F6CCA747D5375C54EA254C210C30B3589E1BD5878B4A6A6F32541966739825
+--- 📦 App pkgName           : com.itchitech.emaapp
+--- 📅 addedDate             : 2026-05-11 03:12:43.130152
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 33F6CCA747D5375C54EA254C210C30B3589E1BD5878B4A6A6F32541966739825
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 11010
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7973 | Removed: 3037
+--- 🧹 Filter [tp          ] -> Remaining: 7809 | Removed: 164
+--- 🧹 Filter [noDollarSign] -> Remaining: 5050 | Removed: 2759
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 358
+
+--- 🔑 Preparing App SHA256  : 866A802DB59E8642EC8049ED0E81BCDA190C2D0A95B18E046844668386D5F1F0
+--- 📦 App pkgName           : com.arketa.tiffanirobbins
+--- 📅 addedDate             : 2026-04-30 00:06:51.831007
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 866A802DB59E8642EC8049ED0E81BCDA190C2D0A95B18E046844668386D5F1F0
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 69717
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 33079 | Removed: 36638
+--- 🧹 Filter [tp          ] -> Remaining: 5539 | Removed: 27540
+--- 🧹 Filter [noDollarSign] -> Remaining: 2271 | Removed: 3268
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 329
+--- ⏭️ Skipping expo.modules.kotlin.views.ViewDefinitionBuilder | Prompt too large (107980 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 1FB91F373C83CF30C054A59DCCFFCA6E5187C13C62ADC5120DE511B3EE1C3FF7
+--- 📦 App pkgName           : com.ovm.ovmapp
+--- 📅 addedDate             : 2026-01-05 04:59:31.133524
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 1FB91F373C83CF30C054A59DCCFFCA6E5187C13C62ADC5120DE511B3EE1C3FF7
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 6064
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 5126 | Removed: 938
+--- 🧹 Filter [tp          ] -> Remaining: 4470 | Removed: 656
+--- 🧹 Filter [noDollarSign] -> Remaining: 3951 | Removed: 519
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 351
+
+--- 🔑 Preparing App SHA256  : 0ECA49BA72907FE1EC387F60190BC5D37E28E5ED80448716B8E21738796F92D8
+--- 📦 App pkgName           : br.gov.caixa.cartoes
+--- 📅 addedDate             : 2026-05-14 18:31:22.388502
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 0ECA49BA72907FE1EC387F60190BC5D37E28E5ED80448716B8E21738796F92D8
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 25923
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 8593 | Removed: 17330
+--- 🧹 Filter [tp          ] -> Remaining: 4763 | Removed: 3830
+--- 🧹 Filter [noDollarSign] -> Remaining: 2356 | Removed: 2407
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 331
+
+--- 🔑 Preparing App SHA256  : 48D55713D35FEE2D02146B4355DFC5AB4C046770AB3A1E3F9FECD3A2040F116B
+--- 📦 App pkgName           : com.go.tou
+--- 📅 addedDate             : 2026-04-18 06:16:01.508349
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 48D55713D35FEE2D02146B4355DFC5AB4C046770AB3A1E3F9FECD3A2040F116B
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 35279
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 27385 | Removed: 7894
+--- 🧹 Filter [tp          ] -> Remaining: 24825 | Removed: 2560
+--- 🧹 Filter [noDollarSign] -> Remaining: 15621 | Removed: 9204
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 375
+
+--- 🔑 Preparing App SHA256  : 9A7FEB1A9C5B05BC35DE6FA417D7A9CE5DA78DDA0B293FBD924C635C955955AC
+--- 📦 App pkgName           : com.gritstudios.animoapp
+--- 📅 addedDate             : 2026-01-27 17:41:47.566737
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 9A7FEB1A9C5B05BC35DE6FA417D7A9CE5DA78DDA0B293FBD924C635C955955AC
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 38764
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 19320 | Removed: 19444
+--- 🧹 Filter [tp          ] -> Remaining: 1312 | Removed: 18008
+--- 🧹 Filter [noDollarSign] -> Remaining: 602 | Removed: 710
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 235
+
+--- 🔑 Preparing App SHA256  : 5293D4C1FD7B82DA30FC08D29B8B34752C8AAC15E0EAD56950C6965F8B0B9B5B
+--- 📦 App pkgName           : com.allez.rider
+--- 📅 addedDate             : 2026-02-22 03:00:32.063506
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 5293D4C1FD7B82DA30FC08D29B8B34752C8AAC15E0EAD56950C6965F8B0B9B5B
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 46921
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 19470 | Removed: 27451
+--- 🧹 Filter [tp          ] -> Remaining: 1939 | Removed: 17531
+--- 🧹 Filter [noDollarSign] -> Remaining: 874 | Removed: 1065
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 268
+
+--- 🔑 Preparing App SHA256  : DA6DA3D77B5C10E9B9170372FB1996B9B9DB469A8CCFE6EE7872E9FCA4B4545E
+--- 📦 App pkgName           : com.fearlesstradershivam.ftsApp
+--- 📅 addedDate             : 2026-03-20 13:50:29.132127
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: DA6DA3D77B5C10E9B9170372FB1996B9B9DB469A8CCFE6EE7872E9FCA4B4545E
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 11471
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 6562 | Removed: 4909
+--- 🧹 Filter [tp          ] -> Remaining: 5766 | Removed: 796
+--- 🧹 Filter [noDollarSign] -> Remaining: 3723 | Removed: 2043
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 349
+
+--- 🔑 Preparing App SHA256  : EC69CCFCA57F3F6ED0D87DAF617CAA073A0B112DA2E9DB51BF0F0EDE384CC4C2
+--- 📦 App pkgName           : com.wincan.mobile
+--- 📅 addedDate             : 2026-02-27 08:09:45.112281
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: EC69CCFCA57F3F6ED0D87DAF617CAA073A0B112DA2E9DB51BF0F0EDE384CC4C2
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 4866
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 216 | Removed: 4650
+--- 🧹 Filter [tp          ] -> Remaining: 201 | Removed: 15
+--- 🧹 Filter [noDollarSign] -> Remaining: 66 | Removed: 135
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 57
+--- ⏭️ Skipping org.qtproject.qt5.android.ExtractStyle | Prompt too large (114868 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : 90FEFF4A3AD8F4275EFADAF9A550CC72A8B867FB1050AF7BF0BDE1C7B12BB1FC
+--- 📦 App pkgName           : com.genius.unicorn.girls.games.Doll.Cooking.Events.Cakes.Bakery
+--- 📅 addedDate             : 2026-05-11 06:35:07.288736
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 90FEFF4A3AD8F4275EFADAF9A550CC72A8B867FB1050AF7BF0BDE1C7B12BB1FC
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 15358
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 643 | Removed: 14715
+--- 🧹 Filter [tp          ] -> Remaining: 280 | Removed: 363
+--- 🧹 Filter [noDollarSign] -> Remaining: 244 | Removed: 36
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 150
+
+--- 🔑 Preparing App SHA256  : 77021DF9B2B5C150B55760319D55C4260E2E5BE90A516236F681249B160F7F1E
+--- 📦 App pkgName           : com.appcommerce.shiluveybar
+--- 📅 addedDate             : 2026-02-25 02:01:29.289527
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 77021DF9B2B5C150B55760319D55C4260E2E5BE90A516236F681249B160F7F1E
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 22362
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 11904 | Removed: 10458
+--- 🧹 Filter [tp          ] -> Remaining: 2379 | Removed: 9525
+--- 🧹 Filter [noDollarSign] -> Remaining: 999 | Removed: 1380
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 278
+
+--- 🔑 Preparing App SHA256  : 9A12E5004C6509DF50A20493282D5D94C01BF14C300C94BE05C78E1BC9452608
+--- 📦 App pkgName           : com.allpay.tw
+--- 📅 addedDate             : 2026-05-24 19:16:35.389622
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 9A12E5004C6509DF50A20493282D5D94C01BF14C300C94BE05C78E1BC9452608
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 10709
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 9656 | Removed: 1053
+--- 🧹 Filter [tp          ] -> Remaining: 9462 | Removed: 194
+--- 🧹 Filter [noDollarSign] -> Remaining: 8969 | Removed: 493
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 369
+
+--- 🔑 Preparing App SHA256  : D1B0BD3A46EF1A3F017BB7B028A6EF8D215FAD57EEF81B6B915BFCFDFC5D0816
+--- 📦 App pkgName           : com.hiddenlake.casino
+--- 📅 addedDate             : 2026-02-23 12:09:31.671323
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: D1B0BD3A46EF1A3F017BB7B028A6EF8D215FAD57EEF81B6B915BFCFDFC5D0816
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 29337
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7757 | Removed: 21580
+--- 🧹 Filter [tp          ] -> Remaining: 539 | Removed: 7218
+--- 🧹 Filter [noDollarSign] -> Remaining: 360 | Removed: 179
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 187
+
+--- 🔑 Preparing App SHA256  : 95A8180007F265E0BD488101384DCC2D0AAEBCF2DB15750074A61D34FD1D3F1E
+--- 📦 App pkgName           : com.goodhealth.app
+--- 📅 addedDate             : 2026-05-26 09:37:35.867677
+--- 🛡️ VT score              : 
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: 95A8180007F265E0BD488101384DCC2D0AAEBCF2DB15750074A61D34FD1D3F1E
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 18591
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 7386 | Removed: 11205
+--- 🧹 Filter [tp          ] -> Remaining: 2995 | Removed: 4391
+--- 🧹 Filter [noDollarSign] -> Remaining: 1151 | Removed: 1844
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 289
+--- ⏭️ Skipping com.canhub.cropper.CropImageOptions | Prompt too large (172864 tokens > 102400.0).
+--- ⏭️ Skipping expo.modules.kotlin.functions.AsyncFunctionBuilder | Prompt too large (129374 tokens > 102400.0).
+
+--- 🔑 Preparing App SHA256  : B7B33EB805CB8905F94AAE1EB4919B372A7E5F4752D7B8A384844F1A11D1D9B5
+--- 📦 App pkgName           : com.nobexinc.wls_8279362756.rc
+--- 📅 addedDate             : 2026-04-05 07:30:15.298615
+--- 🛡️ VT score              : 0.0
+
+--- ⭕ Downloading APK from AndroZoo...
+--- 🔑 SHA256: B7B33EB805CB8905F94AAE1EB4919B372A7E5F4752D7B8A384844F1A11D1D9B5
+
+--- ⭕ Decompiling with ApkTool...
+--- ✅ Success.
+
+--- ⭕ Collecting Smali Classes...
+--- #️⃣ N. Smali Classes: 51293
+
+--- ⭕ Filtering Smali Classes...
+--- 🔹 Filtering Strategy: both
+--- 🧹 Filter [system      ] -> Remaining: 23382 | Removed: 27911
+--- 🧹 Filter [tp          ] -> Remaining: 7913 | Removed: 15469
+--- 🧹 Filter [noDollarSign] -> Remaining: 4571 | Removed: 3342
+
+--- ⭕ Computing Random Sample size [confidence=95%, error margin=5%] ...
+--- #️⃣  Random Sample Size: 355
+
+--- 🧾 Total Shared Batch Requests: 79503
+
+
+==================== ⭐ START OPENAI SHARED BATCH ⭐ ====================
+
+
+--- 🔁 Shared Batch Attempt 1/3 | Requests: 79503
+--- 📦 Attempt 1 Chunk 1 | Requests: 14953 | Size: 190.0 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part1_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1c77b489888190ac4fed409a76bfa7
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part1_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 2 | Requests: 17262 | Size: 190.0 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part2_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1c82025ad0819095cc8a76e9a50c97
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part2_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 3 | Requests: 18232 | Size: 189.9 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part3_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1c8c5b2eb48190ad4d5518ca9e01ee
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part3_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 4 | Requests: 19405 | Size: 190.0 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part4_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1c96e5bdb881908d5f64197d925aa6
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part4_attempt1_output.jsonl
+--- 📦 Attempt 1 Chunk 5 | Requests: 9651 | Size: 105.6 MiB
+
+--- ⭕ Uploading Batch Input: /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part5_attempt1.jsonl
+--- ⭕ Creating OpenAI Batch...
+--- 🆔 Batch ID: batch_6a1ca55b5e48819090df46e7fd2a6eb4
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: validating | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: in_progress | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- ⏳ Batch status: finalizing | sleeping 60s
+--- 🏁 Batch terminal status: completed
+--- 💾 Batch output saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/OpenAiBatchWork/ObfuscationDetectionBatch_20260531_200140_part5_attempt1_output.jsonl
+--- ✅ Valid Replies: 79503 / 79503
+--- 🔁 Pending Retries: 0
+
+--- 💾 Reports saved: prompt=ObfuscationDetectionV3 | model=gpt-4o-mini
+--- 💾 JSON Report saved : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/ObfuscationDetectionV3/results_gpt-4o-mini.json
+--- 💾 CSV Report saved  : /home/marco/Projects/20_AndroidObfuscationLLM/1_Code/6_RQ4/Results/ObfuscationDetectionV3/results_gpt-4o-mini.csv
+
+--- 🔚 END: 2026-05-31 23:47:25 🔚
+--- ⏱️  Time: 05 hours and 36 minutes [20180 seconds] ⏱️

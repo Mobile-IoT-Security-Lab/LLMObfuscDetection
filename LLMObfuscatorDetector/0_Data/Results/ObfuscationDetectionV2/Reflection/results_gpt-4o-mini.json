@@ -1,0 +1,92 @@
+[
+    {
+        "sha256": "E4D878F60ACD01EAAD5BED753D3DD69125F06FFF5EA5A0A640FAE2F5939447FB",
+        "pkgName": "app.simple.peri",
+        "obfuscationTechnique": "Reflection",
+        "status": "ERROR - Traceback (most recent call last): |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/experiments.py\", line 297, in analyzeApkRecord |     classAnalysis = ObfuscationDetectionAnalysisUtils.analyzeSmaliClassWithMajorityVote( |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 240, in analyzeSmaliClassWithMajorityVote |     iterationResult = ObfuscationDetectionAnalysisUtils.askForBooleanLabel(llmInterface, prompt, maxRetries = maxRetries) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 211, in askForBooleanLabel |     rawReply = llmInterface.sendRequest(prompt) |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/LLMUtils.py\", line 198, in sendRequest |     response = self.client.chat.completions.create( |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_utils/_utils.py\", line 286, in wrapper |     return func(*args, **kwargs) |            ^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py\", line 1147, in create |     return self._post( |            ^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_base_client.py\", line 1259, in post |     return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)) |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_base_client.py\", line 1047, in request |     raise self._make_status_error_from_response(err.response) from None | openai.BadRequestError: Error code: 400 - {'error': {'message': \"We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)\", 'type': 'invalid_request_error', 'param': None, 'code': None}} | ",
+        "numSmaliClasses": 106,
+        "numSmaliClassesAnalyzed": 0,
+        "llmFinalLabel": null,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "45826A675ACC813364646E3F9446F84D3F3AF635138FF5A66531C909E79724F7",
+        "pkgName": "com.github.ashutoshgngwr.noice",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 173,
+        "numSmaliClassesAnalyzed": 120,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.07
+    },
+    {
+        "sha256": "6B82BFC309E6206EDEB43AEC498D10058A187D88BD82994FD9C4549FD1451E42",
+        "pkgName": "com.ichi2.anki.debug",
+        "obfuscationTechnique": "Reflection",
+        "status": "ERROR - Traceback (most recent call last): |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/2_ObfuscationDetection/experiments.py\", line 297, in analyzeApkRecord |     classAnalysis = ObfuscationDetectionAnalysisUtils.analyzeSmaliClassWithMajorityVote( |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 240, in analyzeSmaliClassWithMajorityVote |     iterationResult = ObfuscationDetectionAnalysisUtils.askForBooleanLabel(llmInterface, prompt, maxRetries = maxRetries) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/AnalysisUtils.py\", line 211, in askForBooleanLabel |     rawReply = llmInterface.sendRequest(prompt) |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/Projects/AndroidObfuscationLLM/1_Code/LLMUtils.py\", line 198, in sendRequest |     response = self.client.chat.completions.create( |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_utils/_utils.py\", line 286, in wrapper |     return func(*args, **kwargs) |            ^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py\", line 1147, in create |     return self._post( |            ^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_base_client.py\", line 1259, in post |     return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)) |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"/home/marco/miniconda3/envs/marcoEnv/lib/python3.11/site-packages/openai/_base_client.py\", line 1047, in request |     raise self._make_status_error_from_response(err.response) from None | openai.BadRequestError: Error code: 400 - {'error': {'message': \"We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)\", 'type': 'invalid_request_error', 'param': None, 'code': None}} | ",
+        "numSmaliClasses": 1391,
+        "numSmaliClassesAnalyzed": 0,
+        "llmFinalLabel": null,
+        "pctSmaliClassesObfuscated": 0.0
+    },
+    {
+        "sha256": "C11C505F045034425616DB4C1B0EADEA8E7ADB0F523FE4F0E6555755F4E9CE63",
+        "pkgName": "com.jarsilio.android.scrambledeggsif",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 50,
+        "numSmaliClassesAnalyzed": 45,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.07
+    },
+    {
+        "sha256": "31962651B05BC8FAB69B0DF82307F543ED0809E52B9EF09B17182369BB342BD1",
+        "pkgName": "de.markusfisch.android.binaryeye.debug",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 134,
+        "numSmaliClassesAnalyzed": 99,
+        "llmFinalLabel": true,
+        "pctSmaliClassesObfuscated": 0.42
+    },
+    {
+        "sha256": "006999789DD10F0D49A9F383D16CA1BC518C5C1269990EE3B4831A8BCDDD4C98",
+        "pkgName": "de.marmaro.krt.ffupdater",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 194,
+        "numSmaliClassesAnalyzed": 130,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.02
+    },
+    {
+        "sha256": "C166B3C3EBF0046CCA059E56A68385FB22E45CF5DC0989B3930BB1C4B8CA987F",
+        "pkgName": "de.westnordost.streetcomplete.debug",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 707,
+        "numSmaliClassesAnalyzed": 250,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.03
+    },
+    {
+        "sha256": "AC7A4BE42B861A4B034A9B255A132D979C69609426AA967A6917A3F1C181E52B",
+        "pkgName": "fr.neamar.kiss.debug",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 163,
+        "numSmaliClassesAnalyzed": 115,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.21
+    },
+    {
+        "sha256": "875AEC2C111C1F2930C55414A4AEA99FE8D8EDBD829CDC8C6F35243547E08E88",
+        "pkgName": "me.hackerchick.catima.debug",
+        "obfuscationTechnique": "Reflection",
+        "status": "SUCCESS",
+        "numSmaliClasses": 114,
+        "numSmaliClassesAnalyzed": 89,
+        "llmFinalLabel": false,
+        "pctSmaliClassesObfuscated": 0.01
+    }
+]

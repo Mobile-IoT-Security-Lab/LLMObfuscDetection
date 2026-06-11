@@ -1,0 +1,123 @@
+- promptID: ObfuscationDetectionV1
+  promptDescription: Zero-shot binary obfuscation detection with stricter decision rules.
+  promptTemplate: |
+    You are a senior Android reverse engineer specializing in smali and obfuscation analysis.
+
+    Task:
+    Determine whether the given smali class is obfuscated.
+
+    Output rules:
+    - Respond with exactly one word: True or False
+    - No explanations, no punctuation, no extra text!
+
+    Class Name:
+    {className}
+
+    Class Smali Code:
+    {classContent}
+
+    Now provide the Final Output [True/False only]!
+
+- promptID: ObfuscationDetectionV2
+  promptDescription: Binary obfuscation detection using a general definition.
+  promptTemplate: |
+    You are a senior Android reverse engineer specializing in smali and obfuscation analysis.
+
+    Task:
+    Determine whether the given smali class is obfuscated.
+
+    Definition: 
+    Obfuscation is any transformation that makes code harder for a human to understand, analyze, or reverse engineer while preserving its functionality. This applies to any part of the code: not only the method bodies, but also identifiers. If the semantics of the code are intentionally hidden or made impossible to infer, whether through altered logic or through loss of meaningful naming, the code can be considered obfuscated.
+
+    Your task is to determine whether the given smali class shows signs of obfuscation based on this definition, without judging the degree of obfuscation.
+
+    Output rules:
+    - Respond with exactly one word: True or False
+    - No explanations, no punctuation, no extra text!
+
+    Class Name:
+    {className}
+
+    Class Smali Code:
+    {classContent}
+
+    Now provide the Final Output [True/False only]!
+
+- promptID: ObfuscationDetectionV3
+  promptDescription: Binary obfuscation detection using explicit techniques and representative examples.
+  promptTemplate: |
+    You are a senior Android reverse engineer specializing in smali and obfuscation analysis.
+
+    Task:
+    Determine whether the given smali class is obfuscated.
+
+    Definition:
+    Obfuscation is any transformation that makes code harder for a human to understand,analyze, or reverse engineer while preserving its functionality. This applies to any part of the code: not only the method bodies, but also identifiers. If the semantics of the code are intentionally hidden or made impossible to infer, whether through altered logic or through loss of meaningful naming, the code can be considered obfuscated. Naming obfuscation alone is sufficient to classify a class as obfuscated, even if the method bodies appear structurally simple or clean.
+
+    The following techniques are representative examples of common obfuscation patterns, but this list is NOT exhaustive. Obfuscation may also involve custom techniques or combinations of multiple techniques.
+
+    The following techniques are representative examples of common obfuscation patterns, but this list is NOT exhaustive:
+    - ArithmeticBranch: inserting arithmetic-based branches that are never taken
+    - CallIndirection: wrapping method calls inside new methods
+    - ClassRename: class or package names replaced with short, non-semantic identifiers (e.g. single letters, two-letter sequences, or meaningless alphanumeric tokens) such that the original purpose cannot be inferred from the name
+    - ConstStringEncryption: encrypting constant strings
+    - FieldRename: field names replaced with short or non-semantic identifiers
+    - Goto: inserting redundant goto instructions altering control flow
+    - MethodOverload: adding overloaded methods with extra arguments and junk bodies
+    - MethodRename: method names replaced with short or non-semantic identifiers (e.g. single letters a, b, c, d) such that the original purpose cannot be inferred from the name
+    - Reflection: invoking methods via reflection instead of direct calls
+    - ResStringEncryption: encrypting resource strings
+
+    Your task is to determine whether the given smali class shows signs of obfuscation, including but not limited to the techniques listed above.  Only classify as False if both the identifiers AND the method bodies show no signs of intentional obfuscation.
+
+    Output rules:
+    - Respond with exactly one word: True or False
+    - No explanations, no punctuation, no extra text
+
+    Class Name:
+    {className}
+
+    Class Smali Code:
+    {classContent}
+
+    Now provide the Final Output [True/False only]
+
+- promptID: ObfuscationClassificationV1
+  promptDescription: Single-label obfuscation classification with enforced exclusivity.
+  promptTemplate: |
+    You are a senior Android reverse engineer specializing in smali and obfuscation analysis.
+
+    Task:
+    Identify the PRIMARY obfuscation technique used in the class.
+
+    Label set:
+    {expectedLabels}
+
+    Label definitions:
+    - ArithmeticBranch: inserting arithmetic-based branches that are never taken
+    - CallIndirection: wrapping method calls inside new methods
+    - ClassRename: renaming classes and packages
+    - ConstStringEncryption: encrypting constant strings
+    - FieldRename: renaming fields
+    - Goto: inserting redundant goto instructions altering control flow
+    - MethodOverload: adding overloaded methods with extra arguments and junk bodies
+    - MethodRename: renaming methods
+    - Reflection: invoking methods via reflection instead of direct calls
+    - ResStringEncryption: encrypting resource strings
+
+    Instructions:
+    - Select the single most dominant technique
+    - If multiple techniques exist, choose the most evident or impactful one
+    - Ensure the label exactly matches one from the list
+
+    Output rules:
+    - Output exactly one label from the provided list
+    - No explanations, formatting, or additional text!
+
+    Class Name:
+    {className}
+
+    Class Smali Code:
+    {classContent}
+
+    Now provide the Final Output [one label only]!

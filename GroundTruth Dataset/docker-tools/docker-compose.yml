@@ -1,0 +1,13 @@
+volumes:
+  shared_workspace:
+    name: shared_workspace_vol
+
+services:
+  analyzer:
+    build: .
+    volumes:
+      - ./apks:/apks # APK da analizzare
+      - ./results:/results # Report di output
+      - /var/run/docker.sock:/var/run/docker.sock # Permette di lanciare SEBASTiAn via Docker
+      - shared_workspace:/shared # Volume condiviso con SEBASTiAn (path allineato allo script)
+    command: tail -f /dev/null

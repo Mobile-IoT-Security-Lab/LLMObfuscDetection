@@ -1,4 +1,4 @@
-# 🌌 LLM Obfuscation Detection (LLMObfuscDetection)
+# LLM Obfuscation Detection (LLMObfuscDetection)
 
 Welcome to the **LLM Obfuscation Detection** repository. This project is a comprehensive research suite designed for studying, detecting, and analyzing code obfuscation techniques in Android applications (APKs), with a particular focus on those potentially enhanced, generated, or detected by Large Language Models (LLMs).
 

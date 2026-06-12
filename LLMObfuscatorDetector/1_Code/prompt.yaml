@@ -66,7 +66,6 @@
     - MethodOverload: adding overloaded methods with extra arguments and junk bodies
     - MethodRename: method names replaced with short or non-semantic identifiers (e.g. single letters a, b, c, d) such that the original purpose cannot be inferred from the name
     - Reflection: invoking methods via reflection instead of direct calls
-    - ResStringEncryption: encrypting resource strings
 
     Your task is to determine whether the given smali class shows signs of obfuscation, including but not limited to the techniques listed above.  Only classify as False if both the identifiers AND the method bodies show no signs of intentional obfuscation.
 
@@ -103,7 +102,6 @@
     - MethodOverload: adding overloaded methods with extra arguments and junk bodies
     - MethodRename: renaming methods
     - Reflection: invoking methods via reflection instead of direct calls
-    - ResStringEncryption: encrypting resource strings
 
     Instructions:
     - Select the single most dominant technique

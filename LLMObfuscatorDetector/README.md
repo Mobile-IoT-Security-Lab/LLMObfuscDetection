@@ -35,6 +35,15 @@ The project is logically divided into two main folders:
   - `OPENAI_API_KEY` (for GPT models)
   - `GEMINI_API_KEY` (for Google Gemini models)
   - `OLLAMA_SERVER` (for local Ollama execution)
+  - `SYSTEM_LIBRARIES_PATH` (absolute path to the system-library prefix file, used when filtering system libraries)
+  - `THIRD_PARTY_LIBRARIES_PATH` (absolute path to the third-party-library prefix file, used when filtering third-party libraries)
+
+The filtering paths are only required if you want to customize the library filtering lists. By default, the detector uses `0_Data/LibsFiles/SystemLibraries.txt` for system libraries and `0_Data/LibsFiles/AndroLibZoo.txt` for third-party libraries. To use your own lists, place their absolute paths in `.env`, for example:
+
+```env
+SYSTEM_LIBRARIES_PATH=/absolute/path/to/SystemLibraries.txt
+THIRD_PARTY_LIBRARIES_PATH=/absolute/path/to/AndroLibZoo.txt
+```
 
 Ensure you have the required python packages installed (e.g., `openai`, `ollama`, `pydantic`, `transformers`, `pyyaml`, `tiktoken`).
 

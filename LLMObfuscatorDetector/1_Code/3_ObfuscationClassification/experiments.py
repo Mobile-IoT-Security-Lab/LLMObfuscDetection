@@ -32,12 +32,9 @@ OBFUSCATION_TECHNIQUES = ["ArithmeticBranch", "CallIndirection", "ClassRename", 
 # Filtering [None | "system" | "tp" | "both" | "pkgNameOnly"]
 FILTERING = "both"
 
-# Sampling
-RANDOM_SEED    = 4316
-
 # LLM Robustness
-NUM_ITERATIONS = 1
-MAX_RETRIES    = 2
+NUM_ITERATIONS = 5
+MAX_RETRIES    = 5
 
 # Logging
 SILENT_MODE = False
@@ -250,7 +247,7 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 		# numSmaliClassesAnalyzed = 3
 
 		# Get a random sample of Smali classes to analyze with the LLM. This sampling is important to ensure that we are analyzing a representative subset of the Smali classes in the app, which can help us make a more accurate determination about whether the app is obfuscated or not, while also keeping the analysis manageable and efficient.
-		sampledSmaliClasses                = AnalysisUtils.getRandomSample(app.smaliClasses, numSmaliClassesAnalyzed, RANDOM_SEED)
+		sampledSmaliClasses                = AnalysisUtils.getRandomSample(app.smaliClasses, numSmaliClassesAnalyzed)
 		effectiveNumSmaliClassesAnalyzed   = numSmaliClassesAnalyzed
 		numSkippedForContextThreshold      = 0
 		numSkippedForInvalidLlmOutput      = 0

@@ -26,17 +26,14 @@ CONFIDENCE_LEVEL = 95
 ERROR_MARGIN     = 5
 
 # Threshold for obfuscation detection
-OBFUSCATION_THRESHOLD = 0.3
+OBFUSCATION_THRESHOLD = 0.1
 
 # Filtering [None | "system" | "tp" | "both" | "pkgNameOnly"]
 FILTERING = "both"
 
-# Sampling
-RANDOM_SEED    = 4316
-
 # LLM Robustness
-NUM_ITERATIONS = 3
-MAX_RETRIES    = 3
+NUM_ITERATIONS = 5
+MAX_RETRIES    = 5
 
 # Logging
 SILENT_MODE = False
@@ -47,7 +44,6 @@ TMP_PATH = projectRoot / "0_Data" / "TMP"
 # Prompts to be used
 PROMPTS_PATH = codeDir / "prompt.yaml"
 DEFAULT_PROMPT_ID = "ObfuscationDetectionV2"
-
 
 # Parse command-line arguments and validate them.
 class FriendlyArgumentParser(argparse.ArgumentParser):
@@ -263,7 +259,7 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate):
 		# numSmaliClassesAnalyzed = 3
 
 		# Get a random sample of Smali classes to analyze with the LLM. This sampling is important to ensure that we are analyzing a representative subset of the Smali classes in the app, which can help us make a more accurate determination about whether the app is obfuscated or not, while also keeping the analysis manageable and efficient.
-		sampledSmaliClasses                = AnalysisUtils.getRandomSample(app.smaliClasses, numSmaliClassesAnalyzed, RANDOM_SEED)
+		sampledSmaliClasses                = AnalysisUtils.getRandomSample(app.smaliClasses, numSmaliClassesAnalyzed)
 		effectiveNumSmaliClassesAnalyzed   = numSmaliClassesAnalyzed
 		numSmaliClassesObfuscated          = 0
 		numSkippedForContextThreshold      = 0

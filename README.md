@@ -2,6 +2,21 @@
 
 Welcome to the **LLM Obfuscation Detection** repository. This project is a comprehensive research suite designed for studying, detecting, and analyzing code obfuscation techniques in Android applications (APKs), with a particular focus on those potentially enhanced, generated, or detected by Large Language Models (LLMs).
 
+# Publication
+
+More details about this work can be found in the paper Evaluating LLMs for Obfuscation Detection and Classification in Android Apps:
+
+```
+@misc{ferrari2026evaluatingllmsobfuscationdetection,
+      title={Evaluating LLMs for Obfuscation Detection and Classification in Android Apps}, 
+      author={Luca Ferrari and Marco Alecci and Jordan Samhi and Tegawende' F. Bissyande' and Jacques Klein and Mariano Ceccato and Luca Verderame},
+      year={2026},
+      eprint={2606.14233},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2606.14233}, 
+}
+```
 ---
 
 ## 📋 Table of Contents

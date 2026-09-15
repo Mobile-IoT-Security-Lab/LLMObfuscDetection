@@ -30,5 +30,5 @@ RUN mkdir -p /shared
 
 WORKDIR /app
 COPY ./APKHunt /app/APKHunt
-COPY RunningScript.sh AddToCSV.py ToolParser.py GenerateMetricsCSV.py /app/
+COPY RunningScript.sh AddToCSV.py ToolParser.py  /app/
 RUN chmod +x /app/*.sh /app/*.py /app/APKHunt/*

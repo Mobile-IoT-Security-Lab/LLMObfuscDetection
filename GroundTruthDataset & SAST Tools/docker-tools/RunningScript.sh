@@ -18,24 +18,24 @@ for apk in "$APK_DIR"/*.apk; do
   echo "[*] Start Trueseeing Analysis: $base_name"
   trueseeing -eqc 'as;gj' "$apk" > "$OUTPUT_DIR/Trueseeing/$base_name.json"
 
-  # echo "[*] Start APKHUNT Analysis: $base_name"
-  # go run /app/APKHunt/apkhunt.go -p "$apk" -l
-  # find /app /apks -maxdepth 1 -name "*.txt" -exec mv {} "$OUTPUT_DIR/APKHunt/" \;
-  # echo "[*] Start SEBASTiAn Analysis: $base_name"
-  # # Copia l'APK nel volume condiviso accessibile da SEBASTiAn
-  # cp "$apk" /shared/"$base_name.apk"
+  echo "[*] Start APKHUNT Analysis: $base_name"
+  go run /app/APKHunt/apkhunt.go -p "$apk" -l
+  find /app /apks -maxdepth 1 -name "*.txt" -exec mv {} "$OUTPUT_DIR/APKHunt/" \;
+  echo "[*] Start SEBASTiAn Analysis: $base_name"
+  # Copia l'APK nel volume condiviso accessibile da SEBASTiAn
+  cp "$apk" /shared/"$base_name.apk"
 
-  # # Lancia SEBASTiAn usando il volume condiviso (il demone Docker è raggiunto
-  # # tramite il socket montato: -v /var/run/docker.sock:/var/run/docker.sock)
-  # docker run --rm \
-  #   --platform linux/amd64 \
-  #   -v shared_workspace_vol:/workdir \
-  #   talossec/sebastian:latest  -t 5000\
-  #   -gr "$base_name.apk"
+  # Lancia SEBASTiAn usando il volume condiviso (il demone Docker è raggiunto
+  # tramite il socket montato: -v /var/run/docker.sock:/var/run/docker.sock)
+  docker run --rm \
+    --platform linux/amd64 \
+    -v shared_workspace_vol:/workdir \
+    talossec/sebastian:latest  -t 5000\
+    -gr "$base_name.apk"
 
-  # find /shared/ -type f \( -name "*.json" -o -name "*.txt" -o -name "*.pdf" \) \
-  # -exec mv {} "$OUTPUT_DIR/SEBASTiAn/" \;
-  # python3 AddToCSV.py "$base_name"
+  find /shared/ -type f \( -name "*.json" -o -name "*.txt" -o -name "*.pdf" \) \
+  -exec mv {} "$OUTPUT_DIR/SEBASTiAn/" \;
+  python3 AddToCSV.py "$base_name"
 
 done
 

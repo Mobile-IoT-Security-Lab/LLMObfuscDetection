@@ -1,0 +1,46 @@
+
+cff-version: 1.2.0
+message: "If you use LLMObfuscDetection in your research, please cite our paper."
+
+title: "LLMObfuscDetection"
+type: software
+
+authors:
+  - family-names: Ferrari
+    given-names: Luca
+  - family-names: Alecci
+    given-names: Marco
+  - family-names: Samhi
+    given-names: Jordan
+  - family-names: Bissyandé
+    given-names: Tegawendé F.
+  - family-names: Klein
+    given-names: Jacques
+  - family-names: Ceccato
+    given-names: Mariano
+  - family-names: Verderame
+    given-names: Luca
+
+repository-code: "https://github.com/Mobile-IoT-Security-Lab/LLMObfuscDetection"
+license: MIT
+
+preferred-citation:
+  type: generic
+  title: "Evaluating LLMs for Obfuscation Detection and Classification in Android Apps"
+  authors:
+    - family-names: Ferrari
+      given-names: Luca
+    - family-names: Alecci
+      given-names: Marco
+    - family-names: Samhi
+      given-names: Jordan
+    - family-names: Bissyandé
+      given-names: Tegawendé F.
+    - family-names: Klein
+      given-names: Jacques
+    - family-names: Ceccato
+      given-names: Mariano
+    - family-names: Verderame
+      given-names: Luca
+  year: 2026
+  url: "https://arxiv.org/abs/2606.14233"

@@ -1,101 +1,101 @@
-package_name
-app.clearsms
-app.crossword.yourealwaysbe.forkyz
-app.floatdeck
-app.getknit.knit
-app.pwhs.universalinstaller
-app.simple.peri
-codes.swistak.batterymonitor
-com.andsi.airlyrics
-com.autopi.debug
-com.best.deskclock
-com.bitmavrick.lumolight
-com.curryplayer.quicksettingssoundprofile
-com.darshancomputing.BatteryIndicator
-com.darshancomputing.BatteryIndicatorPro
-com.divinelink.scenepeek.debug
-com.firebirdberlin.nightdream
-com.freetime.geoweather
-com.freetime.ssmpc
-com.ghostsq.commander
-com.github.ashutoshgngwr.noice
-com.github.digitallyrefined.androidipcamera
-com.github.mistermo_vibecode.voiceplus
-com.github.soundpod
-com.hegocre.nextcloudpasswords
-com.ichi2.anki.debug
-com.iris.gallery
-com.jarsilio.android.magnifica
-com.jarsilio.android.scrambledeggsif.fortunecookies.debug
-com.looker.droidify
-com.markleaf.notes
-com.megamaced.crate
-com.merxury.blocker.debug
-com.mushotoku.app
-com.offlinecurrencyconverter.app
-com.olaf.rereminder
-com.pennywiseai.tracker
-com.prangesoftwaresolutions.audioanchor
-com.resurrection.blowtorch2.test
-com.rtneg.foxappmemo
-com.serwylo.lexica
-com.shapeshed.kiosk
-com.streamatico.polymarketviewer
-com.sweak.qralarm
-com.typeassist.app
-com.vishaltelangre.nerdcalci
-com.vishnu.remindme
-de.markusfisch.android.binaryeye
-de.marmaro.krt.ffupdater
-de.marmaro.krt.ffupdater
-de.ph1b.audiobook
-de.tadris.flang
-de.westnordost.streetcomplete
-dev.tulis.readbear
-eu.siacs.conversations
-eu.veldsoft.politrics
-eu.veldsoft.scribe4
-felixwiemuth.simplereminder
-fr.luteal.app
-fr.neamar.kiss
-io.github.chayanforyou.quickball
-io.github.kennethchoinfosec.haven
-io.github.mouse233.localsendkotlin
-it.niedermann.owncloud.notes.dev
-live.pageless.mobile
-m.co.rh.id.a_personal_stuff
-me.hackerchick.catima
-me.mudkip.moememos
-montafra.beam
-net.tigr.navyfleetbattle
-net.tlfoxhuman.droidstress
-net.vonforst.evmap
-nodomain.aditya1875more.stashly
-org.billthefarmer.gridle
-org.bisw.nxbookmarks
-org.codeberg.scovillo.bubble
-org.fdroid.basic
-org.fossify.clock
-org.gateshipone.malp
-org.hollowbamboo.chordreader2
-org.librefit.app
-org.mian.gitnex
-org.onekash.kashcal
-org.phramusca.jamuz
-org.playhex.twa
-org.secuso.aktivpause
-org.secuso.privacyfriendlyactivitytracker
-org.secuso.privacyfriendlybattleship
-org.secuso.privacyfriendlycircuittraining
-org.secuso.privacyfriendlyintervaltimer
-rocks.langhaarschneider.subsonicster
-rs.ruffle
-ru.stersh.youamp
-sh.hnet.comfychair
-stack.tower3d
-systems.sieber.fsclock
-tech.mmarca.openvitals
-tech.mmarca.openvitals.debug
-ua.com.radiokot.photoprism.debug
-website.leifs.delta.foss
-xyz.metiq
+package_name,fdroid_categories,fdroid_app_name,fdroid_package_name,match_type,fdroid_url,match_evidence_url,match_note,checked_on
+app.clearsms,Finance Manager; Phone & SMS,Clear SMS,app.clearsms,exact_repo,https://f-droid.org/packages/app.clearsms/,,,2026-11-13
+app.crossword.yourealwaysbe.forkyz,Word Game,Forkyz,app.crossword.yourealwaysbe.forkyz,exact_repo,https://f-droid.org/packages/app.crossword.yourealwaysbe.forkyz/,,,2026-11-13
+app.floatdeck,Wallpaper,FloatDeck,app.floatdeck,exact_repo,https://f-droid.org/packages/app.floatdeck/,,,2026-11-13
+app.getknit.knit,Connectivity; Messaging; Security,Knit,app.getknit.knit,exact_repo,https://f-droid.org/packages/app.getknit.knit/,,,2026-11-13
+app.pwhs.universalinstaller,App Manager; System,Universal Installer,app.pwhs.universalinstaller,exact_repo,https://f-droid.org/packages/app.pwhs.universalinstaller/,,,2026-11-13
+app.simple.peri,Wallpaper,Peristyle,app.simple.peri,exact_repo,https://f-droid.org/packages/app.simple.peri/,,,2026-11-13
+codes.swistak.batterymonitor,Battery; System,Battery Monitor,codes.swistak.batterymonitor,exact_repo,https://f-droid.org/packages/codes.swistak.batterymonitor/,,,2026-11-13
+com.andsi.airlyrics,Lyrics,AirLyrics,com.andsi.airlyrics,exact_repo,https://f-droid.org/packages/com.andsi.airlyrics/,,,2026-11-13
+com.autopi.debug,Development; System,AutoPie,com.autopi,verified_variant,https://f-droid.org/packages/com.autopi/,https://github.com/cryptrr/AutoPie/blob/64f86b7147fd93d5a50b8ce0c3307f4a409d971d/app/build.gradle.kts#L19,"Il Gradle storico di AutoPie v0.16.15-beta definisce applicationId com.autopi e suffisso debug .debug attivo; questa versione documenta la variante, non identifica la versione presente nel dataset.",2026-11-13
+com.best.deskclock,Alarm Clock; Clock; Stopwatch; Timer,Clock,com.best.deskclock,exact_repo,https://f-droid.org/packages/com.best.deskclock/,,,2026-11-13
+com.bitmavrick.lumolight,Flashlight; System,Lumolight: Screen & Flashlight,com.bitmavrick.lumolight,exact_repo,https://f-droid.org/packages/com.bitmavrick.lumolight/,,,2026-11-13
+com.curryplayer.quicksettingssoundprofile,System; Volume,Quick Settings Sound Profile,com.curryplayer.quicksettingssoundprofile,exact_repo,https://f-droid.org/packages/com.curryplayer.quicksettingssoundprofile/,,,2026-11-13
+com.darshancomputing.BatteryIndicator,Battery; System,BatteryBot,com.darshancomputing.BatteryIndicator,exact_repo,https://f-droid.org/packages/com.darshancomputing.BatteryIndicator/,,,2026-11-13
+com.darshancomputing.BatteryIndicatorPro,Battery; System,BatteryBot Pro,com.darshancomputing.BatteryIndicatorPro,exact_repo,https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro/,,,2026-11-13
+com.divinelink.scenepeek.debug,Multimedia,ScenePeek - TMDB & Seerr,com.divinelink.scenepeek,verified_variant,https://f-droid.org/packages/com.divinelink.scenepeek/,https://codeberg.org/Divinelink/scenepeek-tmdb/src/commit/f76edc23155133db372c4337f53b94267c5b37f7/android/build.gradle.kts,Il Gradle upstream definisce applicationId com.divinelink.scenepeek e applicationIdSuffix .debug nel build type debug.,2026-11-13
+com.firebirdberlin.nightdream,Alarm Clock; Clock; Weather,NightDream,com.firebirdberlin.nightdream.noGms,verified_variant,https://f-droid.org/packages/com.firebirdberlin.nightdream.noGms/,https://github.com/firebirdberlin/nightdream/blob/master/app/build.gradle,Il progetto definisce applicationId com.firebirdberlin.nightdream e il flavor noGms con applicationIdSuffix .noGms. Categorie della variante F-Droid applicate alla stessa app.,2026-11-13
+com.freetime.geoweather,Weather,GeoWeather,com.freetime.geoweather,exact_repo,https://f-droid.org/packages/com.freetime.geoweather/,,,2026-11-13
+com.freetime.ssmpc,Game Helper; Internet,SuperSMP Companion,com.freetime.ssmpc,exact_repo,https://f-droid.org/packages/com.freetime.ssmpc/,,,2026-11-13
+com.ghostsq.commander,App Manager; Cloud Storage & File Sync; File Manager; File Transfer; System,Ghost Commander,com.ghostsq.commander,exact_repo,https://f-droid.org/packages/com.ghostsq.commander/,,,2026-11-13
+com.github.ashutoshgngwr.noice,Ambient Sound; Meditation,Noice: Natural calming noise,com.github.ashutoshgngwr.noice,exact_repo,https://f-droid.org/packages/com.github.ashutoshgngwr.noice/,,,2026-11-13
+com.github.digitallyrefined.androidipcamera,Camera; Connectivity; Multimedia; Remote Access; Remote Controller,Android IP Camera,com.github.digitallyrefined.androidipcamera,exact_repo,https://f-droid.org/packages/com.github.digitallyrefined.androidipcamera/,,,2026-11-13
+com.github.mistermo_vibecode.voiceplus,Audiobook,VoicePlus – Audiobook Player,com.github.mistermo_vibecode.voiceplus,exact_repo,https://f-droid.org/packages/com.github.mistermo_vibecode.voiceplus/,,,2026-11-13
+com.github.soundpod,Ambient Sound; Online Media Player,SoundPod,com.github.soundpod,exact_repo,https://f-droid.org/packages/com.github.soundpod/,,,2026-11-13
+com.hegocre.nextcloudpasswords,Password & 2FA; Security,Nextcloud Passwords,com.hegocre.nextcloudpasswords,exact_repo,https://f-droid.org/packages/com.hegocre.nextcloudpasswords/,,,2026-11-13
+com.ichi2.anki.debug,Science & Education,AnkiDroid: Flashcards,com.ichi2.anki,verified_variant,https://f-droid.org/packages/com.ichi2.anki/,https://github.com/ankidroid/Anki-Android/blob/87a29f4d40b0f4cfae34d6870499050406dbb1f7/AnkiDroid/build.gradle.kts#L113,Il Gradle upstream di AnkiDroid definisce applicationId com.ichi2.anki e applicationIdSuffix .debug nel build type debug.,2026-11-13
+com.iris.gallery,Gallery; Graphics; Multimedia,Iris Gallery,com.iris.gallery,exact_repo,https://f-droid.org/packages/com.iris.gallery/,,,2026-11-13
+com.jarsilio.android.magnifica,Camera; Graphics,Magnifica,com.jarsilio.android.magnifica,exact_repo,https://f-droid.org/packages/com.jarsilio.android.magnifica/,,,2026-11-13
+com.jarsilio.android.scrambledeggsif.fortunecookies.debug,System,Scrambled Exif,com.jarsilio.android.scrambledeggsif,verified_variant,https://f-droid.org/packages/com.jarsilio.android.scrambledeggsif/,https://gitlab.com/juanitobananas/scrambled-exif/-/blob/3b03cc6a6f0d2727461a8b59bf5366f0984db99a/app/build.gradle.kts,"Il Gradle upstream definisce applicationId com.jarsilio.android.scrambledeggsif, suffisso .fortunecookies nel flavor fortuneCookies e suffisso .debug nel build type debug.",2026-11-13
+com.looker.droidify,App Store & Updater; System,Droid-ify,com.looker.droidify,exact_repo,https://f-droid.org/packages/com.looker.droidify/,,,2026-11-13
+com.markleaf.notes,Note; Writing,Markleaf,com.markleaf.notes,exact_repo,https://f-droid.org/packages/com.markleaf.notes/,,,2026-11-13
+com.megamaced.crate,Inventory,Crate,com.megamaced.crate,exact_repo,https://f-droid.org/packages/com.megamaced.crate/,,,2026-11-13
+com.merxury.blocker.debug,App Manager; System,Blocker,com.merxury.blocker,verified_variant,https://f-droid.org/packages/com.merxury.blocker/,https://github.com/lihenggui/blocker/blob/ad8bdf369d27061e22db069286e33ad64770a16a/app/build.gradle.kts#L36 ; https://github.com/lihenggui/blocker/blob/ad8bdf369d27061e22db069286e33ad64770a16a/build-logic/convention/src/main/kotlin/com/merxury/blocker/BlockerBuildType.kt#L24,"Il Gradle upstream definisce applicationId com.merxury.blocker e usa BlockerBuildType.DEBUG.applicationIdSuffix, il cui valore nell'enum è .debug.",2026-11-13
+com.mushotoku.app,Calendar & Agenda; Finance Manager; Meditation; Note,Mushotoku,com.mushotoku.app,exact_repo,https://f-droid.org/packages/com.mushotoku.app/,,,2026-11-13
+com.offlinecurrencyconverter.app,Market & Price; Unit Convertor,Offline Currency Converter,com.offlinecurrencyconverter.app,exact_repo,https://f-droid.org/packages/com.offlinecurrencyconverter.app/,,,2026-11-13
+com.olaf.rereminder,Alarm Clock,reReminder,com.olaf.rereminder,exact_repo,https://f-droid.org/packages/com.olaf.rereminder/,,,2026-11-13
+com.pennywiseai.tracker,AI Chat; Finance Manager,PennyWise: SMS Expense Tracker,com.pennywiseai.tracker,exact_repo,https://f-droid.org/packages/com.pennywiseai.tracker/,,,2026-11-13
+com.prangesoftwaresolutions.audioanchor,Audiobook; Podcast,AudioAnchor,com.prangesoftwaresolutions.audioanchor,exact_repo,https://f-droid.org/packages/com.prangesoftwaresolutions.audioanchor/,,,2026-11-13
+com.resurrection.blowtorch2.test,Game Helper; Internet,BlowTorch 2,com.resurrection.blowtorch2,verified_variant,https://f-droid.org/packages/com.resurrection.blowtorch2/,https://github.com/Taracair/BlowTorch2/blob/86ef7ac1987c679cb272a754399abe7b9dfb2461/BT_Free/build.gradle#L20,Il Gradle upstream definisce il flavor btTest con applicationId com.resurrection.blowtorch2.test e il flavor production con applicationId com.resurrection.blowtorch2.,2026-11-13
+com.rtneg.foxappmemo,App Manager,FoxAppMemo,com.rtneg.foxappmemo,exact_repo,https://f-droid.org/packages/com.rtneg.foxappmemo/,,,2026-11-13
+com.serwylo.lexica,Word Game,Lexica,com.serwylo.lexica,exact_repo,https://f-droid.org/packages/com.serwylo.lexica/,,,2026-11-13
+com.shapeshed.kiosk,Forum; News,Kiosk,com.shapeshed.kiosk,exact_repo,https://f-droid.org/packages/com.shapeshed.kiosk/,,,2026-11-13
+com.streamatico.polymarketviewer,Market & Price,Polymarket Viewer,com.streamatico.polymarketviewer,exact_repo,https://f-droid.org/packages/com.streamatico.polymarketviewer/,,,2026-11-13
+com.sweak.qralarm,Alarm Clock; Development,QRAlarm,com.sweak.qralarm,exact_repo,https://f-droid.org/packages/com.sweak.qralarm/,,,2026-11-13
+com.typeassist.app,AI Chat,TypeAssist,com.typeassist.app,exact_repo,https://f-droid.org/packages/com.typeassist.app/,,,2026-11-13
+com.vishaltelangre.nerdcalci,Calculator; Science & Education,NerdCalci,com.vishaltelangre.nerdcalci,exact_repo,https://f-droid.org/packages/com.vishaltelangre.nerdcalci/,,,2026-11-13
+com.vishnu.remindme,Alarm Clock,Remind Me!,com.vishnu.remindme,exact_repo,https://f-droid.org/packages/com.vishnu.remindme/,,,2026-11-13
+de.markusfisch.android.binaryeye,Multimedia,Binary Eye,de.markusfisch.android.binaryeye,exact_repo,https://f-droid.org/packages/de.markusfisch.android.binaryeye/,,,2026-11-13
+de.marmaro.krt.ffupdater,App Store & Updater; Internet,FFUpdater,de.marmaro.krt.ffupdater,exact_repo,https://f-droid.org/packages/de.marmaro.krt.ffupdater/,,,2026-11-13
+de.marmaro.krt.ffupdater,App Store & Updater; Internet,FFUpdater,de.marmaro.krt.ffupdater,exact_repo,https://f-droid.org/packages/de.marmaro.krt.ffupdater/,,,2026-11-13
+de.ph1b.audiobook,Audiobook,Voice Audiobook Player,de.ph1b.audiobook,exact_repo,https://f-droid.org/packages/de.ph1b.audiobook/,,,2026-11-13
+de.tadris.flang,Board Game,Flang,de.tadris.flang,exact_repo,https://f-droid.org/packages/de.tadris.flang/,,,2026-11-13
+de.westnordost.streetcomplete,Navigation,Street­Complete,de.westnordost.streetcomplete,exact_repo,https://f-droid.org/packages/de.westnordost.streetcomplete/,,,2026-11-13
+dev.tulis.readbear,Ebook Reader; Reading,ReadBear,dev.tulis.readbear,exact_repo,https://f-droid.org/packages/dev.tulis.readbear/,,,2026-11-13
+eu.siacs.conversations,Internet; Messaging; Push; Voice & Video Chat,Conversations,eu.siacs.conversations,exact_repo,https://f-droid.org/packages/eu.siacs.conversations/,,,2026-11-13
+eu.veldsoft.politrics,Board Game,Politrics,eu.veldsoft.politrics,exact_repo,https://f-droid.org/packages/eu.veldsoft.politrics/,,,2026-11-13
+eu.veldsoft.scribe4,Board Game,Scribe4,eu.veldsoft.scribe4,exact_repo,https://f-droid.org/packages/eu.veldsoft.scribe4/,,,2026-11-13
+felixwiemuth.simplereminder,Alarm Clock,SimpleReminder,felixwiemuth.simplereminder,exact_repo,https://f-droid.org/packages/felixwiemuth.simplereminder/,,,2026-11-13
+fr.luteal.app,Health Manager,Luteal,fr.luteal.app,exact_repo,https://f-droid.org/packages/fr.luteal.app/,,,2026-11-13
+fr.neamar.kiss,Launcher,KISS Launcher,fr.neamar.kiss,exact_repo,https://f-droid.org/packages/fr.neamar.kiss/,,,2026-11-13
+io.github.chayanforyou.quickball,System; Volume,Quick Ball,io.github.chayanforyou.quickball,exact_repo,https://f-droid.org/packages/io.github.chayanforyou.quickball/,,,2026-11-13
+io.github.kennethchoinfosec.haven,App Manager; Security,Haven,io.github.kennethchoinfosec.haven,exact_repo,https://f-droid.org/packages/io.github.kennethchoinfosec.haven/,,,2026-11-13
+io.github.mouse233.localsendkotlin,Connectivity; File Transfer,LocalSend Kotlin,io.github.mouse233.localsendkotlin,exact_repo,https://f-droid.org/packages/io.github.mouse233.localsendkotlin/,,,2026-11-13
+it.niedermann.owncloud.notes.dev,Internet; Note; Task; Writing,Nextcloud Notes,it.niedermann.owncloud.notes,verified_variant,https://f-droid.org/packages/it.niedermann.owncloud.notes/,https://github.com/nextcloud/notes-android/blob/c2136a9901d5df58d7176e3c235c7acd5412d9f6/app/build.gradle.kts#L26,Il Gradle upstream definisce applicationId it.niedermann.owncloud.notes e applicationIdSuffix .dev nel flavor dev.,2026-11-13
+live.pageless.mobile,Audiobook,Pageless,live.pageless.mobile,exact_repo,https://f-droid.org/packages/live.pageless.mobile/,,,2026-11-13
+m.co.rh.id.a_personal_stuff,Calendar & Agenda; Inventory; Task,Personal Stuff,m.co.rh.id.a_personal_stuff,exact_repo,https://f-droid.org/packages/m.co.rh.id.a_personal_stuff/,,,2026-11-13
+me.hackerchick.catima,Pass Wallet,Catima — Loyalty Card Wallet,me.hackerchick.catima,exact_repo,https://f-droid.org/packages/me.hackerchick.catima/,,,2026-11-13
+me.mudkip.moememos,Task; Writing,MoeMemos,me.mudkip.moememos,exact_repo,https://f-droid.org/packages/me.mudkip.moememos/,,,2026-11-13
+montafra.beam,Battery,Beam,montafra.beam,exact_repo,https://f-droid.org/packages/montafra.beam/,,,2026-11-13
+net.tigr.navyfleetbattle,Board Game,Navy Fleet Battle,net.tigr.navyfleetbattle,exact_repo,https://f-droid.org/packages/net.tigr.navyfleetbattle/,,,2026-11-13
+net.tlfoxhuman.droidstress,Battery; System,DroidStress,net.tlfoxhuman.droidstress,exact_repo,https://f-droid.org/packages/net.tlfoxhuman.droidstress/,,,2026-11-13
+net.vonforst.evmap,Market & Price; Navigation,EVMap - EV chargers,net.vonforst.evmap,exact_repo,https://f-droid.org/packages/net.vonforst.evmap/,,,2026-11-13
+nodomain.aditya1875more.stashly,Bookmark,Stashly - Vault tool,nodomain.aditya1875more.stashly,exact_repo,https://f-droid.org/packages/nodomain.aditya1875more.stashly/,,,2026-11-13
+org.billthefarmer.gridle,Word Game,Gridle,org.billthefarmer.gridle,exact_repo,https://f-droid.org/packages/org.billthefarmer.gridle/,,,2026-11-13
+org.bisw.nxbookmarks,Bookmark; Internet; Multimedia,Nextcloud Bookmarks,org.schabi.nxbookmarks,verified_variant,https://f-droid.org/packages/org.schabi.nxbookmarks/,https://raw.githubusercontent.com/f-droid/fdroiddata/master/metadata/org.schabi.nxbookmarks.yml,I metadati F-Droid riportano UpdateCheckName org.bisw.nxbookmarks e un prebuild che sostituisce tale ID con org.schabi.nxbookmarks. Il Gradle upstream definisce entrambi come flavor della stessa app.,2026-11-13
+org.codeberg.scovillo.bubble,Action Game; Casual Game,Bubble Penetration,org.codeberg.scovillo.bubble,exact_repo,https://f-droid.org/packages/org.codeberg.scovillo.bubble/,,,2026-11-13
+org.fdroid.basic,App Store & Updater; System,F-Droid Basic,org.fdroid.basic,exact_repo,https://f-droid.org/packages/org.fdroid.basic/,,,2026-11-13
+org.fossify.clock,Alarm Clock; Clock; Stopwatch; Timer,Fossify Clock Beta,org.fossify.clock,exact_repo,https://f-droid.org/packages/org.fossify.clock/,,,2026-11-13
+org.gateshipone.malp,Connectivity; Multimedia; Online Media Player,M.A.L.P.,org.gateshipone.malp,exact_repo,https://f-droid.org/packages/org.gateshipone.malp/,,,2026-11-13
+org.hollowbamboo.chordreader2,Lyrics,ChordReader 2,org.hollowbamboo.chordreader2,exact_repo,https://f-droid.org/packages/org.hollowbamboo.chordreader2/,,,2026-11-13
+org.librefit.app,Sports & Health; Workout,LibreFit,org.librefit.app,exact_repo,https://f-droid.org/packages/org.librefit.app/,,,2026-11-13
+org.mian.gitnex,Code & Forge,GitNex for Forgejo and Gitea,org.mian.gitnex,exact_repo,https://f-droid.org/packages/org.mian.gitnex/,,,2026-11-13
+org.onekash.kashcal,Calendar & Agenda,KashCal,org.onekash.kashcal,exact_repo,https://f-droid.org/packages/org.onekash.kashcal/,,,2026-11-13
+org.phramusca.jamuz,Multimedia; Online Media Player,JaMuz,org.phramusca.jamuz,exact_repo,https://f-droid.org/packages/org.phramusca.jamuz/,,,2026-11-13
+org.playhex.twa,Board Game,PlayHex,org.playhex.twa,exact_repo,https://f-droid.org/packages/org.playhex.twa/,,,2026-11-13
+org.secuso.aktivpause,Sports & Health; Timer; Workout,Aktivpause to Go,org.secuso.aktivpause,exact_repo,https://f-droid.org/packages/org.secuso.aktivpause/,,,2026-11-13
+org.secuso.privacyfriendlyactivitytracker,Sports & Health; Workout,Pedometer (PFA),org.secuso.privacyfriendlyactivitytracker,exact_repo,https://f-droid.org/packages/org.secuso.privacyfriendlyactivitytracker/,,,2026-11-13
+org.secuso.privacyfriendlybattleship,Board Game,Battleship Game (Privacy Friendly),org.secuso.privacyfriendlybattleship,exact_repo,https://f-droid.org/packages/org.secuso.privacyfriendlybattleship/,,,2026-11-13
+org.secuso.privacyfriendlycircuittraining,Sports & Health; Timer; Workout,Circuit Training (PFA),org.secuso.privacyfriendlycircuittraining,exact_repo,https://f-droid.org/packages/org.secuso.privacyfriendlycircuittraining/,,,2026-11-13
+org.secuso.privacyfriendlyintervaltimer,Sports & Health; Stopwatch; Timer; Workout,Interval Timer (Privacy Friendly),org.secuso.privacyfriendlyintervaltimer,exact_repo,https://f-droid.org/packages/org.secuso.privacyfriendlyintervaltimer/,,,2026-11-13
+rocks.langhaarschneider.subsonicster,Card Game; Multimedia; Online Media Player,SubSonicSter,rocks.langhaarschneider.subsonicster,exact_repo,https://f-droid.org/packages/rocks.langhaarschneider.subsonicster/,,,2026-11-13
+rs.ruffle,Emulator,Ruffle,rs.ruffle,exact_repo,https://f-droid.org/packages/rs.ruffle/,,,2026-11-13
+ru.stersh.youamp,Multimedia; Online Media Player,Youamp,ru.stersh.youamp,exact_repo,https://f-droid.org/packages/ru.stersh.youamp/,,,2026-11-13
+sh.hnet.comfychair,Graphics; Multimedia,ComfyChair,sh.hnet.comfychair,exact_repo,https://f-droid.org/packages/sh.hnet.comfychair/,,,2026-11-13
+stack.tower3d,Action Game; Casual Game,Stack Tower 3D,stack.tower3d,exact_repo,https://f-droid.org/packages/stack.tower3d/,,,2026-11-13
+systems.sieber.fsclock,Alarm Clock; Clock; Graphics,Clock Screensaver & Widget,systems.sieber.fsclock,exact_repo,https://f-droid.org/packages/systems.sieber.fsclock/,,,2026-11-13
+tech.mmarca.openvitals,Health Manager; Mental Health; Workout,OpenVitals,tech.mmarca.openvitals,exact_repo,https://f-droid.org/packages/tech.mmarca.openvitals/,,,2026-11-13
+tech.mmarca.openvitals.debug,Health Manager; Mental Health; Workout,OpenVitals,tech.mmarca.openvitals,verified_variant,https://f-droid.org/packages/tech.mmarca.openvitals/,https://github.com/Hale-MTU/OpenVitals/blob/faf7478efebd2d25f2ea1860f9b8de1087969757/app/build.gradle.kts#L104,Il Gradle upstream definisce applicationId tech.mmarca.openvitals e applicationIdSuffix .debug nel build type debug.,2026-11-13
+ua.com.radiokot.photoprism.debug,Gallery; Graphics; Multimedia,Gallery for PhotoPrism,ua.com.radiokot.photoprism,verified_variant,https://f-droid.org/packages/ua.com.radiokot.photoprism/,https://github.com/Radiokot/photoprism-android-client/blob/345a8fea27c0636554399414d6e378971cf029b3/app/build.gradle#L31,Il Gradle upstream definisce applicationId ua.com.radiokot.photoprism e applicationIdSuffix .debug nel build type debug.,2026-11-13
+website.leifs.delta.foss,Icon Pack,Delta Icon Pack,website.leifs.delta.foss,exact_repo,https://f-droid.org/packages/website.leifs.delta.foss/,,,2026-11-13
+xyz.metiq,Ambient Sound,Metiq: noise & ambient sounds,xyz.metiq,exact_repo,https://f-droid.org/packages/xyz.metiq/,,,2026-11-13

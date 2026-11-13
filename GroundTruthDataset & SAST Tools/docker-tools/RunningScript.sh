@@ -22,11 +22,7 @@ for apk in "$APK_DIR"/*.apk; do
   go run /app/APKHunt/apkhunt.go -p "$apk" -l
   find /app /apks -maxdepth 1 -name "*.txt" -exec mv {} "$OUTPUT_DIR/APKHunt/" \;
   echo "[*] Start SEBASTiAn Analysis: $base_name"
-  # Copia l'APK nel volume condiviso accessibile da SEBASTiAn
   cp "$apk" /shared/"$base_name.apk"
-
-  # Lancia SEBASTiAn usando il volume condiviso (il demone Docker è raggiunto
-  # tramite il socket montato: -v /var/run/docker.sock:/var/run/docker.sock)
   docker run --rm \
     --platform linux/amd64 \
     -v shared_workspace_vol:/workdir \

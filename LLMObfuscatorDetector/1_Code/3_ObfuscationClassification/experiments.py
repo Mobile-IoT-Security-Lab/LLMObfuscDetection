@@ -27,7 +27,7 @@ CONFIDENCE_LEVEL = 95
 ERROR_MARGIN     = 5
 
 # Obfuscation Techniques i.e. potential Labels
-OBFUSCATION_TECHNIQUES = ["ArithmeticBranch", "CallIndirection", "ClassRename", "ConstStringEncryption", "FieldRename", "Goto", "MethodOverload", "MethodRename", "Reflection", "ResStringEncryption"]
+OBFUSCATION_TECHNIQUES = ["ArithmeticBranch", "CallIndirection", "ClassRename", "ConstStringEncryption", "FieldRename", "Goto", "MethodOverload", "MethodRename", "Reflection", "ResStringEncryption", "Reorder"]
 
 # Filtering [None | "system" | "tp" | "both" | "pkgNameOnly"]
 FILTERING = "both"

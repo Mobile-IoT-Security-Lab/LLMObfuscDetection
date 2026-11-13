@@ -1,5 +1,5 @@
-from   pydantic import BaseModel, ValidationError, create_model
-from   typing   import Literal
+from   pydantic import BaseModel, Field, ValidationError, create_model
+from   typing   import List, Literal
 import csv
 import json
 import math
@@ -23,16 +23,56 @@ class InvalidLlmOutputError(AnalysisUtilsError):
 class LlmRetryLimitExceededError(AnalysisUtilsError):
 	pass
 
+
+# The ten individual Obfuscapk transformations evaluated in the paper.
+OBFUSCATION_TECHNIQUES = [
+	"ArithmeticBranch", "CallIndirection", "ClassRename", "ConstStringEncryption",
+	"FieldRename", "Goto", "MethodOverload", "MethodRename", "Reorder", "Reflection"
+]
+
+
+def getClassificationLabelCount(promptId):
+	labelCounts = {
+		"ObfuscationClassificationV1": 1,
+		"ObfuscationMultiClassificationV1": 3
+	}
+	if promptId not in labelCounts:
+		raise InvalidAnalysisParameterError("Unsupported classification promptID: {}".format(promptId))
+	return labelCounts[promptId]
+
+
+def rankTechniqueLabels(labelCounts):
+	# Only observed labels participate; ties are resolved alphabetically.
+	return sorted(
+		(label for label, count in labelCounts.items() if count > 0),
+		key = lambda label: (-labelCounts[label], label)
+	)
+
+
+def _validateClassificationParameters(expectedLabels, numLabels):
+	if type(numLabels) is not int or numLabels not in (1, 3):
+		raise InvalidAnalysisParameterError("numLabels must be 1 or 3.")
+	if not expectedLabels or any(not isinstance(label, str) or not label for label in expectedLabels):
+		raise InvalidAnalysisParameterError("expectedLabels must contain non-empty string labels.")
+	if len({label.lower() for label in expectedLabels}) != len(expectedLabels):
+		raise InvalidAnalysisParameterError("expectedLabels must contain distinct labels.")
+	if len(expectedLabels) < numLabels:
+		raise InvalidAnalysisParameterError("expectedLabels must contain at least {} labels.".format(numLabels))
+
+
 class BooleanLabelSchema(BaseModel):
 	label: bool
 
 
 # Build a dynamic schema for classification labels constrained to the expected label set.
-def _buildTechniqueLabelSchema(expectedLabels):
-	if expectedLabels is None or len(expectedLabels) == 0:
-		raise InvalidAnalysisParameterError("expectedLabels must contain at least one label.")
-
+def _buildTechniqueLabelSchema(expectedLabels, numLabels = 1):
+	_validateClassificationParameters(expectedLabels, numLabels)
 	literalLabels = Literal.__getitem__(tuple(expectedLabels))
+	if numLabels == 3:
+		return create_model(
+			"TechniqueLabelsSchema",
+			labels = (List[literalLabels], Field(..., min_length = numLabels, max_length = numLabels))
+		)
 	return create_model("TechniqueLabelSchema", label = (literalLabels, ...))
 
 # Utility class for analysis tasks, including prompt management, result handling, LLM interaction, and statistics computation.
@@ -81,24 +121,38 @@ class AnalysisUtils:
 		]
 		if any("pctSmaliClassesObfuscated" in result for result in results):
 			fieldNames.insert(6, "pctSmaliClassesObfuscated")
+		for field in ("llmFinalLabels", "numLabelsPerClass", "rankedLabels", "labelFrequency"):
+			if any(field in result for result in results):
+				fieldNames.append(field)
 		with open(resultsPath, "w", encoding = "utf-8", newline = "") as resultsFile:
 			writer = csv.DictWriter(resultsFile, fieldnames = fieldNames, extrasaction = "ignore")
 			writer.writeheader()
 			for result in results:
-				writer.writerow(result)
+				row = dict(result)
+				for field in ("llmFinalLabels", "rankedLabels", "labelFrequency"):
+					if field in row:
+						row[field] = json.dumps(row[field], ensure_ascii = False)
+				writer.writerow(row)
 
 	# Create a result object for the current app.
 	@staticmethod
-	def createResultsObject(sha256, pkgName, status, obfuscationTechnique = None, numSmaliClasses = 0, numSmaliClassesAnalyzed = 0, pctSmaliClassesObfuscated = None, llmFinalLabel = False, labelFrequency = None):
+	def createResultsObject(sha256, pkgName, status, obfuscationTechnique = None, numSmaliClasses = 0, numSmaliClassesAnalyzed = 0, pctSmaliClassesObfuscated = None, llmFinalLabel = False, labelFrequency = None, llmFinalLabels = None, numLabelsPerClass = None, rankedLabels = None):
 		result = {
 			"sha256"                    : sha256,
 			"pkgName"                   : pkgName,
 			"obfuscationTechnique"      : obfuscationTechnique,
 			"status"                    : status,
 			"numSmaliClasses"           : numSmaliClasses,
-			"numSmaliClassesAnalyzed"   : numSmaliClassesAnalyzed,
-			"llmFinalLabel"             : llmFinalLabel
+			"numSmaliClassesAnalyzed"   : numSmaliClassesAnalyzed
 		}
+		if llmFinalLabels is None:
+			result["llmFinalLabel"] = llmFinalLabel
+		else:
+			result["llmFinalLabels"] = list(llmFinalLabels)
+		if numLabelsPerClass is not None:
+			result["numLabelsPerClass"] = numLabelsPerClass
+		if rankedLabels is not None:
+			result["rankedLabels"] = list(rankedLabels)
 		if pctSmaliClassesObfuscated is not None:
 			result["pctSmaliClassesObfuscated"] = round(pctSmaliClassesObfuscated, 2)
 		if labelFrequency is not None:
@@ -328,23 +382,54 @@ class ObfuscationClassificationAnalysisUtils:
 
 		raise InvalidLlmOutputError("Unable to parse LLM label reply: {}".format(rawReply))
 
+	# Parse one CSV line containing exactly the requested number of distinct labels.
+	@staticmethod
+	def parseTechniqueLabels(rawReply, expectedLabels, numLabels = 3):
+		_validateClassificationParameters(expectedLabels, numLabels)
+		if not isinstance(rawReply, str):
+			raise InvalidLlmOutputError("The multi-technique reply must be a comma-separated string.")
+		reply = rawReply.strip()
+		if "\n" in reply or "\r" in reply:
+			raise InvalidLlmOutputError("The multi-technique reply must contain exactly one line.")
+		try:
+			labels = next(csv.reader([reply], skipinitialspace = True, strict = True))
+		except (csv.Error, StopIteration) as exc:
+			raise InvalidLlmOutputError("Unable to parse multi-technique reply: {}".format(rawReply)) from exc
+		if len(labels) != numLabels:
+			raise InvalidLlmOutputError("Expected exactly {} technique labels.".format(numLabels))
+		canonicalLabels = {label.lower(): label for label in expectedLabels}
+		parsedLabels = []
+		for label in labels:
+			canonical = canonicalLabels.get(label.strip().lower())
+			if canonical is None:
+				raise InvalidLlmOutputError("Unknown technique label: {}".format(label))
+			parsedLabels.append(canonical)
+		if len(set(parsedLabels)) != numLabels:
+			raise InvalidLlmOutputError("Technique labels must be distinct.")
+		return parsedLabels
+
 	# Try to parse a structured LLM reply using a schema constrained to the expected labels.
 	@staticmethod
-	def parseStructuredTechniqueReply(parsedReply, expectedLabels):
-		schemaClass = _buildTechniqueLabelSchema(expectedLabels)
+	def parseStructuredTechniqueReply(parsedReply, expectedLabels, numLabels = 1):
+		schemaClass = _buildTechniqueLabelSchema(expectedLabels, numLabels)
 
 		try:
 			validatedReply = schemaClass.model_validate(parsedReply)
 		except ValidationError as exc:
 			raise InvalidLlmOutputError("Unable to validate structured LLM reply: {}".format(exc))
 
+		if numLabels == 3:
+			if len(set(validatedReply.labels)) != numLabels:
+				raise InvalidLlmOutputError("Technique labels must be distinct.")
+			return validatedReply.labels
 		return validatedReply.label
 
 	# Ask the LLM for the obfuscation technique label with retries in case of invalid output format.
 	@staticmethod
-	def askForTechniqueLabel(llmInterface, prompt, expectedLabels, maxRetries = 3):
+	def askForTechniqueLabel(llmInterface, prompt, expectedLabels, maxRetries = 3, numLabels = 1):
 		if maxRetries <= 0:
 			raise InvalidAnalysisParameterError("maxRetries must be > 0")
+		_validateClassificationParameters(expectedLabels, numLabels)
 
 		lastRawReply = None
 
@@ -352,17 +437,20 @@ class ObfuscationClassificationAnalysisUtils:
 			rawReply = None
 			try:
 				if hasattr(llmInterface, "supportsStructuredOutput") and llmInterface.supportsStructuredOutput():
-					schemaClass     = _buildTechniqueLabelSchema(expectedLabels)
+					schemaClass     = _buildTechniqueLabelSchema(expectedLabels, numLabels)
 					structuredReply = llmInterface.sendRequestWithSchema(prompt, schemaClass)
 					rawReply        = structuredReply["rawReply"]
-					label           = ObfuscationClassificationAnalysisUtils.parseStructuredTechniqueReply(structuredReply["parsedReply"], expectedLabels)
+					label           = ObfuscationClassificationAnalysisUtils.parseStructuredTechniqueReply(structuredReply["parsedReply"], expectedLabels, numLabels)
 				else:
 					rawReply = llmInterface.sendRequest(prompt)
-					label    = ObfuscationClassificationAnalysisUtils.parseTechniqueLabel(rawReply, expectedLabels)
+					if numLabels == 1:
+						label = ObfuscationClassificationAnalysisUtils.parseTechniqueLabel(rawReply, expectedLabels)
+					else:
+						label = ObfuscationClassificationAnalysisUtils.parseTechniqueLabels(rawReply, expectedLabels, numLabels)
 
 				lastRawReply = rawReply
 				return {
-					"label"    : label,
+					("label" if numLabels == 1 else "labels"): label,
 					"rawReply" : rawReply,
 					"numTries" : retryIdx + 1
 				}
@@ -377,9 +465,10 @@ class ObfuscationClassificationAnalysisUtils:
 
 	# Analyze a smali class with multiple iterations and majority voting to determine the final predicted label.
 	@staticmethod
-	def analyzeSmaliClassWithMajorityVote(llmInterface, smaliClass, promptTemplate, expectedLabels, numIterations, maxRetries = 3):
+	def analyzeSmaliClassWithMajorityVote(llmInterface, smaliClass, promptTemplate, expectedLabels, numIterations, maxRetries = 3, numLabels = 1):
 		if numIterations <= 0:
 			raise InvalidAnalysisParameterError("numIterations must be > 0")
+		_validateClassificationParameters(expectedLabels, numLabels)
 
 		prompt      = ObfuscationClassificationAnalysisUtils.buildClassificationPrompt(promptTemplate, smaliClass, expectedLabels)
 		iterations  = []
@@ -390,20 +479,26 @@ class ObfuscationClassificationAnalysisUtils:
 				llmInterface  = llmInterface,
 				prompt        = prompt,
 				expectedLabels = expectedLabels,
-				maxRetries    = maxRetries
+				maxRetries    = maxRetries,
+				numLabels     = numLabels
 			)
 			iterations.append(iterationResult)
 
-			label = iterationResult["label"]
-			labelCounts[label] = labelCounts.get(label, 0) + 1
+			labels = [iterationResult["label"]] if numLabels == 1 else iterationResult["labels"]
+			for label in labels:
+				labelCounts[label] = labelCounts.get(label, 0) + 1
 
-		majorityLabel = max(expectedLabels, key = lambda label: (labelCounts.get(label, 0), label == iterations[-1]["label"]))
-		return {
+		rankedLabels = rankTechniqueLabels(labelCounts)
+		result = {
 			"prompt"        : prompt,
 			"iterations"    : iterations,
-			"labelCounts"   : labelCounts,
-			"majorityLabel" : majorityLabel
+			"labelCounts"   : labelCounts
 		}
+		if numLabels == 1:
+			result["majorityLabel"] = rankedLabels[0]
+		else:
+			result["majorityLabels"] = rankedLabels[:numLabels]
+		return result
 
 	# Compute dataset-level statistics from classification results.
 	@staticmethod

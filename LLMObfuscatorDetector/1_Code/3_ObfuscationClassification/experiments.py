@@ -4,6 +4,7 @@ from pathlib 		import Path
 from dotenv 		import load_dotenv
 import argparse
 import datetime
+import shutil
 import sys
 import traceback
 
@@ -14,7 +15,10 @@ projectRoot = codeDir.parent
 sys.path.append(str(codeDir))
 import AppUtils
 import LLMUtils
-from AnalysisUtils import AnalysisUtils, LlmRetryLimitExceededError, ObfuscationClassificationAnalysisUtils
+from AnalysisUtils import (
+	AnalysisUtils, LlmRetryLimitExceededError, ObfuscationClassificationAnalysisUtils,
+	OBFUSCATION_TECHNIQUES, getClassificationLabelCount, rankTechniqueLabels,
+)
 
 
 ##### PARAMETERS #####
@@ -26,8 +30,7 @@ CONTEXT_THRESHOLD   = 0.8 * CONTEXT_WINDOW_SIZE
 CONFIDENCE_LEVEL = 95
 ERROR_MARGIN     = 5
 
-# Obfuscation Techniques i.e. potential Labels
-OBFUSCATION_TECHNIQUES = ["ArithmeticBranch", "CallIndirection", "ClassRename", "ConstStringEncryption", "FieldRename", "Goto", "MethodOverload", "MethodRename", "Reflection", "ResStringEncryption", "Reorder"]
+# The ten technique labels are shared with the notebook through AnalysisUtils.
 
 # Filtering [None | "system" | "tp" | "both" | "pkgNameOnly"]
 FILTERING = "both"
@@ -68,9 +71,41 @@ def buildArgumentParser():
 	)
 	parser.add_argument("--input-path", required=True, help="Folder containing input APK files.")
 	parser.add_argument("--model", required=True, help="LLM model to use.")
-	parser.add_argument("--prompt-id", default=DEFAULT_PROMPT_ID, help="Prompt ID from prompt.yaml to use. Default: {}".format(DEFAULT_PROMPT_ID))
+	parser.add_argument("--prompt-id", default=DEFAULT_PROMPT_ID,
+		choices=["ObfuscationClassificationV1", "ObfuscationMultiClassificationV1"],
+		help="Single-technique or three-technique classification. Default: {}".format(DEFAULT_PROMPT_ID))
 	parser.add_argument("--output-folder", required=True, help="Base folder where PROMPT_ID/TECHNIQUE/results_<MODEL>.json/csv will be written.")
 	return parser
+
+
+def isReusableClassificationResult(result, numLabels, expectedLabels=OBFUSCATION_TECHNIQUES):
+	"""Only resume successful results produced with the current output contract."""
+	if result.get("status") != "SUCCESS" or result.get("numLabelsPerClass") != numLabels:
+		return False
+	labels = [result.get("llmFinalLabel")] if numLabels == 1 else result.get("llmFinalLabels")
+	if not isinstance(labels, list) or len(labels) != numLabels:
+		return False
+	if not all(isinstance(label, str) and label in expectedLabels for label in labels):
+		return False
+	if len(set(labels)) != numLabels:
+		return False
+	frequencies = result.get("labelFrequency")
+	if not isinstance(frequencies, dict) or not frequencies:
+		return False
+	return all(label in expectedLabels and isinstance(count, int) and not isinstance(count, bool) and count > 0
+		for label, count in frequencies.items())
+
+
+def loadReusableClassificationResults(resultsPath, numLabels, expectedLabels=OBFUSCATION_TECHNIQUES):
+	"""Back up legacy/failed results before excluding them from resume tracking."""
+	results = AnalysisUtils.loadExistingResults(str(resultsPath))
+	reusable = [result for result in results if isReusableClassificationResult(result, numLabels, expectedLabels)]
+	if len(reusable) != len(results):
+		backupPath = Path(str(resultsPath) + ".backup-" + datetime.datetime.now().strftime("%Y%m%dT%H%M%S%f"))
+		shutil.copy2(resultsPath, backupPath)
+		print("--- Backed up previous results: {}".format(backupPath))
+		print("--- Re-running {} legacy or unsuccessful results.".format(len(results) - len(reusable)))
+	return reusable
 
 # Valida arguments and return resolved paths.
 def validateArgs(args):
@@ -198,12 +233,13 @@ def getPromptTokenCount(promptTemplate, smaliClass, promptTokenizer, expectedLab
 	return promptTokenizer.getNumTokens(prompt)
 
 # Analyze a single APK record: decompile, filter, sample Smali classes, analyze with LLM, and aggregate results.
-def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, techniqueDirName):
+def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, techniqueDirName, numLabels=1):
 	
 	# Get app information from the record
 	sha256  				= appRecord["sha256"]
 	pkgName 				= appRecord["pkgName"]
-	obfuscationTechnique 	= appRecord["obfuscationTechnique"]
+	# A folder name is not a ground-truth triple for a multi-technique APK.
+	obfuscationTechnique 	= appRecord["obfuscationTechnique"] if numLabels == 1 else None
 	alreadyDownloadedPath 	= appRecord["alreadyDownloadedPath"]
 
 	# Initialize variables for the app analysis, including the app object and the prompt tokenizer. The app object will be used to manage the decompilation and analysis of the APK, while the prompt tokenizer will be used to estimate the size of the prompts we will send to the LLM for each Smali class, ensuring that we stay within the context limits of the LLM.
@@ -236,7 +272,8 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 				status						= "NO_SMALI_CLASSES",
 				numSmaliClasses			  	= app.numSmaliClasses,
 				numSmaliClassesAnalyzed		= 0,
-				llmFinalLabel				= None
+				llmFinalLabel				= None,
+				numLabelsPerClass			= numLabels
 			)
 
 
@@ -288,7 +325,8 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 					promptTemplate		= promptTemplate,
 					expectedLabels		= expectedLabels,
 					numIterations		= NUM_ITERATIONS,
-					maxRetries			= MAX_RETRIES
+					maxRetries			= MAX_RETRIES,
+					numLabels			= numLabels
 				)
 			except LlmRetryLimitExceededError as exc:
 				effectiveNumSmaliClassesAnalyzed -= 1
@@ -304,13 +342,14 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 					print("---" * 20)
 				continue
 
-			# Get the final label
-			classLabel = classAnalysis["majorityLabel"]
-			appLabelCounts[classLabel] = appLabelCounts.get(classLabel, 0) + 1
+			# Each class contributes one vote per selected label, not per repeated call.
+			classLabels = [classAnalysis["majorityLabel"]] if numLabels == 1 else classAnalysis["majorityLabels"]
+			for classLabel in classLabels:
+				appLabelCounts[classLabel] = appLabelCounts.get(classLabel, 0) + 1
 
 			if not SILENT_MODE:
 				print("--- 🏷️ Label Counts : {}".format(classAnalysis["labelCounts"]))
-				print("--- 🏷️ Majority Label: {}".format(classLabel))
+				print("--- 🏷️ Selected Labels: {}".format(", ".join(classLabels)))
 				print("---" * 20)
 
 		if effectiveNumSmaliClassesAnalyzed == 0:
@@ -324,20 +363,25 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 				status						= "NO_ANALYZABLE_SMALI_CLASSES",
 				numSmaliClasses				= app.numSmaliClasses,
 				numSmaliClassesAnalyzed	  	= 0,
-				llmFinalLabel=None
+				llmFinalLabel=None,
+				numLabelsPerClass=numLabels
 			)
 
-		# Determine the final predicted label for the app based on majority voting across analyzed classes, using the label counts. In case of ties, prefer the label of the most recently analyzed class.
-		llmFinalLabel = max(OBFUSCATION_TECHNIQUES, key = lambda label: (appLabelCounts.get(label, 0), label == classLabel))
-		isCorrect = llmFinalLabel == obfuscationTechnique
+		# Rank observed labels by class-vote frequency, resolving ties alphabetically.
+		rankedLabels = rankTechniqueLabels(appLabelCounts)
+		llmFinalLabel = rankedLabels[0] if numLabels == 1 else None
+		llmFinalLabels = rankedLabels[:numLabels] if numLabels > 1 else None
 
 		print("\n--- 🎯 Results for App             : {}".format(pkgName))
 		print("--- 🔹 Ground Truth Label          : {}".format(obfuscationTechnique))
-		print("--- 🔹 Predicted Label             : {}".format(llmFinalLabel))
+		print("--- 🔹 Predicted Label(s)          : {}".format(llmFinalLabel if numLabels == 1 else llmFinalLabels))
 		print("--- 🔹 Prediction Counts           : {}".format(dict(appLabelCounts)))
 		print("--- 🔹 N. Skipped for Context      : {}".format(numSkippedForContextThreshold))
 		print("--- 🔹 N. Skipped for LLM Output   : {}".format(numSkippedForInvalidLlmOutput))
-		print("--- 🔹 Correct Prediction          : {}".format(isCorrect))
+		if numLabels == 1:
+			print("--- 🔹 Correct Prediction          : {}".format(llmFinalLabel == obfuscationTechnique))
+		else:
+			print("--- Multi-technique accuracy requires the applied ground-truth triple for each APK.")
 
 		appResult = AnalysisUtils.createResultsObject(
 			sha256                      = sha256,
@@ -347,7 +391,10 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 			numSmaliClasses             = app.numSmaliClasses,
 			numSmaliClassesAnalyzed     = effectiveNumSmaliClassesAnalyzed,
 			llmFinalLabel               = llmFinalLabel,
-			labelFrequency              = dict(appLabelCounts)
+			labelFrequency              = dict(appLabelCounts),
+			llmFinalLabels              = llmFinalLabels,
+			numLabelsPerClass           = numLabels,
+			rankedLabels                = rankedLabels
 		)
 	
 	except Exception as exc:
@@ -360,7 +407,8 @@ def analyzeApkRecord(appRecord, llmInterface, promptTemplate, expectedLabels, te
 			status                      = "ERROR - {}".format(errorTrace),
 			numSmaliClasses             = 0 if app is None else app.numSmaliClasses,
 			numSmaliClassesAnalyzed     = 0,
-			llmFinalLabel               =None
+			llmFinalLabel               =None,
+			numLabelsPerClass           = numLabels
 		)
 
 	# Finally, save the results for this app (whether success or error) and clean up the app's decompiled files to save disk space. Also, print a separator before moving on to the next app.
@@ -393,9 +441,6 @@ def main():
 	if len(apkRecords) == 0:
 		raise ValueError("No APK files found in {}".format(paths["inputPath"]))
 
-	# LLM Test
-	llmInterface = initLlm(args.model)
-
 	# Print expected labels
 	print("\n--- ⭕ Expected Labels")
 	print("--- 🔹 {}".format(", ".join(OBFUSCATION_TECHNIQUES)))
@@ -405,8 +450,10 @@ def main():
 	prompts    		= AnalysisUtils.loadPrompts(str(PROMPTS_PATH))
 	promptInfo 		= AnalysisUtils.getPromptById(prompts, args.prompt_id)
 	promptTemplate 	= promptInfo["promptTemplate"]
+	numLabels       = getClassificationLabelCount(promptInfo["promptID"])
 	print("--- 📝 Prompt ID: {}".format(promptInfo["promptID"]))
 	print("--- 📝 Prompt Description: {}".format(promptInfo["promptDescription"]))
+	print("--- Labels per class: {}".format(numLabels))
 
 	# Check for existing results to avoid re-analyzing apps that have already been processed, and prepare the output paths for saving results. This step is crucial for efficiently managing the analysis process, especially when dealing with a large number of apps, as it allows us to skip already analyzed apps and focus only on those that are pending analysis.
 	modelFileName 	= args.model.replace(":", "_").replace("/", "_")
@@ -417,7 +464,7 @@ def main():
 
 	# Try to load existing Results
 	print("\n--- ⭕ Checking for existing results...")
-	obfuscationClassificationResults 	    = AnalysisUtils.loadExistingResults(str(outputPathJson))
+	obfuscationClassificationResults 	    = loadReusableClassificationResults(outputPathJson, numLabels)
 	completedSha256Set 			= {result["sha256"] for result in obfuscationClassificationResults}
 	pendingApkRecords 			= [record for record in apkRecords if record["sha256"] not in completedSha256Set]
 
@@ -428,10 +475,13 @@ def main():
 	else:
 		print("--- 🆕 No existing results file found! --> Starting fresh analysis...")
 
+	# Initialize a model only when there are pending APKs.
+	llmInterface = initLlm(args.model) if pendingApkRecords else None
+
 	# Analyze every application
 	print("\n\n"+"==" * 10 + " ⭐ START LLM ANALYSIS ⭐ " + "==" * 10 + "\n")
 	for appRecord in pendingApkRecords:
-		appResult = analyzeApkRecord(appRecord, llmInterface, promptTemplate, OBFUSCATION_TECHNIQUES, techniqueDirName)
+		appResult = analyzeApkRecord(appRecord, llmInterface, promptTemplate, OBFUSCATION_TECHNIQUES, techniqueDirName, numLabels=numLabels)
 		obfuscationClassificationResults.append(appResult)
 		AnalysisUtils.saveResults(obfuscationClassificationResults, str(outputPathJson))
 		print("\n--- 💾 Partial Report saved!")

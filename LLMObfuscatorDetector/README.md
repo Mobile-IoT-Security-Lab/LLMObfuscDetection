@@ -17,7 +17,7 @@ The project is logically divided into two main folders:
   - **`AppUtils.py`**: Utilities for handling APK decompilation, Manifest parsing, and Smali class extraction/filtering.
   - **`AnalysisUtils.py`**: Core utilities for managing prompts, sampling, LLM interactions, majority voting, and results tracking.
   - **`LLMUtils.py`**: Interfaces to communicate with various LLM backends (OpenAI, Gemini, Ollama) supporting both unstructured and structured schemas.
-  - **`prompt.yaml`**: Configuration file containing the different prompt templates (e.g., `ObfuscationDetectionV1`, `ObfuscationDetectionV2`, `ObfuscationDetectionV3`, `ObfuscationClassificationV1`) used to query the LLMs.
+  - **`prompt.yaml`**: Five prompt templates: `ObfuscationDetectionV1`, `ObfuscationDetectionV2`, `ObfuscationDetectionV3`, `ObfuscationClassificationV1`, and `ObfuscationMultiClassificationV1`.
 
 ## How It Works
 
@@ -65,3 +65,38 @@ The architecture supports:
 - **OpenAI** (`gpt-4o`, `gpt-4o-mini`, etc.)
 - **Google Gemini** (`gemini-2.0-flash`, etc.)
 - **Ollama** (for local open-source models like `llama3.1`, `gemma`, `phi-4`)
+
+### Single- and multi-technique classification
+
+Both the classification script and notebook use the same implementation and the ten technique labels defined in `AnalysisUtils.py`: ArithmeticBranch, CallIndirection, ClassRename, ConstStringEncryption, FieldRename, Goto, MethodOverload, MethodRename, Reorder, and Reflection. `ResStringEncryption` is not part of this label set.
+
+For single-technique classification, use `--prompt-id ObfuscationClassificationV1`. To predict three techniques per class and APK:
+
+```bash
+cd 1_Code/3_ObfuscationClassification
+python experiments.py \
+    --input-path ../../0_Data/InputApks/MultiTechnique \
+    --model gpt-4o-mini \
+    --prompt-id ObfuscationMultiClassificationV1 \
+    --output-folder ../../0_Data/Results
+```
+
+In the notebook, select the same ID in `PROMPT_ID`. The prompt ID selects the parsing, voting, and aggregation mode; no separate parser flag is needed.
+
+- Text responses in multi mode must contain exactly three distinct, allowed labels separated by commas. Structured responses use `{"labels": ["ClassRename", "Reorder", "Reflection"]}`. Unknown labels, duplicates, and incorrect counts trigger the existing retry mechanism. Single mode retains its one-label response format.
+- By default, each class is evaluated five times. In multi mode, each returned label receives one vote per call; the three labels with the highest vote counts become that class's prediction. Each selected label then contributes **one vote per class** to the APK counts. Repeated calls do not multiply a class's weight in the APK aggregation.
+- APK predictions are ranked by class-vote frequency. Ties, both within a class and across classes, are resolved alphabetically. Single mode selects the first label; multi mode selects the first three distinct labels.
+- JSON results contain `numLabelsPerClass`, `labelFrequency`, and `rankedLabels`, plus `llmFinalLabel` for single mode or `llmFinalLabels` for multi mode. Lists and frequency dictionaries are also preserved as JSON-encoded CSV cells. Multi-technique ground truth is not inferred from the input folder name: calculating 0/3–3/3 recovery requires the three transformations actually applied to each APK.
+
+Resume accepts only successful results with the current classification metadata and allowed labels. If a result file contains legacy or unsuccessful entries, the original JSON is copied to a `.backup-<timestamp>` file before those APKs are scheduled again. Use a separate output folder when changing the model settings or experimental protocol.
+
+### Classification checks without model calls
+
+From the `LLMObfuscatorDetector` directory:
+
+```bash
+python -m pip install "pydantic>=2" pyyaml
+python -m unittest discover -s tests -v
+```
+
+The tests use local fake backends and temporary files to check prompt loading, label validation, single/multi voting, APK aggregation, output serialization, and resume behavior. They do not contact a model service or regenerate the paper's experimental results.

@@ -27,7 +27,7 @@ The **LLMObfuscDetection** project aims to provide researchers and security anal
 
 | Directory | Description |
 | :--- | :--- |
-| **[`apk/`](./apk)** | Contains the original Android application files (APKs) used in this dataset. |
+| **APK files (not included)** | The 1,300 APK files used in the study are not hosted in this repository due to storage constraints. |
 | **[`docker-tools/`](./docker-tools)** | The main analysis suite, including Docker configurations and orchestration scripts. |
 
 ---

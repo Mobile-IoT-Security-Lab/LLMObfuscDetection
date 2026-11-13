@@ -45,7 +45,7 @@ At the root level, the repository is split into two primary modules:
 | Directory | Description |
 | :--- | :--- |
 | **[`LLMObfuscatorDetector/`](./LLMObfuscatorDetector)** | Python-based experimental suite that uses LLMs (OpenAI, Gemini, Ollama) to automatically detect and classify obfuscation techniques in Smali code. |
-| **[`GroundTruthDataset & SAST Tools/`](./GroundTruthDataset%20&%20SAST%20Tools)** | A curated collection of Android APKs (Ground Truth) and a Dockerized suite of traditional SAST (Static Application Security Testing) tools. |
+| **[`GroundTruthDataset & SAST Tools/`](./GroundTruthDataset%20&%20SAST%20Tools)** | Ground-truth dataset resources and a Dockerized suite of traditional SAST (Static Application Security Testing) tools. |
 
 ---
 
@@ -70,8 +70,11 @@ Located in [`LLMObfuscatorDetector/`](./LLMObfuscatorDetector), this module leve
 Located in [`GroundTruthDataset & SAST Tools/`](./GroundTruthDataset%20&%20SAST%20Tools), this module serves as the foundational data and traditional security analysis environment.
 
 **Key Components**:
-- **Dataset (`apk/`)**: A collection of Android applications serving as the ground truth for comparative analysis (Clean vs. Obfuscated).
+- **Dataset**: A collection of Android applications serving as the ground truth for comparative analysis (Clean vs. Obfuscated).
 - **Docker Suite (`docker-tools/`)**: Integrates industry-standard SAST tools (Trueseeing, APKHunt, SEBASTiAn) into a single, automated workflow for fast, reproducible security audits.
+
+> [!NOTE]
+> The 1,300 APK files used in the study are not hosted in this repository due to storage constraints.
 
 > [!TIP]
 > For detailed instructions on setting up the Docker environment and analyzing the dataset, please refer to the [Dataset & Tools README](./GroundTruthDataset%20&%20SAST%20Tools/README.md).

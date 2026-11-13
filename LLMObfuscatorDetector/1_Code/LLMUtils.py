@@ -47,7 +47,8 @@ class OllamaInterface:
     def sendRequest(self, prompt):
         response = self.client.chat(
             model       = self.model, 
-            messages    = [{'role': 'user', 'content': prompt}]
+            messages    = [{'role': 'user', 'content': prompt}],
+            options     = {"temperature": 0}
         )
         # Return the content of the response message
         return response['message']['content']
@@ -62,7 +63,8 @@ class OllamaInterface:
         response = self.client.chat(
             model    = self.model,
             messages = [{'role': 'user', 'content': prompt}],
-            format   = schemaClass.model_json_schema()
+            format   = schemaClass.model_json_schema(),
+            options  = {"temperature": 0}
         )
 
         rawReply = response['message']['content']
@@ -90,7 +92,8 @@ class OllamaConversation:
     def sendMessage(self, prompt):
         self.messages.append({'role': 'user', 'content': prompt})
         response = self.client.chat(
-            model=self.model, messages=self.messages
+            model=self.model, messages=self.messages,
+            options={"temperature": 0}
         )
         reply = response['message']['content']
         self.messages.append({'role': 'assistant', 'content': reply})
@@ -123,7 +126,8 @@ class OllamaConversationWithOutputSchema:
         response = self.client.chat(
             model       = self.model,
             messages    = self.messages,
-            format      = self.schemaModel.model_json_schema()
+            format      = self.schemaModel.model_json_schema(),
+            options     = {"temperature": 0}
         )
 
         # Extract raw reply
@@ -201,6 +205,7 @@ class OpenAiInterface:
     def sendRequest(self, prompt):
         response = self.client.chat.completions.create(
             model=self.model,
+            temperature=0,
             messages=[{
                 "role": "user",
                 "content": prompt,
@@ -229,6 +234,7 @@ class OpenAiConversation:
         self.messages.append({'role': 'user', 'content': prompt})
         response = self.client.chat.completions.create(
                 model=self.model,
+                temperature=0,
                 messages=self.messages
             )
         reply = response.choices[0].message.content

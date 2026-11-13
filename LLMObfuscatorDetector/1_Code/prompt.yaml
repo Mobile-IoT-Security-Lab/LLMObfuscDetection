@@ -106,7 +106,7 @@
     Class Smali Code: {classContent}
     Now provide the Final Output [one label only]!
 
-  promptID: ObfuscationMultiClassificationV1
+- promptID: ObfuscationMultiClassificationV1
   promptDescription: Multi-label obfuscation classification with enforced exclusivity.
   promptTemplate: |
     You are a senior Android reverse engineer specializing in smali and obfuscation analysis.
